@@ -73,10 +73,10 @@ function Skills() {
                 }
               }
               )}
-              <div class="switch-skills d-flex btn-group mx-auto mt-4">
-                <button id="skillOne" class="btn btn-dark active" onClick={skillOne}>1</button>
-                <button id="skillTwo" class="btn btn-dark" onClick={skillTwo}>2</button>
-                <button id="skillThree" class="btn btn-dark" onClick={skillThree}>3</button>
+              <div className="switch-skills d-flex btn-group mx-auto mt-4">
+                <button id="skillOne" className="btn btn-dark active" onClick={skillOne}>1</button>
+                <button id="skillTwo" className="btn btn-dark" onClick={skillTwo}>2</button>
+                <button id="skillThree" className="btn btn-dark" onClick={skillThree}>3</button>
               </div>    
            </div>
            <div className="skills-dev-image col-12 col-lg-7">
