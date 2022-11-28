@@ -1,0 +1,15 @@
+.teste {
+   
+    font-size: 48px;
+    width: 60px;    
+   
+}
+
+.carousel {
+    min-height: 320px;
+    max-width: 1400px;
+}
+
+.carousel-inner {
+    max-width: 1000px;
+}

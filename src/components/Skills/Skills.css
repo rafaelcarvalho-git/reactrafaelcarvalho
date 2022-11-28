@@ -1,0 +1,109 @@
+.dev-image {
+    max-width: 400px;
+    cursor: pointer;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+}
+@-webkit-keyframes dev-image {
+    0% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+    }
+    50% {
+        -webkit-transform: translateY(-4px);
+        transform: translateY(-4px);
+    }
+    100% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+}
+}
+@keyframes dev-image {
+    0% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+    }
+    50% {
+        -webkit-transform: translateY(-4px);
+        transform: translateY(-4px);
+    }
+    100% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+    }
+}
+@-webkit-keyframes dev-image-float {
+    100% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+    }
+}
+@keyframes dev-image-float {
+    100% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+    }
+}
+.dev-image:hover, .dev-image:focus, .dev-image:active {
+    -webkit-animation-name: dev-image-float, dev-image;
+    animation-name: dev-image-float, dev-image;
+    -webkit-animation-duration: .3s, 1.5s;
+    animation-duration: .3s, 1.5s;
+    -webkit-animation-delay: 0s, .3s;
+    animation-delay: 0s, .3s;
+    -webkit-animation-timing-function: ease-out, ease-in-out;
+    animation-timing-function: ease-out, ease-in-out;
+    -webkit-animation-iteration-count: 1, infinite;
+    animation-iteration-count: 1, infinite;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-direction: normal, alternate;
+    animation-direction: normal, alternate;
+}
+.progress {
+    height: 12.5px;
+}
+.skill-icon {
+    max-width: 32px;
+}
+.skill_progress_95 {
+    width: 95%;
+}
+.skill_progress_90 {
+    width: 90%;
+}
+.skill_progress_85 {
+    width: 85%;
+}
+.skill_progress_80 {
+    width: 80%;
+}
+.skill_progress_70 {
+    width: 70%;
+}
+.skill_progress_60 {
+    width: 60%;
+}
+.skill_progress_55 {
+    width: 55%;
+}
+.skill_progress_50 {
+    width: 50%;
+}
+.skill_progress_45 {
+    width: 45%;
+}
+.skill_progress_40 {
+    width: 40%;
+}
+.switch-skills {
+    max-width: 120px;
+}
+@media (max-width:992px){
+    .skills-dev-image {
+        display: none;
+    }
+    .my-skills {
+        flex-direction: row;
+    }
+}

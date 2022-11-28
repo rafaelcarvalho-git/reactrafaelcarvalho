@@ -1,0 +1,8 @@
+.navbar {
+    /*background:transparent !important;*/
+    transition:0.75s ease;
+    min-height: 75px;
+}
+.navbar.scrolled {
+    background:#000 !important;
+}
