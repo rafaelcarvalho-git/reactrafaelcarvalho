@@ -99,7 +99,7 @@
 .switch-skills {
     max-width: 120px;
 }
-@media (max-width:992px){
+@media (max-width:991px){
     .skills-dev-image {
         display: none;
     }

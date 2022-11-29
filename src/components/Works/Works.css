@@ -13,3 +13,25 @@
 .carousel-inner {
     max-width: 1000px;
 }
+.btn-group-vertical {
+    max-width: 280px;
+}
+.jobs {
+    min-height: 240px;
+}
+@media (max-width:991px){
+    .btn-group-vertical {
+        margin-bottom: 20px;
+    }
+    .role-duration {
+        flex-direction: column;        
+    }
+    .jobs {
+        text-align: center;
+     
+        margin-bottom: 28px;
+    }/*
+    .works {
+        flex-direction: column;
+    }*/
+}
