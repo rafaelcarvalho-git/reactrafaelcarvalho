@@ -1,5 +1,4 @@
 import './Skills.css'
-import { BsCodeSlash } from 'react-icons/bs'
 import React, {useState} from 'react'
 import dev from '../../assets/dev2.svg'
 import hard from '../../assets/hard.png'
@@ -20,7 +19,7 @@ var skills = [
   { id: 12, skill_name: "MYSQL - PHPMYADMIN", skill_icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg", skill_progress: "progress-bar bg-primary skill_progress_70"},
   { id: 13, skill_name: "HARDWARE", skill_icon: hard, skill_progress: "progress-bar bg-primary skill_progress_95"},
   { id: 14, skill_name: "GIT - GITHUB", skill_icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg", skill_progress: "progress-bar bg-primary skill_progress_70"},
-  { id: 15, skill_name: "SEGURANÇA DIGITAL", skill_icon: sec, skill_progress: "progress-bar bg-primary skill_progress_70"}
+  { id: 15, skill_name: "SEGURANÇA DIGITAL", skill_icon: sec, skill_progress: "progress-bar bg-primary skill_progress_50"}
 ];
 
 function Skills() {
@@ -50,14 +49,11 @@ function Skills() {
     pageThree.classList.add('active');            
   }
 
-// NOME DOS SVGS PARA BAIXAR NO UNDRAW
-//  Programming     Product iteration    Developer activity  Feeling proud    Hacker mind
-
   return (
      <section id="skills" className="bg-light">
-       <div className="container">
-        <h2 className="text-center fw-bold pt-4 mb-5"><BsCodeSlash className="teste mx-auto mb-2 d-flex"/>Habilidades</h2>       
-          <div className="row pb-5 align-items-center">                    
+       <div className="container pb-5">
+        <h2 className="text-center fw-bold pt-4 mb-5">Habilidades</h2>       
+          <div className="row mx-auto align-items-center">                    
             <div className="col-12 col-lg-5">
               {skills.map((skill) => {                
                 if (skillList.includes(skill.id)) {               

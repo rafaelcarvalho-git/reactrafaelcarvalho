@@ -6,8 +6,8 @@ import programming from '../../assets/one.svg'
 function Contact() {
     return (
         <section id="contact" className="bg-dark text-white">
-            <div className="container pt-4">
-                <h1 className="text-center fw-bold"><BsChatLeftText className="contact-icon mx-auto mb-1 d-flex" />Entre em contato</h1>
+            <div className="container py-4">
+                <h1 className="text-center fw-bold">Entre em contato</h1>
                 <p className="lead text-center mt-3">Venha bater um papo comigo, estou sempre disponível.</p>
                 <div className="row mt-5">
                     <div className="col-7 text-center align-items-center my-auto">
