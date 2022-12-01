@@ -11,10 +11,10 @@ function Header() {
     <header id="header">
       <ParticlesBG />
       <div className="container align-self-center text-info row mx-auto">        
-        <div className="header-informations-box col-12 col-lg-7 align-items-center my-auto">
+        <div className="header-informations-box col-12 align-items-center my-auto">
           <h2 className="header-subtitle">Olá, eu sou</h2>
           <h1 className="header-title">Rafael Carvalho</h1> 
-          <h2 className="header-subtitle"> <Typed strings={['Web Developer',
+          <h2 className="header-subtitle"><Typed strings={['Web Developer',
                       'System Analyst',
                       'Information Technician',
                       'Technology Lover ❤']}
@@ -26,10 +26,7 @@ function Header() {
             <BsLinkedin className="header-icon mx-auto" />
             <BsEnvelope className="header-icon mx-auto" />
           </div>   
-        </div> 
-        <div className="col-5">
-            <img className="header-title-image img-fluid" src={programming} alt="" />
-        </div>                  
+        </div>                
       </div>
      </header>
   );
