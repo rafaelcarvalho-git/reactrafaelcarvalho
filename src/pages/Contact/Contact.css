@@ -1,23 +1,29 @@
-#contact {
-    margin-top: 61px;
-}
 .contact-icon {
     font-size: 48px;
-    width: 60px;   
+    width: 60px;
 }
+
 .contact-image {
     max-width: 550px;
     transform: translateY(0px);
     animation: float 5s ease-in-out infinite;
 }
 
+@media (max-width:600px) {
+    .contact-image {
+        max-width: 450px;
+    }
+}
+
 @keyframes float {
     0% {
         transform: translateY(0px);
     }
+
     50% {
         transform: translateY(-20px);
     }
+
     100% {
         transform: translateY(0px);
     }
@@ -26,14 +32,17 @@
 .icons {
     font-size: 48px;
 }
+
 .contact-item {
     max-width: 400px;
 }
+
 @media((max-width:1199px) and (min-width:992px)) {
     .gmail {
         font-size: 20px;
     }
 }
+
 .contact-item {
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
@@ -44,7 +53,10 @@
     transition-property: color, background-color;
     cursor: pointer;
 }
-.contact-item:hover, .contact-item:focus, .contact-item:active {
+
+.contact-item:hover,
+.contact-item:focus,
+.contact-item:active {
     background-color: #2098D1;
     color: white;
 }
