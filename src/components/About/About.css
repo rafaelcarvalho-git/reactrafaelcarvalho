@@ -1,0 +1,15 @@
+.about-img {
+    max-width: 450px;
+}
+.about-btn {
+    min-width: 200px;
+}
+@media (max-width:991px) {
+    .about-img {
+        max-width: 300px;
+        margin-bottom: 28px;
+    }
+    .about-items {
+        text-align: center;
+    }
+}
