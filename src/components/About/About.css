@@ -1,12 +1,15 @@
 .about-img {
     max-width: 450px;
 }
+.about-name {
+    color: #0085e4;
+}
 .about-btn {
     min-width: 200px;
 }
 @media (max-width:991px) {
     .about-img {
-        max-width: 300px;
+        max-width: 280px;
         margin-bottom: 28px;
     }
     .about-items {
