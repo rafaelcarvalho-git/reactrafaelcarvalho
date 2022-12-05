@@ -60,7 +60,7 @@ function Skills() {
                   return (
                     <div key={skill.id} className="mb-3">                   
                       <img className="skill-icon ms-2 me-2 mb-2" src={skill.skill_icon} />          
-                      <span>{skill.skill_name}</span>
+                      <span className="fw-bold">{skill.skill_name}</span>
                       <div className="progress my-1">
                         <div className={skill.skill_progress} role="progressbar"></div>
                       </div>
