@@ -40,19 +40,19 @@ function Works() {
           <div className="col-lg-3 col-12">
             <div className="btn-group-vertical mx-auto d-flex" role="group" aria-label="Basic radio toggle button group">
               <input type="radio" className="btn-check" name="job" id="job1" autocomplete="off" onClick={workOne} />
-              <label className="btn btn-outline-primary" for="job1">E2S CORRETORA</label>
+              <label className="btn btn-outline-info" for="job1">E2S CORRETORA</label>
 
               <input type="radio" className="btn-check" name="job" id="job2" autocomplete="off" onClick={workTwo} />
-              <label className="btn btn-outline-primary" for="job2">UFCA</label>
+              <label className="btn btn-outline-info" for="job2">UFCA</label>
 
               <input type="radio" className="btn-check" name="job" id="job3" autocomplete="off" onClick={workThree} />
-              <label className="btn btn-outline-primary" for="job3">MARTINS ADVOGADOS</label>
+              <label className="btn btn-outline-info" for="job3">MARTINS ADVOGADOS</label>
 
               <input type="radio" className="btn-check" name="job" id="job4" autocomplete="off" onClick={workFour} />
-              <label className="btn btn-outline-primary" for="job4">JUAUTOS</label>
+              <label className="btn btn-outline-info" for="job4">JUAUTOS</label>
 
               <input type="radio" className="btn-check" name="job" id="job5" autocomplete="off" onClick={workFive} />
-              <label className="btn btn-outline-primary" for="job5">HERCULES CARLOS</label>
+              <label className="btn btn-outline-info" for="job5">HERCULES CARLOS</label>
             </div>
           </div>
           <div className="jobs col-lg-9 col-12">

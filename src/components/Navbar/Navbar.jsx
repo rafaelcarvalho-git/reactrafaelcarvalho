@@ -13,7 +13,8 @@ function Navbar() {
             <div className="navbar-nav ms-auto">
                 <Link className="nav-link text-white" to='/'>Home</Link>
                 <Link className="nav-link text-white" to='/projects'>Projetos</Link>
-                <Link className="nav-link text-white" to='/contact'>Contato</Link>
+                {//<Link className="nav-link text-white" to='/contact'>Contato</Link>
+}
             </div>
             </div>
         </div>

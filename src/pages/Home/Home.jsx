@@ -2,6 +2,7 @@ import Header from '../../components/Header/Header'
 import About from '../../components/About/About'
 import Skills from '../../components/Skills/Skills'
 import Works from '../../components/Works/Works'
+import Contact from '../Contact2/Contact';
 
 function Home() {
   return (
@@ -13,6 +14,8 @@ function Home() {
       <Skills />
 
       <Works />
+
+      <Contact />
     </>
   );
 }
