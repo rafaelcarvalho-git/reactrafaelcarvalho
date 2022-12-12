@@ -35,6 +35,24 @@ header {
   color: #0072e4;
 }
 
+.header-image {
+  animation: float 5s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(20px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
 @media (max-width: 991px) {
   header {
     text-align: center !important;
@@ -42,6 +60,12 @@ header {
 
   .header-image {
     display: none;
+  }
+
+  .header-icons {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 

@@ -1,7 +1,6 @@
 import './About.css'
 import { BsFillCloudArrowDownFill, BsFillChatLeftTextFill } from 'react-icons/bs'
 import rafa from '../../assets/rafa.png'
-import { Link } from 'react-router-dom'
 
 function About() {
   return (
@@ -20,8 +19,8 @@ function About() {
             <p className="text-white mb-5">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores pariatur animi sunt, assumenda dicta distinctio nostrum nisi, ullam dignissimos dolor!
             </p>
-            <Link type="button" className="about-btn btn btn-outline-primary mb-3" to='/contact'><BsFillChatLeftTextFill className="me-2" />Entre em contato</Link>
-            <button type="button" className="about-btn btn btn-primary ms-4 mb-3"><BsFillCloudArrowDownFill className="me-2" />Download CV</button>
+            <a type="button" className="about-btn btn btn-outline-info mb-3" href="#contact"><BsFillChatLeftTextFill className="me-2" />Entre em contato</a>
+            <button type="button" className="about-btn btn btn-info ms-4 mb-3"><BsFillCloudArrowDownFill className="me-2" />Download CV</button>
           </div>
         </div>
       </div>
