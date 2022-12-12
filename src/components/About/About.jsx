@@ -1,14 +1,14 @@
 import './About.css'
 import { BsFillCloudArrowDownFill, BsFillChatLeftTextFill } from 'react-icons/bs'
-import rafa from './rafa.png'
+import rafa from '../../assets/rafa.png'
 import { Link } from 'react-router-dom'
 
 function About() {
   return (
     <section id="about" className="bg-dark text-white">
-      <div className="container pb-5">
-        <h2 className="text-center fw-bold pt-4 mb-5">Sobre mim</h2>
-        <div className="row align-items-center mx-auto">
+      <div className="container py-4">
+        <h2 className="text-center fw-bold">Sobre mim</h2>
+        <div className="row align-items-center mx-auto py-4">
           <div className="about-items col-12 col-lg-5">
             <img className="w-100 about-img mx-auto" src={rafa} alt="" />
           </div>
