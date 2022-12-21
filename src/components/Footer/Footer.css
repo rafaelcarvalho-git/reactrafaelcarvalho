@@ -2,13 +2,9 @@ footer a {
     text-decoration: none;
     color: white;
 }
-footer a:hover {
-    color: #25D366;
-    /*color: #4ab6c2;*/
-}
 
-.social-icon {
-    background: rgb(64, 64, 240);
+.footer-icon {
+    /*background: rgb(64, 64, 240);*/
     width: 36px;
     height: 36px;
     border-radius: 100%;
@@ -22,31 +18,23 @@ footer a:hover {
     transition-property: transform;   
     cursor: pointer;
 }
-.social-icon svg {
+.footer-icon svg {
     align-self: center;
     margin: auto;
 }
-.social-icon:hover, .social-icon:focus, .social-icon:active {
-    -webkit-transform: scale(1.07);
-    transform: scale(1.07);
+.footer-icon:hover, .footer-icon:focus, .footer-icon:active {
+    -webkit-transform: scale(1.09);
+    transform: scale(1.09);
 }
 
-#name {
+.name {
     color: white;
     text-decoration: none;
 }
-#name:hover {
+.name:hover {
     color: #4ab6c2;
 }
 
-#wpp {background: #25D366 !important;}
-#ins {background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d) !important;}
-#git {background: #333 !important;}
-#lkd {background: #007bb6 !important;}
-
-#wpp:hover,#ins:hover,#git:hover,#lkd:hover {
-    color: white;
-}
 @media(max-width:484px) {
     .social {
         margin-top: 16px;

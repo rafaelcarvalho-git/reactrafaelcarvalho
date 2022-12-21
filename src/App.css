@@ -1,3 +1,11 @@
+:root {
+  --color-black: #252525;
+  --color-primary: #4438b7;
+  --color-secondary: #7a73cc;
+  --color-tertiary: #5338b7;
+  --color-quaternary: #aca5f3;
+}
+
 .loader {
   position: absolute;
   top: 0;

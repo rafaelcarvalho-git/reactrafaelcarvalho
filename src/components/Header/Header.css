@@ -1,85 +1,119 @@
 header {
   height: 100vh;
   display: flex;
-  overflow-x: auto;
-  /*background-image: url('aa2.png');*/
+  align-items: center;
+  background-color: #8EC5FC;
+  background-image: linear-gradient(62deg, #a5d1fdc9 20%, #716accda 100%);
+  background: url('bg.png');
+  background-position: center;
+  background-attachment: fixed;
   background-size: cover;
 }
 
-.header-title {
-  font-family: "Inter", sans-serif;
-  letter-spacing: 1.5px;
-  font-size: 58px;
-}
-
+header .header-text h5,
 .header-subtitle {
-  font-family: "Inter", sans-serif;
-  letter-spacing: 1px;
+  color: white;
+  font-family: Poppins, sans-serif;
+  font-size: 28px;
+  text-shadow: 0 0 0.1em #252525, 0 0 0.2em #252525;
 }
 
-.header-icons {
-  max-width: 260px;
+header .header-under {
+  max-width: 1000px;
+  border-bottom: 5px solid var(--color-primary);
 }
 
-.header-icons a {
+header .header-subtitle {
+  color: white;
+  font-size: 36px;
+  text-shadow: 0 0 0.1em #252525, 0 0 0.2em #252525;
+}
+
+header .header-text h1 {
+  font-size: 100px;
+  line-height: 1.273;
+  color: var(--color-quaternary);
+  text-transform: uppercase;
+  position: relative;
+  z-index: 1;
+  text-shadow: 0 0 0.1em #252525, 0 0 0.2em #252525;
+}
+
+header .header-icons {
+  max-width: 275px;
+}
+
+header .header-icon {
   font-size: 32px;
+  color: white;
+  transition: all 0.2s ease 0s;
+  text-shadow: 0 0 0.2em black, 0 0 0.2em var(--color-secondary) !important;
 }
 
-.header-icons a,
-.header-icons a:visited {
-  color: #ffffff;
-}
-
-.header-icons a:hover,
-.header-icons a:focus {
-  color: #0072e4;
-}
-
-.header-image {
-  animation: float 5s ease-in-out infinite;
-}
-
-@keyframes float {
-  0% {
-    transform: translateY(0px);
-  }
-
-  50% {
-    transform: translateY(20px);
-  }
-
-  100% {
-    transform: translateY(0px);
-  }
+header .header-icon:hover {
+  color: var(--color-secondary);
 }
 
 @media (max-width: 991px) {
-  header {
-    text-align: center !important;
-  }
-
-  .header-image {
-    display: none;
-  }
-
-  .header-icons {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+  header .header-text h1 {
+    font-size: 85px;
   }
 }
 
 @media (max-width: 767px) {
-  .header-title {
-    font-size: 52px;
+  header .header-text h1 {
+    font-size: 75px;
   }
 }
 
-@media (max-width: 575px) {
-  .header-title {
-    font-size: 48px;
+@media (max-width: 527px) {
+  header .header-text h1 {
+    font-size: 65px;
+  }
+
+  header .header-text h5 {
+    font-size: 24px;
+  }
+
+  header .header-subtitle {
+    font-size: 32px;
+  }
+
+  header .header-icon {
+    font-size: 30px !important;
   }
 }
 
-/*#0085e4*/
-/*#0072e4*/
+@media (max-width: 461px) {
+  header .header-text h1 {
+    font-size: 55px;
+  }
+}
+
+@media (max-width: 394px) {
+  header .header-text h1 {
+    font-size: 50px;
+  }
+
+  header .header-text h5 {
+    font-size: 22.5px;
+  }
+
+  header .header-subtitle {
+    font-size: 30.5px;
+  }
+}
+
+@media (max-width: 361px) {
+  header .header-text h1 {
+    font-size: 45px;
+  }
+
+  header .header-text h5 {
+    font-size: 21.5px;
+  }
+
+  header .header-subtitle {
+    font-size: 29.5px;
+  }
+}

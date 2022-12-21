@@ -8,7 +8,7 @@ function Contact() {
                 <h2 className="text-center text-info fw-bold">Contato</h2>
                 <div className="row py-4 mt-5">
                     <a href="tel:+5588988573004" className="col-12 col-lg-4 mb-5 text-decoration-none">
-                        <div className="contact-item-hover text-center x-auto">
+                        <div className="contact-item-hover text-center mx-auto">
                             <BsPhone className="contact-icon mb-3 text-white" />
                             <h5 className="text-info">(88) 98857-3004</h5>
                             <p className="text-secondary">Seg a sab 8h - 18h</p>

@@ -34,9 +34,9 @@ function Works() {
   }
 
   return (
-    <section id="works" className="bg-dark text-white">
+    <section id="works" className="bg text-white">
       <div className="container py-4 pb-5 mb-4">
-        <h2 className="text-center fw-bold"><MdWorkOutline className="works-icon mx-auto mb-1 d-flex" />Experiência</h2>
+        <h2 className="text-center fw-bold">Experiência</h2>
         <div className="row mx-auto align-items-center py-4">
           <div className="col-lg-3 col-12">
             <div className="btn-group-vertical mx-auto d-flex" role="group" aria-label="Basic radio toggle butext-infoon group">

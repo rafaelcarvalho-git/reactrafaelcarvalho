@@ -50,9 +50,9 @@ function Skills() {
   }
 
   return (
-    <section id="skills" className="bg-light">
+    <section id="skills" className="bg">
       <div className="container py-4">
-        <h2 className="text-center fw-bold">Habilidades</h2>
+        <h2 className="text-center fw-bold text-white">Habilidades</h2>
         <div className="row mx-auto align-items-center py-4">
           <div className="col-12 col-lg-5">
             {skills.map((skill) => {
@@ -60,7 +60,7 @@ function Skills() {
                 return (
                   <div key={skill.id} className="mb-3">
                     <img className="skill-icon ms-2 me-2 mb-2" src={skill.skill_icon} alt="" />
-                    <span className="fw-bold">{skill.skill_name}</span>
+                    <span className="fw-bold text-white">{skill.skill_name}</span>
                     <div className="progress my-1">
                       <div className={skill.skill_progress} role="progressbar"></div>
                     </div>
