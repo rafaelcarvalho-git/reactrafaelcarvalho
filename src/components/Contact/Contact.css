@@ -12,9 +12,11 @@
     transition-property: transform;
 }
 
-.contact-item-hover:hover,
-.contact-item-hover-item:focus,
-.contact-item-hover-item:active {
-    -webkit-transform: scale(1.08);
-    transform: scale(1.08);
+@media (min-width: 768px) {
+    .contact-item-hover:hover,
+    .contact-item-hover-item:focus,
+    .contact-item-hover-item:active {
+        -webkit-transform: scale(1.08);
+        transform: scale(1.08);
+    }
 }

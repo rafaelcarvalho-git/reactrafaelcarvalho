@@ -3,7 +3,7 @@ import { BsEnvelope, BsPhone, BsGeoAlt } from 'react-icons/bs'
 
 function Contact() {
     return (
-        <section id="contact" className="bg-dark text-white">
+        <section id="contact">
             <div className="container py-4">
                 <h2 className="text-center text-info fw-bold">Contato</h2>
                 <div className="row py-4 mt-5">
