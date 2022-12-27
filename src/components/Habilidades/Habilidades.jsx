@@ -30,24 +30,24 @@ var s = [
 
 function Habilidades() {
     return (
-        <section id="habilidades" class="sect-spacing">
-            <div class="container">
+        <section id="habilidades" className="sect-spacing mb-5">
+            <div className="container">
                 <div className="title-box">
-                    <h3 class="title-section">HABILIDADES</h3>
-                    <div class="line"></div>
+                    <h3 className="title-section">HABILIDADES</h3>
+                    <div className="line"></div>
                 </div>
-                <div class="accordion accordion-flush row" id="accordionHabilidades">
-                    <div class="col-6 mb-5 px-4">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header d-flex" id="flush-headingOne">
-                                <button class="accordion-button collapsed rounded shadow-full shadow" type="button" data-bs-toggle="collapse"
+                <div className="accordion accordion-flush row" id="accordionHabilidades">
+                    <div className="col-6 mb-5 px-4">
+                        <div className="accordion-item">
+                            <h2 className="accordion-header d-flex" id="flush-headingOne">
+                                <button className="accordion-button collapsed rounded shadow-full shadow" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                    <BsBraces class="habilidade-icon mx-2 me-3 my-auto" /> Front-end developer
+                                    <BsBraces className="habilidade-icon mx-2 me-3 my-auto" /> Front-end developer
                                 </button>
                             </h2>
-                            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                            <div id="flush-collapseOne" className="accordion-collapse collapse" aria-labelledby="flush-headingOne"
                                 data-bs-parent="#accordionHabilidades">
-                                <div class="accordion-body mt-4">
+                                <div className="accordion-body mt-4">
                                     {skills.map((skill) => {
                                         if ((skill.id == 1) || (skill.id == 2) || (skill.id == 3) || (skill.id == 4) || (skill.id == 5)) {
                                             return (
@@ -66,17 +66,17 @@ function Habilidades() {
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 mb-5 px-4">
-                        <div class="accordion-item mx-auto">
-                            <h2 class="accordion-header d-flex" id="flush-headingTwo">
-                                <button class="accordion-button collapsed rounded shadow-full shadow" type="button" data-bs-toggle="collapse"
+                    <div className="col-6 mb-5 px-4">
+                        <div className="accordion-item mx-auto">
+                            <h2 className="accordion-header d-flex" id="flush-headingTwo">
+                                <button className="accordion-button collapsed rounded shadow-full shadow" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                    <BsBraces class="habilidade-icon mx-2 me-3 my-auto" /> Front-end developer
+                                    <BsBraces className="habilidade-icon mx-2 me-3 my-auto" /> Front-end developer
                                 </button>
                             </h2>
-                            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                            <div id="flush-collapseTwo" className="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
                                 data-bs-parent="#accordionHabilidades">
-                                <div class="accordion-body mt-4">
+                                <div className="accordion-body mt-4">
                                     {skills.map((skill) => {
                                         if ((skill.id == 6) || (skill.id == 7) || (skill.id == 8) || (skill.id == 9) || (skill.id == 10)) {
                                             return (
@@ -95,17 +95,17 @@ function Habilidades() {
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 mb-5 mb-lg-0 px-4">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header d-flex" id="flush-headingThree">
-                                <button class="accordion-button collapsed rounded shadow-full shadow" type="button" data-bs-toggle="collapse"
+                    <div className="col-6 mb-5 mb-lg-0 px-4">
+                        <div className="accordion-item">
+                            <h2 className="accordion-header d-flex" id="flush-headingThree">
+                                <button className="accordion-button collapsed rounded shadow-full shadow" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                                    <BsBraces class="habilidade-icon mx-2 me-3 my-auto" /> Front-end developer
+                                    <BsBraces className="habilidade-icon mx-2 me-3 my-auto" /> Front-end developer
                                 </button>
                             </h2>
-                            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                            <div id="flush-collapseThree" className="accordion-collapse collapse" aria-labelledby="flush-headingThree"
                                 data-bs-parent="#accordionHabilidades">
-                                <div class="accordion-body mt-4">
+                                <div className="accordion-body mt-4">
                                     {skills.map((skill) => {
                                         if (skill.id == (1 || 2 || 3)) {
                                             return (
@@ -124,17 +124,17 @@ function Habilidades() {
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 mb-5 mb-lg-0 px-4">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header d-flex" id="flush-headingFour">
-                                <button class="accordion-button collapsed rounded shadow-full shadow" type="button" data-bs-toggle="collapse"
+                    <div className="col-6 mb-5 mb-lg-0 px-4">
+                        <div className="accordion-item">
+                            <h2 className="accordion-header d-flex" id="flush-headingFour">
+                                <button className="accordion-button collapsed rounded shadow-full shadow" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                                    <BsBraces class="habilidade-icon mx-2 me-3 my-auto" /> Front-end developer
+                                    <BsBraces className="habilidade-icon mx-2 me-3 my-auto" /> Front-end developer
                                 </button>
                             </h2>
-                            <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+                            <div id="flush-collapseFour" className="accordion-collapse collapse" aria-labelledby="flush-headingFour"
                                 data-bs-parent="#accordionHabilidades">
-                                <div class="accordion-body mt-4">
+                                <div className="accordion-body mt-4">
                                     {skills.map((skill) => {
                                         if (skill.id == (1 || 2 || 3)) {
                                             return (

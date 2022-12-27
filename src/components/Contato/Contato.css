@@ -1,0 +1,47 @@
+/*
+  .overlay-mf {
+    background-color: #0078ff;
+  }
+  
+  .overlay-mf {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    opacity: .7;
+  }*/
+
+
+.contato .contact-icon {
+    font-size: 48px !important;
+}
+
+footer {
+    text-align: center;
+    color: #fff;
+}
+
+footer .social {
+    max-width: 260px;
+}
+
+footer .social-icon {
+    height: 42px;
+    width: 42px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    box-shadow: 0 0 0 3px #0078ff;
+    transition: all 500ms ease;
+}
+
+footer .social-icon:hover {
+    background-color: #0078ff;
+    color: #fff;
+    box-shadow: 0 0 0 3px #cde1f8;
+    transition: all 500ms ease;
+}

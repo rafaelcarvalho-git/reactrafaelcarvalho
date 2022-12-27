@@ -23,26 +23,26 @@ function Experiencia() {
     }
 
     return (
-        <section id="experiencia" class="sect-spacing">
-            <div class="container">
+        <section id="experiencia" className="bg-image sect-spacing">
+            <div className="container">
                 <div className="title-box">
-                    <h3 class="title-section">EXPERIÊNCIA</h3>
-                    <div class="line"></div>
+                    <h3 className="title-section text-white">EXPERIÊNCIA</h3>
+                    <div className="line"></div>
                 </div>
-                <div className="row mx-auto align-items-center box-shadow-full shadow rounded pt-5 pt-lg-4">
+                <div className="row experiencia mx-auto align-items-center box-shadow-full shadow rounded pt-5 pt-lg-4">
                     <div className="col-lg-3 col-12">
                         <div className="btn-group-vertical mx-auto d-flex" role="group" aria-label="Empregos">
                             <input type="radio" className="btn-check" name="job" id="job1" autocomplete="off" onClick={workOne} />
-                            <label className="btn btn-outline-info work-hover" for="job1">E2S CERTIFICADORA</label>
+                            <label className="btn btn-outline-info experiencia-hover" for="job1">E2S CERTIFICADORA</label>
 
                             <input type="radio" className="btn-check" name="job" id="job2" autocomplete="off" onClick={workTwo} />
-                            <label className="btn btn-outline-info work-hover" for="job2">UFCA</label>
+                            <label className="btn btn-outline-info experiencia-hover" for="job2">UFCA</label>
 
                             <input type="radio" className="btn-check" name="job" id="job3" autocomplete="off" onClick={workThree} />
-                            <label className="btn btn-outline-info work-hover" for="job3">MARTINS ADVOGADOS</label>
+                            <label className="btn btn-outline-info experiencia-hover" for="job3">MARTINS ADVOGADOS</label>
                         </div>
                     </div>
-                    <div className="jobs col-lg-9 col-12">
+                    <div className="experiencia-info col-lg-9 col-12">
                         {works.map((work) => {
                             if (work.id == workList) {
                                 return (
