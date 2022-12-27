@@ -10,11 +10,11 @@ function Navbar() {
             </button>
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav ms-auto">
-                <a className="nav-link text-white" href="#about">Sobre</a>
-                <a className="nav-link text-white" href="#skills">Habilidades</a>
-                <a className="nav-link text-white" href="#works">Experiência</a>
-                <a className="nav-link text-white" href="#projects">Projetos</a>
-                <a className="nav-link text-white" href="#contact">Contato</a>
+                <a className="nav-link text-white" href="#sobre">Sobre</a>
+                <a className="nav-link text-white" href="#habilidades">Habilidades</a>
+                <a className="nav-link text-white" href="#experiencia">Experiência</a>
+                <a className="nav-link text-white" href="#projetos">Projetos</a>
+                <a className="nav-link text-white" href="#contato">Contato</a>
             </div>
             </div>
         </div>

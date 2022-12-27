@@ -1,10 +1,30 @@
 :root {
   --color-black: #252525;
-  --color-primary: #4438b7;
+  --color-primary: #0078ff;
   --color-secondary: #7a73cc;
   --color-tertiary: #5338b7;
   --color-quaternary: #aca5f3;
 }
+
+.color-1 {
+  color: var(--color-primary);
+}
+/*--/ Sections /--*/
+
+.sect-4 {
+  padding: 4rem 0 !important;
+}
+
+.sect-spacing {
+  padding-top: 4.8rem !important;
+  padding-bottom: 2.5rem !important;
+}
+
+.sect-mt4 {
+  margin-top: 4rem;
+}
+
+/*color: var(--color-primary);*/
 
 .loader {
   position: absolute;
@@ -13,4 +33,59 @@
   left: 0;
   right: 0;
   margin: auto;
+}
+
+.line {
+  width: 75px;
+  height: 5.2px;
+  background-color: var(--color-primary);
+  margin: 0 auto;
+}
+
+.title-box {
+  margin-bottom: 3.2rem;
+}
+
+.title-section {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+
+
+.line-mf {
+  width: 75px;
+  height: 5px;
+  background-color: var(--color-primary);
+  margin: 0 auto;
+}
+
+.box-shadow-full {
+  padding: 3rem 1.25rem;
+  position: relative;
+  background-color: #fff;
+  margin-bottom: 3rem;
+  z-index: 2;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+.title-box-2 {
+  margin-bottom: 3rem;
+}
+
+/*--/ Sections /--*/
+
+.sect-4 {
+  padding: 4rem 0;
+}
+
+.sect-spacing {
+  padding-top: 4rem;
+}
+
+.sect-mt4 {
+  margin-top: 4rem;
 }
