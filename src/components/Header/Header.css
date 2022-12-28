@@ -31,7 +31,51 @@ header .overlay-itro {
 header .intro-title {
     color: #fff;
     font-weight: 600;
-    font-size: 3rem;
+    font-size: 4.5rem;
+}
+
+header .intro-title span {
+    color: var(--color-primary);
+}
+
+@media (max-width: 991px) {
+    header .intro-title {
+        font-size: 3.8rem;
+    }
+}
+
+@media (max-width: 767px) {
+    header .intro-title {
+        font-size: 2.850rem;
+    }
+}
+
+@media (max-width: 534px) {
+    header .intro-title {
+        font-size: 2.5rem;
+    }
+
+    header .display-6 {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 471px) {
+    header .intro-title {
+        font-size: 2.2rem;
+    }
+}
+
+@media (max-width: 418px) {
+    header .intro-title {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 382px) {
+    header .intro-title {
+        font-size: 1.8rem;
+    }
 }
 
 header .intro-subtitle {
@@ -39,72 +83,34 @@ header .intro-subtitle {
     font-weight: 300;
 }
 
-header .text-slider-items {
-    display: none;
-}
-
-.intro-single {
-    height: 350px;
-}
-
-.intro-single .intro-content {
-    margin-top: 30px;
-}
-
-.intro-single .intro-title {
-    text-transform: uppercase;
-    font-size: 3rem;
-}
-
-.intro-single .breadcrumb {
-    background-color: transparent;
-    color: var(--color-primary);
-}
-
-.intro-single .breadcrumb .breadcrumb-item:before {
-    color: #cde1f8;
-}
-
-.intro-single .breadcrumb .breadcrumb-item.active {
-    color: #cde1f8;
-}
-
-.intro-single .breadcrumb a {
-    color: #fff;
-}
-
-.display-table {
+header .display-table {
     width: 100%;
     height: 100%;
     display: table;
 }
 
-.table-cell {
+header .table-cell {
     display: table-cell;
     vertical-align: middle;
 }
 
-.display-6 {
+header .display-6 {
     font-size: 2rem;
     font-weight: 300;
     line-height: 1.1;
 }
 
-.color-d {
-    color: #f5f5f5;
-}
-
 header .header-icons {
     max-width: 275px;
-  }
-  
-  header .header-icon {
+}
+
+header .header-icon {
     font-size: 32px;
     color: white;
     transition: all 0.2s ease 0s;
     text-shadow: 0 0 0.2em black, 0 0 0.2em var(--color-secondary) !important;
-  }
-  
-  header .header-icon:hover {
+}
+
+header .header-icon:hover {
     color: var(--color-secondary);
-  }
+}
