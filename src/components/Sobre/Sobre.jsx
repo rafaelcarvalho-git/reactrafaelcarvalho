@@ -7,9 +7,9 @@ function Sobre() {
             <div className="container">
                 <div className="row">
                     <div className="col-sm-12">
-                        <div className="box-shadow-full shadow py-5 rounded">
-                            <div className="row">
-                                <div className="col-12 col-lg-5 text-center">
+                        <div className="box-shadow-full shadow py-5 rounded bg-info">
+                            <div className="row bg-danger">
+                                <div className="col-12 col-lg-5 text-center bg-warning">
                                     <img src={dev} className="img-fluid eu-img rounded mx-auto" alt="" />
                                 </div>
                                 <div className="col-12 col-lg-7">

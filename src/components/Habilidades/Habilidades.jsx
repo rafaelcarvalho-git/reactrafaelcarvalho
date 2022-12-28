@@ -1,9 +1,8 @@
 import './Habilidades.css';
-import { BsBraces } from "react-icons/bs";
-import React, { useState } from 'react'
+import { BsBraces, BsLaptop, BsCodeSquare } from "react-icons/bs";
+import { VscServerProcess } from "react-icons/vsc";
 import hard from '../../assets/hard.png'
 import sec from '../../assets/sec.png'
-
 
 var skills = [
     { id: 1, skill_name: "HTML", skill_icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg", skill_progress: "progress-bar bg-info skill_progress_95" },
@@ -21,11 +20,6 @@ var skills = [
     { id: 13, skill_name: "HARDWARE", skill_icon: hard, skill_progress: "progress-bar bg-info skill_progress_95" },
     { id: 14, skill_name: "GIT - GITHUB", skill_icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg", skill_progress: "progress-bar bg-info skill_progress_70" },
     { id: 15, skill_name: "SEGURANÇA DIGITAL", skill_icon: sec, skill_progress: "progress-bar bg-info skill_progress_50" }
-];
-
-var s = [
-    { id: 1, name: "Front-end developer", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg", skill_progress: "progress-bar bg-info skill_progress_95" }
-
 ];
 
 function Habilidades() {
@@ -71,7 +65,7 @@ function Habilidades() {
                             <h2 className="accordion-header d-flex" id="flush-headingTwo">
                                 <button className="accordion-button collapsed rounded shadow-full shadow" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                    <BsBraces className="habilidade-icon mx-2 me-3 my-auto" /> Back-end developer
+                                    <VscServerProcess className="habilidade-icon mx-2 me-3 my-auto" /> Back-end developer
                                 </button>
                             </h2>
                             <div id="flush-collapseTwo" className="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
@@ -100,7 +94,7 @@ function Habilidades() {
                             <h2 className="accordion-header d-flex" id="flush-headingThree">
                                 <button className="accordion-button collapsed rounded shadow-full shadow" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                                    <BsBraces className="habilidade-icon mx-2 me-3 my-auto" /> Web Designer
+                                    <BsCodeSquare className="habilidade-icon mx-2 me-3 my-auto" /> Web Designer
                                 </button>
                             </h2>
                             <div id="flush-collapseThree" className="accordion-collapse collapse" aria-labelledby="flush-headingThree"
@@ -129,7 +123,7 @@ function Habilidades() {
                             <h2 className="accordion-header d-flex" id="flush-headingFour">
                                 <button className="accordion-button collapsed rounded shadow-full shadow" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                                    <BsBraces className="habilidade-icon mx-2 me-3 my-auto" /> Information Technology
+                                    <BsLaptop className="habilidade-icon mx-2 me-3 my-auto" /> Information Technology
                                 </button>
                             </h2>
                             <div id="flush-collapseFour" className="accordion-collapse collapse" aria-labelledby="flush-headingFour"
