@@ -1,7 +1,6 @@
 import projeto1 from './projects-images/portfolio-e2s.png'
 import projeto2 from './projects-images/siscert.png'
 import projeto3 from './projects-images/react-rick-and-morty.png'
-import projeto4 from './projects-images/react-personal-trainer.png'
 import projeto5 from './projects-images/react-personal-trainer.png'
 import projeto6 from './projects-images/portfolio-academia.png'
 import projeto7 from './projects-images/react-football-matches.png'

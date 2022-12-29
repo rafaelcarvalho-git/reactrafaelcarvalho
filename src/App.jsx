@@ -1,14 +1,13 @@
-import './App.css';
-import './assets/bootstrap/bootstrap.min.css';
+import './App.css'
+import './assets/bootstrap/bootstrap.min.css'
 import React, { useState } from 'react'
 import ReactLoading from 'react-loading'
-import Experiencia from './components/Experiencia/Experiencia';
-import Habilidades from './components/Habilidades/Habilidades';
-import Header from './components/Header/Header';
-import Navbar from './components/Navbar/Navbar';
-import Projetos from './components/Projetos/Projetos';
-import Sobre from './components/Sobre/Sobre';
-import Contato from './components/Contato/Contato';
+import Experiencia from './components/Experiencia/Experiencia'
+import Habilidades from './components/Habilidades/Habilidades'
+import Header from './components/Header/Header'
+import Projetos from './components/Projetos/Projetos'
+import Sobre from './components/Sobre/Sobre'
+import Contato from './components/Contato/Contato'
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -22,8 +21,6 @@ function App() {
   } else {
     return (
       <>
-        {/*<Navbar />
-        */}
         <Header />
         <Sobre />
         <Habilidades />

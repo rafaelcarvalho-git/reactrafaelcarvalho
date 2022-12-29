@@ -1,9 +1,8 @@
-import './Header.css';
+import './Header.css'
 import { BsGithub, BsWhatsapp, BsLinkedin, BsEnvelope } from 'react-icons/bs'
 import Typed from 'react-typed'
 
 const x = "< ";
-const devname = " RAFAEL CARVALHO ";
 const y = " />";
 
 function Header() {

@@ -9,7 +9,7 @@ function Projetos() {
     return (
         <section id="projetos" className="projetos sect-spacing">
             <div className="container">
-                <div className="title-box">
+                <div className="mb-5">
                     <h3 className="title-section">PROJETOS</h3>
                     <div className="line"></div>
                 </div>
@@ -34,7 +34,7 @@ function Projetos() {
                                             <h5 className="mb-4 mb-lg-0">{projeto.title}</h5>
                                             <div className="projeto-icons ms-lg-auto justify-content-end">
                                                 {devicons.map((icon) => {
-                                                    if (icon.id == projeto.id) { return <img src={icon.icon} width="28px" className="projeto-icon ms-2" alt="project icon" /> }
+                                                    if (icon.id === projeto.id) { return <img src={icon.icon} width="28px" className="projeto-icon ms-2" alt="project icon" /> }
                                                 }
                                                 )}
                                             </div>

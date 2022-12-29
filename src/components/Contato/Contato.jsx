@@ -18,21 +18,21 @@ function Contato() {
                         <a href="tel:+5588988573004" className="col-lg-4 text-center mb-4">
                             <div className="contact-item mx-auto">
                                 <BsPhone className="contact-icon mb-3 text-dark" />
-                                <h5 className="color-1">(88) 98857-3004</h5>
+                                <h5 className="primary-color">(88) 98857-3004</h5>
                                 <p className="text-secondary">Seg a sab 8h - 18h</p>
                             </div>
                         </a>
                         <a href="https://goo.gl/maps/H8iavTc2CnMzzvma7" target="_blank" rel="noreferrer noopener" className="col-lg-4 text-center mb-4">
                             <div className="contact-item mx-auto">
                                 <BsGeoAlt className="contact-icon mb-3 text-dark" />
-                                <h5 className="color-1">Juazeiro do Norte</h5>
+                                <h5 className="primary-color">Juazeiro do Norte</h5>
                                 <p className="text-secondary">Ceará, Brasil</p>
                             </div>
                         </a>
                         <a href="mailto:rafaskyplay@gmail.com" className="col-lg-4 text-center mb-4">
                             <div className="contact-item mx-auto">
                                 <BsEnvelope className="contact-icon mb-3 text-dark" />
-                                <h5 className="color-1">rafaskyplay@gmail.com</h5>
+                                <h5 className="primary-color">rafaskyplay@gmail.com</h5>
                                 <p className="text-secondary">Aguardo a sua mensagem</p>
                             </div>
                         </a>

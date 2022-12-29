@@ -1,46 +1,119 @@
-.eu-img {
-    max-width: 328px;
+.btn-sobre {
+  min-width: 192px;
+}
+
+.sobre .sobre-img {
+  max-width: 328px;
 }
 
 @media (max-width: 991px) {
-    .eu-img {
-        max-width: 310px;
-        margin-bottom: 28px;
-    }
+  .sobre .sobre-img {
+    max-width: 310px;
+    margin-bottom: 28px;
+  }
 }
 
 @media (max-width: 767px) {
-    .eu-img {
-        max-width: 285px;
-    }
+  .sobre .sobre-img {
+    max-width: 285px;
+  }
+
+  .btn-sobre {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 @media (max-width: 534px) {
-    .eu-img {
-        max-width: 278px;
-    }
+  .sobre .sobre-img {
+    max-width: 278px;
+  }
 }
 
 @media (max-width: 471px) {
-    .eu-img {
-        max-width: 262px;
-    }
+  .sobre .sobre-img {
+    max-width: 262px;
+  }
+
+  .btns-sobre {
+    flex-direction: column !important;
+  }
+
+  .btn-sobre {
+    margin-bottom: 12px;
+  }
 }
 
 @media (max-width: 418px) {
-    .eu-img {
-        max-width: 258px;
-    }
+  .sobre .sobre-img {
+    max-width: 258px;
+  }
 }
 
 @media (max-width: 382px) {
-    .eu-img {
-        max-width: 248px;
-    }
+  .sobre .sobre-img {
+    max-width: 248px;
+  }
+}
+
+.about-icon {
+  font-size: 24px;
+  color: var(--color-primary);
 }
 
 
-.about-icon {
-    font-size: 24px;
-    color: var(--color-primary);
+/* Icon Down */
+@-webkit-keyframes hvr-icon-down {
+
+  0%,
+  50%,
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  25%,
+  75% {
+    -webkit-transform: translateY(6px);
+    transform: translateY(6px);
+  }
+}
+
+@keyframes hvr-icon-down {
+
+  0%,
+  50%,
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  25%,
+  75% {
+    -webkit-transform: translateY(3.6px);
+    transform: translateY(3.6px);
+  }
+}
+
+/* Icon Down */
+.sobre .sobre-icon-down {
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.sobre .sobre-icon-down .sobre-icon {
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+.sobre .sobre-icon-down:hover .sobre-icon,
+.sobre .sobre-icon-down:focus .sobre-icon,
+.sobre .sobre-icon-down:active .sobre-icon {
+  -webkit-animation-name: hvr-icon-down;
+  animation-name: hvr-icon-down;
+  -webkit-animation-duration: 0.75s;
+  animation-duration: 0.75s;
+  -webkit-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
 }
