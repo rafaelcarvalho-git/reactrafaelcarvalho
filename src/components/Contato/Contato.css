@@ -1,28 +1,3 @@
-/*
-  .overlay-mf {
-    background-color: #0078ff;
-  }
-  
-  .overlay-mf {
-    position: absolute;
-    top: 0;
-    left: 0px;
-    padding: 0;
-    height: 100%;
-    width: 100%;
-    opacity: .7;
-  }*/
-header .header-overlay {
-  background-color: rgba(0, 0, 0, 0.6);
-  position: absolute;
-  top: 0;
-  left: 0px;
-  padding: 0;
-  height: 100%;
-  width: 100%;
-  opacity: .8;
-}
-
 .contato a {
   text-decoration: none;
 }

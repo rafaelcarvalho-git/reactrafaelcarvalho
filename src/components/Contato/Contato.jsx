@@ -1,4 +1,4 @@
-import './Contato.css';
+import './Contato.css'
 import { BsGithub, BsWhatsapp, BsLinkedin, BsEnvelope, BsGeoAlt, BsPhone, BsInstagram } from 'react-icons/bs'
 
 const dataAtual = new Date();
