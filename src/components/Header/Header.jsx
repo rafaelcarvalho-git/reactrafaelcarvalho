@@ -14,9 +14,9 @@ function Header() {
                 <div className="table-cell">
                     <div className="container">
                         <p className="display-6">Olá, eu sou</p>
-                        <h1 className="header-title mb-5 d-flex mx-auto text-shadow">
+                        <h1 className="header-title mb-4 d-flex mx-auto text-shadow">
                             <div className="letter-float d-flex ms-3">
-                                <span  className="me-2">{x}</span>
+                                <span className="me-2">{x}</span>
                                 <div>R</div>
                                 <div>A</div>
                                 <div>F</div>
