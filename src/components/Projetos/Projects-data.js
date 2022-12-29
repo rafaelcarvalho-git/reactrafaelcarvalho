@@ -6,28 +6,36 @@ import projeto5 from '../../assets/projects-images/react-personal-trainer.png'
 import projeto6 from '../../assets/projects-images/portfolio-academia.png'
 import projeto7 from '../../assets/projects-images/react-football-matches.png'
 
+import iconhtml from '../../assets/projects-images/projects-icons/html5-original.svg'
+import iconcss from '../../assets/projects-images/projects-icons/css3-original.svg'
+import iconjs from '../../assets/projects-images/projects-icons/javascript-original.svg'
+import iconbs from '../../assets/projects-images/projects-icons/bootstrap-original.svg'
+import iconphp from '../../assets/projects-images/projects-icons/php-original.svg'
+import iconmysql from '../../assets/projects-images/projects-icons/mysql-original-wordmark.svg'
+import iconreact from '../../assets/projects-images/projects-icons/react-original.svg'
+
 export const devicons = [
-    { id: 1, icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg' },
-    { id: 1, icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg' },
-    { id: 1, icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' },
-    { id: 1, icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg' },
-    { id: 2, icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg' },
-    { id: 2, icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' },
-    { id: 2, icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg' },
-    { id: 2, icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg' },
-    { id: 3, icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg' },
-    { id: 3, icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' },
-    { id: 3, icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg' },
-    { id: 4, icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg' },
-    { id: 4, icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' },
-    { id: 4, icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg' },
-    { id: 5, icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg' },
-    { id: 5, icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg' },
-    { id: 6, icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg' },
-    { id: 6, icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg' },
-    { id: 7, icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg' },
-    { id: 7, icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' },
-    { id: 7, icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg' }
+    { id: 1, icon: iconhtml },
+    { id: 1, icon: iconcss },
+    { id: 1, icon: iconjs },
+    { id: 1, icon: iconbs },
+    { id: 2, icon: iconbs },
+    { id: 2, icon: iconjs },
+    { id: 2, icon: iconphp },
+    { id: 2, icon: iconmysql },
+    { id: 3, icon: iconreact },
+    { id: 3, icon: iconjs },
+    { id: 3, icon: iconbs },
+    { id: 4, icon: iconreact },
+    { id: 4, icon: iconjs },
+    { id: 4, icon: iconbs },
+    { id: 5, icon: iconreact },
+    { id: 5, icon: iconbs },
+    { id: 6, icon: iconreact },
+    { id: 6, icon: iconbs },
+    { id: 7, icon: iconreact },
+    { id: 7, icon: iconjs },
+    { id: 7, icon: iconbs }
 ];
 
 export const projetos = [

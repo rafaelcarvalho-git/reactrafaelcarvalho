@@ -1,5 +1,5 @@
 import './App.css';
-import './assets/bootstrap.min.css';
+import './assets/bootstrap/bootstrap.min.css';
 import React, { useState } from 'react'
 import ReactLoading from 'react-loading'
 import Experiencia from './components/Experiencia/Experiencia';
@@ -22,7 +22,8 @@ function App() {
   } else {
     return (
       <>
-        <Navbar />
+        {/*<Navbar />
+        */}
         <Header />
         <Sobre />
         <Habilidades />

@@ -10,35 +10,27 @@ var works = [
 function Experiencia() {
     const [workList, setworkList] = useState([1]);
 
-    function workOne() {
-        setworkList([1])
-    }
-
-    function workTwo() {
-        setworkList([2])
-    }
-
-    function workThree() {
-        setworkList([3])
+    const switchWork = (x) => {
+        setworkList([x])
     }
 
     return (
         <section id="experiencia" className="bg-image sect-spacing">
             <div className="container">
                 <div className="title-box">
-                    <h3 className="title-section text-white">EXPERIÊNCIA</h3>
+                    <h3 className="title-section text-white d">EXPERIÊNCIA</h3>
                     <div className="line"></div>
                 </div>
                 <div className="row experiencia mx-auto align-items-center box-shadow-full shadow rounded pt-5 pt-lg-4">
                     <div className="col-lg-3 col-12">
                         <div className="btn-group-vertical mx-auto d-flex" role="group" aria-label="Empregos">
-                            <input type="radio" className="btn-check" name="job" id="job1" autocomplete="off" onClick={workOne} />
+                            <input type="radio" className="btn-check" name="job" id="job1" autocomplete="off" onClick={() => switchWork(1)} />
                             <label className="btn btn-outline-info experiencia-hover" for="job1">E2S CERTIFICADORA</label>
 
-                            <input type="radio" className="btn-check" name="job" id="job2" autocomplete="off" onClick={workTwo} />
+                            <input type="radio" className="btn-check" name="job" id="job2" autocomplete="off" onClick={() => switchWork(2)} />
                             <label className="btn btn-outline-info experiencia-hover" for="job2">UFCA</label>
 
-                            <input type="radio" className="btn-check" name="job" id="job3" autocomplete="off" onClick={workThree} />
+                            <input type="radio" className="btn-check" name="job" id="job3" autocomplete="off" onClick={() => switchWork(3)} />
                             <label className="btn btn-outline-info experiencia-hover" for="job3">MARTINS ADVOGADOS</label>
                         </div>
                     </div>

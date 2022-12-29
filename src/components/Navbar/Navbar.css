@@ -1,16 +1,17 @@
 .navbar {
-    min-height: 75px;
+    min-height: 64px;
 }
 
 .nav-link {
     color: #fff;
     text-transform: uppercase;
     font-weight: 600;
-    /*border-bottom: 2px solid var(--color-primary);*/
+    
     transition: all 0.1s ease-in;
 }
 
 .nav-link:hover,
 .navbar-brand:hover {
     color: var(--color-primary) !important;
+    border-bottom: 1px solid var(--color-primary);
 }
