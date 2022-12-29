@@ -1,13 +1,13 @@
 import './Projetos.css'
 import '../../assets/swiper/swiper-bundle.min.css'
 import { BsLink45Deg, BsCodeSlash } from "react-icons/bs"
-import { projetos, devicons } from './Projects-data.js'
+import { projetos, devicons } from '../../assets/data.js'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper"
 
 function Projetos() {
     return (
-        <section id="projetos" className="sect-spacing">
+        <section id="projetos" className="projetos sect-spacing">
             <div className="container">
                 <div className="title-box">
                     <h3 className="title-section">PROJETOS</h3>
@@ -27,7 +27,7 @@ function Projetos() {
                             <SwiperSlide key={projeto.id} className="px-5">
                                 <div class="row align-items-center mb-5 py-3 text-center text-lg-start">
                                     <div class="col-12 col-lg-6 d-flex mb-4 mb-lg-0">
-                                        <img class="rounded mx-auto projeto-img shadow" src={projeto.image} alt="project image" />
+                                        <img class="rounded mx-auto projeto-img shadow" src={projeto.image} alt="project" />
                                     </div>
                                     <div class="col-12 col-lg-6 ps-lg-1 pe-lg-5">
                                         <div className="d-flex flex-column flex-lg-row align-items-center mb-4">
