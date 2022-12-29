@@ -1,4 +1,5 @@
-import './Sobre.css';
+import './Sobre.css'
+import cv from '../../assets/Curriculo Rafael Candido Lacerda Carvalho.pdf'
 import dev from './eu.jpg'
 import { FaUserGraduate } from "react-icons/fa"
 import { BsCloudArrowDown, BsChatLeftText } from "react-icons/bs"
@@ -28,8 +29,8 @@ function Sobre() {
                                             <FaUserGraduate className="about-icon me-2" /><p>Sistemas de Informação - 7° Semestre</p>
                                         </div>
                                         <div className="d-flex flex-wrap btns-sobre">
-                                            <button className="btn btn-sobre btn-outline-primary me-md-5 sobre-icon-down"><BsChatLeftText className="sobre-icon me-2" />Entre em contato</button>
-                                            <button className="btn btn-sobre btn-primary sobre-icon-down"><BsCloudArrowDown className="sobre-icon me-2" />Download CV</button>
+                                            <a href="#contato" className="btn btn-sobre btn-outline-primary me-md-5 sobre-icon-down"><BsChatLeftText className="sobre-icon me-2" />Entre em contato</a>
+                                            <a href={cv} target="_blank" rel="noreferrer noopener" className="btn btn-sobre btn-primary sobre-icon-down"><BsCloudArrowDown className="sobre-icon me-2" />Download CV</a>
                                         </div>
                                     </div>
                                 </div>
