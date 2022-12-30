@@ -7,7 +7,7 @@ const anoAtual = dataAtual.getFullYear();
 
 function Contato() {
     return (
-        <section className="contato bg-image sect-spacing pb-4">
+        <section id="contato" className="contato bg-image sect-spacing pb-4">
             <div className="overlay-mf"></div>
             <Fade>
                 <div className="container">
