@@ -1,9 +1,9 @@
 :root {
   --color-black: #252525;
+  --color-gray: #e1e3e6;
   --color-primary: #0078ff;
-  --color-secondary: #7a73cc;
-  --color-tertiary: #5338b7;
-  --color-quaternary: #aca5f3;
+  --color-primary: #4361EE;
+  --color-secondary: #3A0CA3;
 }
 
 .bg-image {
@@ -11,12 +11,13 @@
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
-  background-image: url('../src/assets//bg-images/fundo1.jpg');
+  background-image: url('../src/assets//images/fundo1.jpg');
 }
 
 /*https://images.unsplash.com/photo-1529465230221-a0d10e46fcbb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80*/
 
 /*https://images.unsplash.com/photo-1625535069654-cfeb8f829088?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80*/
+
 
 
 .primary-color {
@@ -92,4 +93,46 @@
   .title-section {
     font-size: 2.1rem;
   }
+}
+
+.btn-pattern {
+  display: inline-block;
+  outline: none;
+  line-height: 40px;
+  padding: 0 30px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.btn-pattern:focus {
+  outline: none;
+}
+
+.btn-pattern.info {
+  color: #fff;
+  background: var(--color-primary);
+  border: 1px solid transparent;
+}
+
+.btn-pattern.info:hover {
+  color: var(--color-primary);
+  border: 1px solid var(--color-primary);
+  background: #fff;
+}
+
+.btn-pattern.info-border {
+  color: var(--color-primary);
+  border: 1px solid var(--color-primary);
+  background: #fff;
+}
+
+.btn-pattern.info-border:hover {
+  color: #fff;
+  background: var(--color-primary);
+  border: 1px solid transparent;
 }

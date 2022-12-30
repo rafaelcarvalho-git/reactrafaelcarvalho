@@ -1,9 +1,10 @@
-.btn-sobre {
-  min-width: 192px;
+.sobre .btn-sobre {
+  width: 208px;
 }
 
 .sobre .sobre-img {
   max-width: 328px;
+  width: 100%;
 }
 
 @media (max-width: 991px) {
@@ -18,7 +19,7 @@
     max-width: 285px;
   }
 
-  .btn-sobre {
+  .sobre .btn-sobre {
     margin-left: auto;
     margin-right: auto;
   }
@@ -56,13 +57,11 @@
   }
 }
 
-.about-icon {
+.sobre .about-icon {
   font-size: 24px;
   color: var(--color-primary);
 }
 
-
-/* Icon Down */
 @-webkit-keyframes hvr-icon-down {
 
   0%,
@@ -74,8 +73,8 @@
 
   25%,
   75% {
-    -webkit-transform: translateY(6px);
-    transform: translateY(6px);
+    -webkit-transform: translateY(2px);
+    transform: translateY(2px);
   }
 }
 
@@ -90,12 +89,11 @@
 
   25%,
   75% {
-    -webkit-transform: translateY(3.6px);
-    transform: translateY(3.6px);
+    -webkit-transform: translateY(2px);
+    transform: translateY(2px);
   }
 }
 
-/* Icon Down */
 .sobre .sobre-icon-down {
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);

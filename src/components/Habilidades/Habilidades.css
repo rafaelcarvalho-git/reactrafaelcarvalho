@@ -1,9 +1,9 @@
-.habilidade-icon {
+.habilidades .habilidade-icon {
     font-size: 48px;
     color: var(--color-primary);
 }
 
-.accordion-button {
+.habilidades .accordion-button {
     font-size: 20px;
     font-weight: 500;
     letter-spacing: 1px;
@@ -14,79 +14,62 @@
     box-shadow: none;
 }
 
-.accordion-button:active,
-.accordion-button:hover,
-.accordion-button:focus {
+.habilidades .accordion-button:active,
+.habilidades .accordion-button:hover,
+.habilidades .accordion-button:focus {
     border-color: none;
     box-shadow: none;
 }
 
-/*#skills {
-    background-image: url('test.png');
-}*/
-
-.dev-image {
-    max-width: 400px;
-    cursor: pointer;
-    animation: float 5s ease-in-out infinite;
-}
-@keyframes float {
-    0% {
-        transform: translateY(0px);
-    }
-
-    50% {
-        transform: translateY(-20px);
-    }
-
-    100% {
-        transform: translateY(0px);
-    }
-}
-.progress {
+.habilidades .progress {
     height: 12.5px;
+    background-color: var(--color-gray) !important;
 }
-.skill-icon {
+
+.habilidades .progress-bar {
+    background-color: var(--color-primary) !important;
+}
+
+.habilidades .skill-icon {
     max-width: 32px;
 }
-.skill_progress_95 {
+
+.habilidades .skill_progress_95 {
     width: 95%;
 }
-.skill_progress_90 {
+
+.habilidades .skill_progress_90 {
     width: 90%;
 }
-.skill_progress_85 {
+
+.habilidades .skill_progress_85 {
     width: 85%;
 }
-.skill_progress_80 {
+
+.habilidades .skill_progress_80 {
     width: 80%;
 }
-.skill_progress_70 {
+
+.habilidades .skill_progress_70 {
     width: 70%;
 }
-.skill_progress_60 {
+
+.habilidades .skill_progress_60 {
     width: 60%;
 }
-.skill_progress_55 {
+
+.habilidades .skill_progress_55 {
     width: 55%;
 }
-.skill_progress_50 {
+
+.habilidades .skill_progress_50 {
     width: 50%;
 }
-.skill_progress_45 {
+
+.habilidades .skill_progress_45 {
     width: 45%;
 }
-.skill_progress_40 {
+
+.habilidades .skill_progress_40 {
     width: 40%;
-}
-.switch-skills {
-    max-width: 120px;
-}
-@media (max-width:991px){
-    .skills-dev-image {
-        display: none;
-    }
-    .my-skills {
-        flex-direction: row;
-    }
 }

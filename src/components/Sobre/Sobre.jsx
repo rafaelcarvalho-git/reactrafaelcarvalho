@@ -1,22 +1,25 @@
 import './Sobre.css'
 import cv from '../../assets/Curriculo Rafael Candido Lacerda Carvalho.pdf'
-import dev from './eu.jpg'
+import dev from '../../assets/images/sobre-img.png'
 import { FaUserGraduate } from "react-icons/fa"
 import { BsCloudArrowDown, BsChatLeftText } from "react-icons/bs"
+import Fade from 'react-reveal/Fade'
 
 function Sobre() {
     return (
-        <section id="sobre" className="sobre sect-spacing">
-            <div className="container">
-                <div className="row">
-                    <div className="col-sm-12">
-                        <div className="box-shadow-full shadow py-5 rounded-3 border">
-                            <div className="row">
-                                <div className="col-12 col-lg-5 text-center">
+        <section className="sobre sect-spacing">
+            <Fade up>
+                <div className="container">
+                    <div className="box-shadow-full shadow py-5 rounded-3 border">
+                        <div className="row">
+                            <div className="col-12 col-lg-5 text-center">
+                                <Fade left>
                                     <img src={dev} className="img-fluid shadow sobre-img rounded mx-auto" alt="" />
-                                </div>
-                                <div className="col-12 col-lg-7">
-                                    <div className="about-me pt-4 pt-md-0">
+                                </Fade>
+                            </div>
+                            <div className="col-12 col-lg-7">
+                                <Fade right>
+                                    <div className="pt-4 pt-md-0">
                                         <div className="mb-5">
                                             <h3>Sobre mim</h3>
                                             <div className="line m-0"></div>
@@ -29,16 +32,16 @@ function Sobre() {
                                             <FaUserGraduate className="about-icon me-2" /><p>Sistemas de Informação - 7° Semestre</p>
                                         </div>
                                         <div className="d-flex flex-wrap btns-sobre">
-                                            <a href="#contato" className="btn btn-sobre btn-outline-primary me-md-5 sobre-icon-down"><BsChatLeftText className="sobre-icon me-2" />Entre em contato</a>
-                                            <a href={cv} target="_blank" rel="noreferrer noopener" className="btn btn-sobre btn-primary sobre-icon-down"><BsCloudArrowDown className="sobre-icon me-2" />Download CV</a>
+                                            <a href="#contato" className="btn-sobre btn-pattern info me-md-5 sobre-icon-down"><BsChatLeftText className="sobre-icon me-2" />Entre em contato</a>
+                                            <a href={cv} target="_blank" rel="noreferrer noopener" className="btn-sobre btn-pattern info-border sobre-icon-down"><BsCloudArrowDown className="sobre-icon me-2" />Download CV</a>
                                         </div>
                                     </div>
-                                </div>
+                                </Fade>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </Fade>
         </section>
     );
 }
