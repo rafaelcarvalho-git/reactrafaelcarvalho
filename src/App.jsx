@@ -8,6 +8,7 @@ import Header from './components/Header/Header'
 import Projetos from './components/Projetos/Projetos'
 import Sobre from './components/Sobre/Sobre'
 import Contato from './components/Contato/Contato'
+import ScrollToTop from './components/ScrollToTop/ScrollToTop'
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -27,6 +28,7 @@ function App() {
         <Experiencia />
         <Projetos />
         <Contato />
+        <ScrollToTop />
       </>
     );
   }
