@@ -9,6 +9,7 @@ import Projetos from './components/Projetos/Projetos'
 import Sobre from './components/Sobre/Sobre'
 import Contato from './components/Contato/Contato'
 import ScrollToTop from './components/ScrollToTop/ScrollToTop'
+import SwitchTheme from './components/SwitchTheme/SwitchTheme'
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -29,6 +30,8 @@ function App() {
         <Projetos />
         <Contato />
         <ScrollToTop />
+        {/*<SwitchTheme />
+        */}
       </>
     );
   }
