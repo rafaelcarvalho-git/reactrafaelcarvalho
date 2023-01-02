@@ -1,3 +1,7 @@
+.contato {
+  background-image: url('../../assets/images/bg-contato.jpg');
+}
+
 .contato a {
   text-decoration: none;
 }
