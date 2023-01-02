@@ -26,7 +26,7 @@ function Sobre() {
                                         </div>
                                         <h4>Rafael Carvalho</h4>
                                         <p className="lead mt-3">
-                                            Olá! Sou Desenvolvedor Web e estou me aventurando no mundo da programação. Com meus 22 anos tenho conhecimento geral em tecnologia, programação, banco de dados, segurança, hardware, software e redes. No momento estou fazendo alguns projetos web como freelancer, mas procuro uma oportunidade para ingressar por inteiro no ramo de desenvolvimento web e desktop.
+                                            Olá! Sou Desenvolvedor Web e estou me aventurando no mundo da programação. Com meus 22 anos tenho conhecimento geral em tecnologia, programação, banco de dados, segurança, hardware, software e redes. No momento estou fazendo alguns projetos web como freelancer, mas procuro uma oportunidade para ingressar por inteiro como desenvolvedor fullstack.
                                         </p>
                                         <div className="d-flex my-4">
                                             <FaUserGraduate className="about-icon me-2" /><p>Sistemas de Informação - 7° Semestre</p>
