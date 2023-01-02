@@ -19,7 +19,7 @@ function App() {
   }, 1000);
 
   if (loading === false) {
-    return <ReactLoading className="loader mx-auto my-auto" type={"spin"} color={"#0078ff"} height={100} width={100} />
+    return <ReactLoading className="loader mx-auto my-auto" type={"spin"} color={"#4361EE"} height={100} width={100} />
   } else {
     return (
       <>

@@ -16,6 +16,10 @@
   transition-property: transform;
 }
 
+.contato .contact-item h5 {
+  color: var(--royal-blue-600);
+}
+
 .contato .contact-icon {
   font-size: 48px !important;
 }
@@ -47,9 +51,9 @@ footer .social-icon {
   justify-content: center;
   align-items: center;
   border-radius: 100%;
-  box-shadow: 0 0 0 3px var(--color-primary);
+  box-shadow: 0 0 0 3px var(--royal-blue-500);
   transition: all 500ms ease;
-  background-color: var(--color-primary);
+  background-color: var(--royal-blue-500);
   color: white;
 }
 

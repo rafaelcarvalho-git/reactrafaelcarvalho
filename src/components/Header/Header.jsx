@@ -9,12 +9,11 @@ const y = " />";
 function Header() {
     return (
         <header id="home" className="bg-image">
-            <div className="header-overlay"></div>
             <Zoom>
                 <div className="header-content display-table">
                     <div className="table-cell">
                         <div className="container">
-                            <p className="display-6">Olá, eu sou</p>
+                            <p className="display-6 text-shadow">Olá, eu sou</p>
                             <h1 className="header-title mb-4 d-flex mx-auto text-shadow">
                                 <div className="letter-float d-flex ms-3">
                                     <span className="me-2">{x}</span>
@@ -37,7 +36,7 @@ function Header() {
                                     <span className="ms-2">{y}</span>
                                 </div>
                             </h1>
-                            <p className="header-subtitle"><Typed strings={['Web Developer',
+                            <p className="header-subtitle text-shadow"><Typed strings={['Web Developer',
                                 'System Analyst',
                                 'Information Technician',
                                 'Technology Lover ❤']}

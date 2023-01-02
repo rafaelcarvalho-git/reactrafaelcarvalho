@@ -2,8 +2,12 @@
     max-width: 280px;
 }
 
+.experiencia .work-company {
+    color: var(--royal-blue-400);
+}
+
 .experiencia .btn {
-    border: 1.5px solid var(--color-primary);
+    border: 1.5px solid var(--royal-blue-400);
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
     overflow: hidden;
@@ -18,7 +22,7 @@
     .experiencia .btn:hover,
     .experiencia .btn:focus,
     .experiencia .btn:active {
-        background-color: var(--color-primary) !important;
+        background-color: var(--royal-blue-500) !important;
         color: white;
     }
 }
@@ -26,7 +30,7 @@
 .btn-check:checked+.btn,
 :not(.btn-check)+.btn:active {
     color: white;
-    background-color: var(--color-primary) !important;
+    background-color: var(--royal-blue-500) !important;
 }
 
 @media (max-width:991px) {

@@ -1,6 +1,6 @@
 .habilidades .habilidade-icon {
     font-size: 48px;
-    color: var(--color-primary);
+    color: var(--royal-blue-500);
 }
 
 .habilidades .accordion-button {
@@ -40,11 +40,11 @@
 
 .habilidades .progress {
     height: 12.5px;
-    background-color: var(--color-gray) !important;
+    background-color: var(---royal-blue-50) !important;
 }
 
 .habilidades .progress-bar {
-    background-color: var(--color-primary) !important;
+    background-color: var(--royal-blue-400) !important;
 }
 
 .habilidades .skill-icon {

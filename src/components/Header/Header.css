@@ -9,17 +9,6 @@ header .header-content {
     position: absolute;
 }
 
-header .header-overlay {
-    background-color: rgba(0, 0, 0, 0.6);
-    position: absolute;
-    top: 0;
-    left: 0px;
-    padding: 0;
-    height: 100%;
-    width: 100%;
-    opacity: .8;
-}
-
 header .header-title {
     color: #fff;
     font-weight: 600;
@@ -29,7 +18,7 @@ header .header-title {
 }
 
 header .header-title span {
-    color: var(--color-primary);
+    color: var(--royal-blue-500);
     cursor: pointer;
     margin: auto;
 }
@@ -76,7 +65,7 @@ header .header-icon {
 header .header-icon:hover,
 header .header-icon:focus,
 header .header-icon:active {
-    color: var(--color-primary);
+    color: var(--royal-blue-500);
     -webkit-transform: scale(1.120);
     transform: scale(1.120);
 }

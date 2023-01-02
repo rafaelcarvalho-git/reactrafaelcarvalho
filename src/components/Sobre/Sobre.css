@@ -59,7 +59,7 @@
 
 .sobre .about-icon {
   font-size: 24px;
-  color: var(--color-primary);
+  color: var( --royal-blue-600);
 }
 
 @-webkit-keyframes hvr-icon-down {

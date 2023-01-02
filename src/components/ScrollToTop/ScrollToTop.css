@@ -12,7 +12,7 @@
     align-items: center;
     border-radius: 100%;
     transition: all 500ms ease;
-    background-color: var(--color-primary);
+    background-color: var( --royal-blue-500);
     color: white;
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
