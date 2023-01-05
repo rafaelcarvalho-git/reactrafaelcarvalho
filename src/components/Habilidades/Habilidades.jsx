@@ -27,7 +27,7 @@ function Habilidades() {
                                         data-bs-parent="#accordionHabilidades">
                                         <div className="accordion-body mt-4">
                                             {skills.map((skill) => {
-                                                if ((skill.id === 1) || (skill.id === 2) || (skill.id === 3) || (skill.id === 4) || (skill.id === 5)) {
+                                                if ([1, 2, 3, 4, 5].includes(skill.id)) {
                                                     return (
                                                         <div key={skill.id} className="mb-3">
                                                             <img className="skill-icon ms-2 me-2 mb-2" src={skill.skill_icon} alt="" />
@@ -58,7 +58,7 @@ function Habilidades() {
                                         data-bs-parent="#accordionHabilidades">
                                         <div className="accordion-body mt-4">
                                             {skills.map((skill) => {
-                                                if ((skill.id === 3) || (skill.id === 9) || (skill.id === 10) || (skill.id === 11)) {
+                                                if ([3, 9, 10, 11].includes(skill.id)) {
                                                     return (
                                                         <div key={skill.id} className="mb-3">
                                                             <img className="skill-icon ms-2 me-2 mb-2" src={skill.skill_icon} alt="" />
@@ -89,7 +89,7 @@ function Habilidades() {
                                         data-bs-parent="#accordionHabilidades">
                                         <div className="accordion-body mt-4">
                                             {skills.map((skill) => {
-                                                if ((skill.id === 6) || (skill.id === 7) || (skill.id === 8)) {
+                                                if ([6, 7, 8].includes(skill.id)) {
                                                     return (
                                                         <div key={skill.id} className="mb-3">
                                                             <img className="skill-icon ms-2 me-2 mb-2" src={skill.skill_icon} alt="" />
@@ -120,7 +120,7 @@ function Habilidades() {
                                         data-bs-parent="#accordionHabilidades">
                                         <div className="accordion-body mt-4">
                                             {skills.map((skill) => {
-                                                if ((skill.id === 12) || (skill.id === 13) || (skill.id === 14)) {
+                                                if ([12, 13, 14].includes(skill.id)) {
                                                     return (
                                                         <div key={skill.id} className="mb-3">
                                                             <img className="skill-icon ms-2 me-2 mb-2" src={skill.skill_icon} alt="" />
