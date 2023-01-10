@@ -2,6 +2,8 @@ import './Contato.css'
 import { BsGithub, BsWhatsapp, BsLinkedin, BsEnvelope, BsGeoAlt, BsPhone, BsInstagram } from 'react-icons/bs'
 import Fade from 'react-reveal/Fade'
 
+import * as S from './styles'
+
 const dataAtual = new Date();
 const anoAtual = dataAtual.getFullYear();
 

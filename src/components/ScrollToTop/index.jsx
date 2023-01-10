@@ -1,4 +1,4 @@
-import './ScrollToTop.css'
+import * as S from './styles'
 import { BsArrowUp } from 'react-icons/bs'
 import { useEffect, useState } from 'react'
 
@@ -28,7 +28,7 @@ function ScrollToTop() {
     return (
         <>
             {showButton && (
-                <button onClick={scrollToTop} className="back-to-top"><BsArrowUp /></button>
+                <S.ScrollButton onClick={scrollToTop} className="back-to-top"><BsArrowUp /></S.ScrollButton>
             )}
         </>
     );

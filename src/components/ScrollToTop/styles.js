@@ -1,4 +1,6 @@
-.back-to-top {
+import styled from 'styled-components'
+
+export const ScrollButton = styled.button`
     position: fixed;
     bottom: 20px;
     right: 20px;
@@ -22,14 +24,11 @@
     transition-property: transform;
     -webkit-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
-}
 
-@media (min-width: 768px) {
-
-    .back-to-top:hover,
-    .back-to-top:focus,
-    .back-to-top:active {
-        -webkit-transform: translateY(-8px);
-        transform: translateY(-8px);
+    @media (min-width: 768px) {
+        &:hover, &:focus, &:active {
+            -webkit-transform: translateY(-8px);
+            transform: translateY(-8px);
+        }
     }
-}
+`;
