@@ -1,4 +1,4 @@
-import './Projetos.css'
+import * as S from './styles'
 import '../../assets/swiper/swiper-bundle.min.css'
 import { Line } from '../../global.js'
 import { BsLink45Deg, BsCodeSlash } from "react-icons/bs"
@@ -9,7 +9,7 @@ import Fade from 'react-reveal/Fade'
 
 function Projetos() {
     return (
-        <section className="projetos sect-spacing">
+        <S.Projects className="projetos">
             <Fade>
                 <div className="container">
                     <div className="mb-5">
@@ -30,17 +30,17 @@ function Projetos() {
                                 <SwiperSlide key={projeto.id} className="px-5">
                                     <div class="row align-items-center mb-5 py-3 text-center text-lg-start">
                                         <div class="col-12 col-lg-6 d-flex mb-4 mb-lg-0">
-                                            <img class="rounded mx-auto projeto-img shadow" src={projeto.image} alt="project" />
+                                            <S.ProjectImage src={projeto.image} alt="project" />
                                         </div>
                                         <div class="col-12 col-lg-6 ps-lg-1 pe-lg-5">
                                             <div className="d-flex flex-column flex-lg-row align-items-center mb-4">
                                                 <h5 className="mb-4 mb-lg-0">{projeto.title}</h5>
-                                                <div className="projeto-icons ms-lg-auto justify-content-end">
+                                                <S.ProjectIcons className="ms-lg-auto">
                                                     {devicons.map((icon) => {
                                                         if (icon.id === projeto.id) { return <img src={icon.icon} width="28px" className="projeto-icon ms-2" alt="project icon" /> }
                                                     }
                                                     )}
-                                                </div>
+                                                </S.ProjectIcons>
                                             </div>
                                             <p className="pe-0 pe-lg-5 mb-4">{projeto.desc}</p>
                                             <div className="btn-group btn-group-md mt-4" role="group" aria-label="Basic example">
@@ -56,7 +56,7 @@ function Projetos() {
                     </Swiper>
                 </div>
             </Fade>
-        </section>
+        </S.Projects>
     );
 }
 

@@ -21,7 +21,7 @@ function Experiencia() {
                     </div>
                     <div className="row mx-auto align-items-center box-shadow-full shadow rounded pt-5 pt-lg-4 ">
                         <div className="col-lg-3 col-12">
-                            <div className="btn-group-vertical mx-auto d-flex" role="group" aria-label="Empregos">
+                            <S.BtnGroup className="btn-group-vertical mx-auto d-flex" role="group" aria-label="Empregos">
                                 <S.BtnCheck type="radio" className="btn-check" name="job" id="job1" autocomplete="off" onClick={() => switchWork(1)} />
                                 <S.BtnLabel className="btn btn-outline-primary py-2" for="job1">E2S CERTIFICADORA</S.BtnLabel>
 
@@ -33,7 +33,7 @@ function Experiencia() {
 
                                 <S.BtnCheck type="radio" className="btn-check" name="job" id="job4" autocomplete="off" onClick={() => switchWork(4)} />
                                 <S.BtnLabel className="btn btn-outline-primary py-2" for="job4">FREELANCER</S.BtnLabel>
-                            </div>
+                            </S.BtnGroup>
                         </div>
                         <div className="text-center text-lg-start col-lg-9 col-12">
                             {works.map((work) => {

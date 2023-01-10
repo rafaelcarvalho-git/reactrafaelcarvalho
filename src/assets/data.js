@@ -19,6 +19,8 @@ import iconcv from './projects-images/projects-icons/canva-original.svg'
 import iconfi from './projects-images/projects-icons/figma-original.svg'
 import iconpy from './projects-images/projects-icons/python-original.svg'
 import icongt from './projects-images/projects-icons/github-original.svg'
+import iconstyled from './projects-images/projects-icons/styled.svg'
+import iconazure from './projects-images/projects-icons/azure.svg'
 
 export const devicons = [
     { id: 1, icon: iconhtml },
@@ -68,7 +70,9 @@ export const skills = [
     { id: 11, skill_name: "MYSQL - PHPMYADMIN", skill_icon: iconmysql, skill_progress: "progress-bar skill_progress_70" },
     { id: 12, skill_name: "HARDWARE", skill_icon: iconhard, skill_progress: "progress-bar skill_progress_95" },
     { id: 13, skill_name: "GIT - GITHUB", skill_icon: icongt, skill_progress: "progress-bar skill_progress_70" },
-    { id: 14, skill_name: "SEGURANÇA DIGITAL", skill_icon: iconsec, skill_progress: "progress-bar skill_progress_50" }
+    { id: 14, skill_name: "SEGURANÇA DIGITAL", skill_icon: iconsec, skill_progress: "progress-bar skill_progress_50" },
+    { id: 15, skill_name: "STYLED COMPONENTS", skill_icon: iconstyled, skill_progress: "progress-bar skill_progress_50" },
+    { id: 16, skill_name: "AZURE DEVOPS", skill_icon: iconazure, skill_progress: "progress-bar skill_progress_40" }
 ];
 
 export const works = [

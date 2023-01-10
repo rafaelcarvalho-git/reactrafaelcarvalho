@@ -12,7 +12,7 @@ export const Experience = styled.section`
 `;
 
 export const BtnGroup = styled.div`
-    max-width: 280px;
+    max-width: 280px !important;
 
     @media (max-width:991px) {
         margin-bottom: 20px;
