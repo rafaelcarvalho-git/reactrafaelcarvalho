@@ -3,7 +3,13 @@ import contact from '../../assets/images/bg-contato.jpg'
 import { BsEnvelope, BsGeoAlt, BsPhone } from 'react-icons/bs'
 
 export const Contato = styled.section`
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
     background-image: url(${contact});
+    padding-top: 4.8rem !important;
+    padding-bottom: 2.5rem !important;
 `;
 
 export const ContactItem = styled.div`

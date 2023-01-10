@@ -8,7 +8,7 @@ const anoAtual = dataAtual.getFullYear();
 
 function Contato() {
     return (
-        <S.Contato id="contato" className="contato bg-image sect-spacing pb-4">
+        <S.Contato id="contato">
             <Fade>
                 <div className="container">
                     <div className="box-shadow-full shadow py-4 rounded">

@@ -1,6 +1,6 @@
 import * as S from './styles'
 import '../../assets/swiper/swiper-bundle.min.css'
-import { Line } from '../../global.js'
+import { Line, TitleSection } from '../../global.js'
 import { BsLink45Deg, BsCodeSlash } from "react-icons/bs"
 import { projetos, devicons } from '../../assets/data.js'
 import { Swiper, SwiperSlide } from 'swiper/react'
@@ -12,10 +12,10 @@ function Projetos() {
         <S.Projects className="projetos">
             <Fade>
                 <div className="container">
-                    <div className="mb-5">
-                        <h3 className="title-section">PROJETOS</h3>
+                    <TitleSection>
+                        <h3>PROJETOS</h3>
                         <Line />
-                    </div>
+                    </TitleSection>
                     <Swiper
                         cssMode={true}
                         navigation={true}
