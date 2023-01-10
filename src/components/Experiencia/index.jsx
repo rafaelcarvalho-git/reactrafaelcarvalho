@@ -1,5 +1,5 @@
 import * as S from './styles'
-import { Line } from '../../global.js'
+import { Line, TitleSection, Title } from '../../global.js'
 import { works } from '../../assets/data.js'
 import React, { useState } from 'react'
 import Zoom from 'react-reveal/Zoom'
@@ -15,10 +15,10 @@ function Experiencia() {
         <S.Experience>
             <Zoom>
                 <div className="container">
-                    <div className="mb-5">
-                        <h3 className="title-section text-white text-shadow">EXPERIÊNCIA</h3>
+                    <TitleSection>
+                        <Title className="text-white text-shadow">EXPERIÊNCIA</Title>
                         <Line />
-                    </div>
+                    </TitleSection>
                     <div className="row mx-auto align-items-center box-shadow-full shadow rounded pt-5 pt-lg-4 ">
                         <div className="col-lg-3 col-12">
                             <S.BtnGroup className="btn-group-vertical mx-auto d-flex" role="group" aria-label="Empregos">
