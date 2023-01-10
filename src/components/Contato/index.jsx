@@ -1,4 +1,5 @@
 import * as S from './styles'
+import { Line } from '../../global.js'
 import { BsGithub, BsWhatsapp, BsLinkedin, BsInstagram } from 'react-icons/bs'
 import Fade from 'react-reveal/Fade'
 
@@ -13,7 +14,7 @@ function Contato() {
                     <div className="box-shadow-full shadow py-4 rounded">
                         <div className="pt-2 pb-5 pt-md-0">
                             <h3 className="text-center">Entre em contato</h3>
-                            <div className="line mx-auto"></div>
+                            <Line />
                         </div>
                         <div className="row mt-2">
                             <Fade left>
