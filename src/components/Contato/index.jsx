@@ -1,0 +1,65 @@
+import * as S from './styles'
+import { BsGithub, BsWhatsapp, BsLinkedin, BsInstagram } from 'react-icons/bs'
+import Fade from 'react-reveal/Fade'
+
+const dataAtual = new Date();
+const anoAtual = dataAtual.getFullYear();
+
+function Contato() {
+    return (
+        <S.Contato id="contato" className="contato bg-image sect-spacing pb-4">
+            <Fade>
+                <div className="container">
+                    <div className="box-shadow-full shadow py-4 rounded">
+                        <div className="pt-2 pb-5 pt-md-0">
+                            <h3 className="text-center">Entre em contato</h3>
+                            <div className="line mx-auto"></div>
+                        </div>
+                        <div className="row mt-2">
+                            <Fade left>
+                                <a href="tel:+5588988573004" className="col-lg-4 text-center mb-4 text-decoration-none">
+                                    <S.ContactItem>
+                                        <S.ContactPhone className="contact-icon mb-3 text-dark" />
+                                        <h5>(88) 98857-3004</h5>
+                                        <p className="text-secondary">Seg a sab 8h - 18h</p>
+                                    </S.ContactItem>
+                                </a>
+                            </Fade>
+                            <Fade up>
+                                <a href="https://goo.gl/maps/H8iavTc2CnMzzvma7" target="_blank" rel="noreferrer noopener" className="col-lg-4 text-center mb-4 text-decoration-none">
+                                    <S.ContactItem>
+                                        <S.ContactGeo className="contact-icon mb-3 text-dark" />
+                                        <h5>Juazeiro do Norte</h5>
+                                        <p className="text-secondary">Ceará, Brasil</p>
+                                    </S.ContactItem>
+                                </a>
+                            </Fade>
+                            <Fade right>
+                                <a href="mailto:rafaskyplay@gmail.com" className="col-lg-4 text-center mb-4 text-decoration-none">
+                                    <S.ContactItem>
+                                        <S.ContactMail className="contact-icon mb-3 text-dark" />
+                                        <h5>rafaskyplay@gmail.com</h5>
+                                        <p className="text-secondary">Aguardo a sua mensagem</p>
+                                    </S.ContactItem>
+                                </a>
+                            </Fade>
+                        </div>
+                    </div>
+                </div>
+                <S.Footer>
+                    <div className="container">
+                        <S.FooterIcons className="social d-flex mx-auto mb-3">
+                            <S.Icon href="https://github.com/rafaelcarvalho-git" target="_blank" rel="noreferrer noopener"><BsGithub /></S.Icon>
+                            <S.Icon href="https://api.whatsapp.com/send/?phone=5588988573004&text&app_absent=0" target="_blank" rel="noreferrer noopener"><BsWhatsapp /></S.Icon>
+                            <S.Icon href="https://www.linkedin.com/in/rafaelcarvalho-ti" target="_blank" rel="noreferrer noopener"><BsLinkedin /></S.Icon>
+                            <S.Icon href="https://www.instagram.com/rafaelcarvalho.py/" target="_blank" rel="noreferrer noopener"><BsInstagram /></S.Icon>
+                        </S.FooterIcons>
+                        <p className="pb-0 mb-0 text-shadow">&copy; {anoAtual} - Rafael Carvalho</p>
+                    </div>
+                </S.Footer>
+            </Fade>
+        </S.Contato>
+    );
+}
+
+export default Contato;

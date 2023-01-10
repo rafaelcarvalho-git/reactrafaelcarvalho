@@ -1,5 +1,6 @@
 import './Projetos.css'
 import '../../assets/swiper/swiper-bundle.min.css'
+import { Line } from '../../global.js'
 import { BsLink45Deg, BsCodeSlash } from "react-icons/bs"
 import { projetos, devicons } from '../../assets/data.js'
 import { Swiper, SwiperSlide } from 'swiper/react'
@@ -13,7 +14,7 @@ function Projetos() {
                 <div className="container">
                     <div className="mb-5">
                         <h3 className="title-section">PROJETOS</h3>
-                        <div className="line"></div>
+                        <Line />
                     </div>
                     <Swiper
                         cssMode={true}
@@ -43,8 +44,8 @@ function Projetos() {
                                             </div>
                                             <p className="pe-0 pe-lg-5 mb-4">{projeto.desc}</p>
                                             <div className="btn-group btn-group-md mt-4" role="group" aria-label="Basic example">
-                                                <a href={projeto.live} target="_blank" rel="noreferrer noopener" className="btn btn-outline-dark"><BsLink45Deg className="me-2" />Live</a>
-                                                <a href={projeto.code} target="_blank" rel="noreferrer noopener" className="btn btn-dark">Code<BsCodeSlash className="ms-2" /></a>
+                                                <a href={projeto.live} target="_blank" rel="noreferrer noopener" className="btn-pattern info-border px-3"><BsLink45Deg className="me-2" />Live</a>
+                                                <a href={projeto.code} target="_blank" rel="noreferrer noopener" className="btn-pattern info px-3">Code<BsCodeSlash className="ms-2" /></a>
                                             </div>
                                         </div>
                                     </div>

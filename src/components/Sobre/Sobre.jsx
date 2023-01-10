@@ -1,4 +1,5 @@
 import './Sobre.css'
+import { Line } from '../../global.js'
 import cv from '../../assets/Curriculo Rafael Candido Lacerda Carvalho.pdf'
 import dev from '../../assets/images/sobre-img.png'
 import { FaUserGraduate } from "react-icons/fa"
@@ -22,7 +23,7 @@ function Sobre() {
                                     <div className="pt-4 pt-md-0">
                                         <div className="mb-5">
                                             <h3>Sobre mim</h3>
-                                            <div className="line m-0"></div>
+                                            <Line className="m-0"/>
                                         </div>
                                         <h4>Rafael Carvalho</h4>
                                         <p className="lead mt-3">

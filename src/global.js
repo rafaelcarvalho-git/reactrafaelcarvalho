@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 import { createGlobalStyle } from 'styled-components'
 import header from '../src/assets/images/bg-image.jpg'
+import ReactLoading from 'react-loading'
 
 export const GlobalStyle = createGlobalStyle`
 body {
@@ -42,22 +43,6 @@ body {
   .sect-spacing {
     padding-top: 4.8rem !important;
     padding-bottom: 2.5rem !important;
-  }
-  
-  .loader {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;    
-  }
-  
-  .line {
-    width: 75px;
-    height: 5.2px;
-    background-color: var(--royal-blue-600);
-    margin: 0 auto;
   }
   
   .text-shadow {
@@ -147,11 +132,18 @@ body {
   }
 `;
 
-export const ReactLoading = styled.div`
-position: absolute;
-top: 0;
-bottom: 0;
-left: 0;
-right: 0;
-margin: auto;  
+export const Loading = styled(ReactLoading)`
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;  
+`;
+
+export const Line = styled.div`
+  width: 75px;
+  height: 5.2px;
+  background-color: var(--royal-blue-600);
+  margin: 0 auto;
 `;

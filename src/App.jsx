@@ -1,18 +1,14 @@
-//import './App.css'
+import { GlobalStyle, Loading } from './global'
 import './assets/bootstrap/bootstrap.min.css'
 import React, { useState } from 'react'
-import ReactLoading from 'react-loading'
 import Header from './components/Header/index'
+import Sobre from './components/Sobre/Sobre'
 import Experiencia from './components/Experiencia/Experiencia'
 import Habilidades from './components/Habilidades/Habilidades'
 import Projetos from './components/Projetos/Projetos'
-import Sobre from './components/Sobre/Sobre'
-import Contato from './components/Contato/Contato'
+import Contato from './components/Contato/index'
 import ScrollToTop from './components/ScrollToTop/index'
 import SwitchTheme from './components/SwitchTheme/SwitchTheme'
-
-
-import { GlobalStyle } from './global'
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -22,7 +18,7 @@ function App() {
   }, 1000);
 
   if (loading === false) {
-    return <ReactLoading className="loader mx-auto my-auto" type={"spin"} color={"#4361EE"} height={100} width={100} />
+    return <Loading className="loader mx-auto my-auto" type={"spin"} color={"#4361EE"} height={100} width={100} />
   } else {
     return (
       <>

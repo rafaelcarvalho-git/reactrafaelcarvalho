@@ -1,4 +1,5 @@
 import './Habilidades.css'
+import { Line } from '../../global.js'
 import { skills } from '../../assets/data.js'
 import { BsBraces, BsLaptop, BsCodeSquare } from "react-icons/bs"
 import { VscServerProcess } from "react-icons/vsc"
@@ -11,7 +12,7 @@ function Habilidades() {
                 <div className="container">
                     <div className="mb-5">
                         <h3 className="title-section">HABILIDADES</h3>
-                        <div className="line"></div>
+                        <Line />
                     </div>
                     <div className="accordion accordion-flush row" id="accordionHabilidades">
                         <Fade left>
