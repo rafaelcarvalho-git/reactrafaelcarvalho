@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { primaryColor } from '../../global.js'
 
 export const ScrollButton = styled.button`
     position: fixed;
@@ -14,7 +15,7 @@ export const ScrollButton = styled.button`
     align-items: center;
     border-radius: 100%;
     transition: all 500ms ease;
-    background-color: var( --royal-blue-500);
+    background-color: ${primaryColor};
     color: white;
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);

@@ -28,7 +28,7 @@ function ScrollToTop() {
     return (
         <>
             {showButton && (
-                <S.ScrollButton onClick={scrollToTop} className="back-to-top"><BsArrowUp /></S.ScrollButton>
+                <S.ScrollButton onClick={scrollToTop}><BsArrowUp /></S.ScrollButton>
             )}
         </>
     );
