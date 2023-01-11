@@ -48,7 +48,7 @@ export const devicons = [
 
 export const projetos = [
     { id: 1, title: "Portfólio E2S", desc: "Portfólio para exibição dos seus produtos/serviços e informações para contato e localização.", image: projeto1, code: "https://github.com/rafaelcarvalho-git/e2sweb", live: "https://e2s-corretoradeseguros.web.app/" },
-    { id: 2, title: "SisCert E2S", desc: "Sistema Web interno para os parceiros solicitarem certificados digitais e terem informações sobre essas solicitações.", image: projeto2, code: "https://github.com/rafaelcarvalho-git/e2sweb", live: "https://e2s-corretoradeseguros.web.app/" },
+    { id: 2, title: "SisCert E2S", desc: "Sistema Web interno para os parceiros solicitarem certificados digitais e terem informações sobre essas solicitações.", image: projeto2, code: "https://github.com/rafaelcarvalho-git/e2sweb", live: "https://www.linkedin.com/posts/rafaelcarvalho-ti_desenvolvimentoweb-frontend-backend-ugcPost-6980171319011082240-CNQ5?utm_source=share&utm_medium=member_desktop" },
     { id: 3, title: "React Rick and Morty", desc: "Projeto com react para exibir os personagens da série Rick and Morty utilizando a API.", image: projeto3, code: "https://github.com/rafaelcarvalho-git/rickandmorty", live: "https://reactrickandmorty.web.app/" },
     /*{ id: 4, title: "React Twitter Trends", desc: "Projeto com react para exibir os trend topics do Twitter em tempo real.", image: "https://rafaelcarvalho-dev.web.app/img/e2scert.png", code: "https://github.com/rafaelcarvalho-git/twittertrends", live: "https://reacttwittertrends.web.app/" },*/
     { id: 5, title: "Personal Trainer", desc: "Website Portfólio para Personal Trainer", image: projeto5, code: "", live: "https://templatepersonaltrainer.web.app/" },
