@@ -1,5 +1,5 @@
 import * as S from './styles'
-import { Line } from '../../global.js'
+import { ContentBox, Line } from '../../global.js'
 import { BsGithub, BsWhatsapp, BsLinkedin, BsInstagram } from 'react-icons/bs'
 import Fade from 'react-reveal/Fade'
 
@@ -11,8 +11,8 @@ function Contato() {
         <S.Contato id="contato">
             <Fade>
                 <div className="container">
-                    <div className="box-shadow-full shadow py-4 rounded">
-                        <div className="pt-2 pb-5 pt-md-0">
+                    <S.ContactBox>
+                        <div className="pt-0 pb-5 pt-md-0">
                             <h3 className="text-center">Entre em contato</h3>
                             <Line />
                         </div>
@@ -45,7 +45,7 @@ function Contato() {
                                 </a>
                             </Fade>
                         </div>
-                    </div>
+                    </S.ContactBox>
                 </div>
                 <S.Footer>
                     <div className="container">

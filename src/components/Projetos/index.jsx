@@ -1,6 +1,6 @@
 import * as S from './styles'
 import '../../assets/swiper/swiper-bundle.min.css'
-import { Line, TitleSection } from '../../global.js'
+import { Line, TitleSection, Title } from '../../global.js'
 import { BsLink45Deg, BsCodeSlash } from "react-icons/bs"
 import { projetos, devicons } from '../../assets/data.js'
 import { Swiper, SwiperSlide } from 'swiper/react'
@@ -13,7 +13,7 @@ function Projetos() {
             <Fade>
                 <div className="container">
                     <TitleSection>
-                        <h3>PROJETOS</h3>
+                        <Title>PROJETOS</Title>
                         <Line />
                     </TitleSection>
                     <Swiper

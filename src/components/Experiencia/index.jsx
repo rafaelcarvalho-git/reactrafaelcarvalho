@@ -19,7 +19,7 @@ function Experiencia() {
                         <Title className="text-white text-shadow">EXPERIÊNCIA</Title>
                         <Line />
                     </TitleSection>
-                    <div className="row mx-auto align-items-center box-shadow-full shadow rounded pt-5 pt-lg-4 ">
+                    <S.ExperienceBox className="row pt-5 pt-lg-4">
                         <div className="col-lg-3 col-12">
                             <S.BtnGroup className="btn-group-vertical mx-auto d-flex" role="group" aria-label="Empregos">
                                 <S.BtnCheck type="radio" className="btn-check" name="job" id="job1" autocomplete="off" onClick={() => switchWork(1)} />
@@ -52,7 +52,7 @@ function Experiencia() {
                             }
                             )}
                         </div>
-                    </div>
+                    </S.ExperienceBox>
                 </div>
             </Zoom>
         </S.Experience>

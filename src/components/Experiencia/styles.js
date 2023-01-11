@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { ContentBox } from '../../global.js'
 import experience from '../../assets/images/bg-image.jpg'
 
 export const Experience = styled.section`
@@ -9,6 +10,14 @@ export const Experience = styled.section`
     background-image: url(${experience});
     padding-top: 4.8rem !important;
     padding-bottom: 2.5rem !important;
+`;
+
+export const ExperienceBox = styled(ContentBox)`
+  padding-top: 1.5rem !important;
+  padding-bottom: 1.5rem !important;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
 `;
 
 export const BtnGroup = styled.div`

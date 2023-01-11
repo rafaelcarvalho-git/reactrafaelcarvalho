@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { ContentBox } from '../../global.js'
 import contact from '../../assets/images/bg-contato.jpg'
 import { BsEnvelope, BsGeoAlt, BsPhone } from 'react-icons/bs'
 
@@ -10,6 +11,11 @@ export const Contato = styled.section`
     background-image: url(${contact});
     padding-top: 4.8rem !important;
     padding-bottom: 2.5rem !important;
+`;
+
+export const ContactBox = styled(ContentBox)`
+  padding-top: 1.5rem !important;
+  padding-bottom: 1.5rem !important;
 `;
 
 export const ContactItem = styled.div`
