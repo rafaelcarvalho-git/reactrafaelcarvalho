@@ -2,13 +2,40 @@ import styled from 'styled-components'
 import { createGlobalStyle } from 'styled-components'
 import ReactLoading from 'react-loading'
 
-export const primaryColor = ""
-export const secondaryColor = ""
+export const colorBlack = "#252525"
+export const colorWhite = "#FFFFFF"
+export const primaryColor = "#4361ee"
+export const secondaryColor = "#2d41e3"
+export const tertiaryColor = "#6789f3"
+export const quaternaryColor = "#f0f3fe"
+
 export const bgLight = "#F8F9FA"
-export const bgDark = "#212529"
-export const bgBlack = "#1b1b1c"
+export const bgDark = "#1b1b1c"
+export const bgBlack = "#252525"
+
+export const borderLight = "#dee2e6"
+export const borderDark = "#ebebeb"
+
 export const textLightTheme = "#252525"
 export const textDarkTheme = "#fff"
+export const textShadow = "0 0 1em #252525, 0 0 1em #252525"
+
+
+export const lightTheme = {
+  body: bgLight,
+  contentBox: bgLight,
+  contentBorder: borderLight,
+  textPrimary: textLightTheme,
+  textSecondary: textDarkTheme,
+};
+
+export const darkTheme = {
+  body: bgDark,
+  contentBox: bgDark,
+  contentBorder: borderDark,
+  textPrimary: textDarkTheme,
+  textSecondary: textLightTheme,
+};
 
 export const GlobalStyle = createGlobalStyle`
   body {
@@ -19,70 +46,9 @@ export const GlobalStyle = createGlobalStyle`
         sans-serif;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
-      overflow-x: hidden;
-  
-    }
-:root {
-    --color-black: #252525;
-    --royal-blue-50: #f0f3fe;
-    --royal-blue-100: #dce3fd;
-    --royal-blue-200: #c2cffb;
-    --royal-blue-300: #98b1f8;
-    --royal-blue-400: #6789f3;
-    --royal-blue-500: #4361ee;
-    --royal-blue-600: #2d41e3;
-    --royal-blue-700: #252fd0;
-    --royal-blue-800: #2428a9;
-    --royal-blue-900: #232885;
-  }
-  
-  .text-shadow {
-    text-shadow: 0 0 1em #252525, 0 0 1em #252525;
-  }
-  
-
-
-  
-  .btn-pattern {
-    display: inline-block;
-    outline: none;
-    line-height: 40px;
-    padding: 0 30px;
-    text-align: center;
-    text-decoration: none;
-    cursor: pointer;
-    -webkit-transition: all 0.3s ease 0s;
-    -moz-transition: all 0.3s ease 0s;
-    -o-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s;
-  }
-  
-  .btn-pattern:focus {
-    outline: none;
-  }
-  
-  .btn-pattern.info {
-    color: #fff;
-    background: var(--royal-blue-500);
-    border: 1px solid transparent;
-  }
-  
-  .btn-pattern.info:hover {
-    color: var(--royal-blue-500);
-    border: 1px solid var(--royal-blue-500);
-    background: #fff;
-  }
-  
-  .btn-pattern.info-border {
-    color: var(--royal-blue-500);
-    border: 1px solid var(--royal-blue-500);
-    background: #fff;
-  }
-  
-  .btn-pattern.info-border:hover {
-    color: #fff;
-    background: var(--royal-blue-500);
-    border: 1px solid transparent;
+      overflow-x: hidden;  
+      background-color: ${({ theme }) => theme.body};
+      color: ${({ theme }) => theme.textPrimary} !important;
   }
 `;
 
@@ -98,7 +64,7 @@ export const Loading = styled(ReactLoading)`
 export const Line = styled.div`
   width: 75px;
   height: 5.2px;
-  background-color: var(--royal-blue-600);
+  background-color: ${secondaryColor};
   margin: 0 auto;
 `;
 
@@ -110,9 +76,10 @@ export const ContentBox = styled.div`
   z-index: 2;
   box-shadow: 0 .5rem 1rem rgba(33, 37, 41, .15) !important;
   border-radius: 0.5rem;
-  border: 1px solid #dee2e6 !important;
   padding-top: 3rem !important;
-  padding-bottom: 3rem !important
+  padding-bottom: 3rem !important;
+  border: 1px solid ${({ theme }) => theme.contentBorder} !important;
+  background-color: ${({ theme }) => theme.contentBox};
 `;
 
 export const TitleSection = styled.div`
@@ -120,11 +87,17 @@ export const TitleSection = styled.div`
 `;
 
 export const Title = styled.h3`
-  color: ${(textLightTheme)};
   font-size: 2.5rem;
   font-weight: bold;
   text-transform: uppercase;
   text-align: center; 
+  text-shadow: ${props => props.textShadow ? textShadow : 'none'};
+
+  /*color: ${props => props.textColor ? colorBlack : colorWhite};*/
+  
+  color: ${({ theme }) => theme.textColor};
+
+  /*color: ${({ theme }) => theme.textPrimary ? 'red' : 'blue'};*/
 
   @media (max-width: 991px) {     
       font-size: 2.4rem;    
@@ -139,5 +112,31 @@ export const Title = styled.h3`
   }
   @media (max-width: 471px) {     
       font-size: 2.1rem;    
+  }
+`;
+
+export const Button = styled.a`
+  display: inline-block;
+  outline: none;
+  line-height: 40px;
+  padding: 0 30px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  color: ${props => `${props.textColor}`};
+  background-color: ${props => `${props.bgColor}`};
+  border: 1px solid ${primaryColor};
+
+  &:hover {
+    color: ${props => `${props.bgColor}`};;
+    background: ${props => `${props.textColor}`};;
+  }
+
+  &:focus {
+    outline: none;
   }
 `;
