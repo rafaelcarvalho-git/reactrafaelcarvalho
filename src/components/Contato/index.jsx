@@ -1,7 +1,7 @@
 import * as S from './styles'
-import { ContentBox, Line } from '../../global.js'
+import { Line } from '../../global.js'
 import { BsGithub, BsWhatsapp, BsLinkedin, BsInstagram } from 'react-icons/bs'
-import Fade from 'react-reveal/Fade'
+import { Fade } from 'react-reveal'
 
 const dataAtual = new Date();
 const anoAtual = dataAtual.getFullYear();
@@ -17,28 +17,28 @@ function Contato() {
                             <Line />
                         </div>
                         <div className="row mt-2">
-                            <Fade left>
+                            <Fade>
                                 <a href="tel:+5588988573004" className="col-lg-4 text-center mb-4 text-decoration-none">
                                     <S.ContactItem>
-                                        <S.ContactPhone className="contact-icon mb-3 text-dark" />
+                                        <S.ContactPhone />
                                         <h5>(88) 98857-3004</h5>
                                         <p className="text-secondary">Seg a sab 8h - 18h</p>
                                     </S.ContactItem>
                                 </a>
                             </Fade>
-                            <Fade up>
+                            <Fade>
                                 <a href="https://goo.gl/maps/H8iavTc2CnMzzvma7" target="_blank" rel="noreferrer noopener" className="col-lg-4 text-center mb-4 text-decoration-none">
                                     <S.ContactItem>
-                                        <S.ContactGeo className="contact-icon mb-3 text-dark" />
+                                        <S.ContactGeo />
                                         <h5>Juazeiro do Norte</h5>
                                         <p className="text-secondary">Ceará, Brasil</p>
                                     </S.ContactItem>
                                 </a>
                             </Fade>
-                            <Fade right>
+                            <Fade>
                                 <a href="mailto:rafaskyplay@gmail.com" className="col-lg-4 text-center mb-4 text-decoration-none">
                                     <S.ContactItem>
-                                        <S.ContactMail className="contact-icon mb-3 text-dark" />
+                                        <S.ContactMail />
                                         <h5>rafaskyplay@gmail.com</h5>
                                         <p className="text-secondary">Aguardo a sua mensagem</p>
                                     </S.ContactItem>
@@ -49,7 +49,7 @@ function Contato() {
                 </div>
                 <S.Footer>
                     <div className="container">
-                        <S.FooterIcons className="social d-flex mx-auto mb-3">
+                        <S.FooterIcons>
                             <S.Icon href="https://github.com/rafaelcarvalho-git" target="_blank" rel="noreferrer noopener"><BsGithub /></S.Icon>
                             <S.Icon href="https://api.whatsapp.com/send/?phone=5588988573004&text&app_absent=0" target="_blank" rel="noreferrer noopener"><BsWhatsapp /></S.Icon>
                             <S.Icon href="https://www.linkedin.com/in/rafaelcarvalho-ti" target="_blank" rel="noreferrer noopener"><BsLinkedin /></S.Icon>

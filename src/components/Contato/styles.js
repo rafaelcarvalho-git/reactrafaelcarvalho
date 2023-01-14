@@ -1,7 +1,8 @@
 import styled from 'styled-components'
-import { ContentBox } from '../../global.js'
+import { primaryColor, secondaryColor, ContentBox } from '../../global.js'
 import contact from '../../assets/images/bg-contato.jpg'
 import { BsEnvelope, BsGeoAlt, BsPhone } from 'react-icons/bs'
+import { Fade } from 'react-reveal'
 
 export const Contato = styled.section`
     background-repeat: no-repeat;
@@ -37,19 +38,25 @@ export const ContactItem = styled.div`
 `;
 
 export const ContactInfo = styled.h5`
-    color: var(--royal-blue-600);
+    color: ${secondaryColor};
 `;
 
 export const ContactPhone = styled(BsPhone)`
     font-size: 48px !important;
+    margin-bottom: 1rem !important;
+    color: ${( {theme} ) => theme.textPrimary } !important;
 `;
 
 export const ContactGeo = styled(BsGeoAlt)`
     font-size: 48px !important;
+    margin-bottom: 1rem !important;
+    color: ${( {theme} ) => theme.textPrimary } !important;
 `;
 
 export const ContactMail = styled(BsEnvelope)`
     font-size: 48px !important;
+    margin-bottom: 1rem !important;
+    color: ${( {theme} ) => theme.textPrimary } !important;
 `;
 
 export const Footer = styled.footer`
@@ -59,6 +66,8 @@ export const Footer = styled.footer`
 
 export const FooterIcons = styled.div`
     max-width: 262px;
+    display: flex;
+    margin: auto auto 1rem auto;
 `;
 
 export const Icon = styled.a`
@@ -69,9 +78,9 @@ export const Icon = styled.a`
     justify-content: center;
     align-items: center;
     border-radius: 100%;
-    box-shadow: 0 0 0 3px var(--royal-blue-500);
+    box-shadow: 0 0 0 3px ${primaryColor};
     transition: all 500ms ease;
-    background-color: var(--royal-blue-500);
+    background-color: ${primaryColor};
     color: white !important;
     margin: auto;
 

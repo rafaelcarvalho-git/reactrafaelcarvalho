@@ -57,22 +57,22 @@ export const projetos = [
 ];
 
 export const skills = [
-    { id: 1, skill_name: "HTML", skill_icon: iconhtml, skill_progress: "progress-bar skill_progress_95" },
-    { id: 2, skill_name: "CSS", skill_icon: iconcss, skill_progress: "progress-bar skill_progress_85" },
-    { id: 3, skill_name: "JAVASCRIPT", skill_icon: iconjs, skill_progress: "progress-bar skill_progress_55" },
-    { id: 4, skill_name: "BOOTSTRAP", skill_icon: iconbs, skill_progress: "progress-bar skill_progress_90" },
-    { id: 5, skill_name: "REACT JS", skill_icon: iconreact, skill_progress: "progress-bar skill_progress_50" },
-    { id: 6, skill_name: "ADOBE PHOTOSHOP", skill_icon: iconps, skill_progress: "progress-bar skill_progress_60" },
-    { id: 7, skill_name: "FIGMA", skill_icon: iconfi, skill_progress: "progress-bar skill_progress_45" },
-    { id: 8, skill_name: "CANVA", skill_icon: iconcv, skill_progress: "progress-bar skill_progress_40" },
-    { id: 9, skill_name: "PHP", skill_icon: iconphp, skill_progress: "progress-bar skill_progress_50" },
-    { id: 10, skill_name: "PYTHON", skill_icon: iconpy, skill_progress: "progress-bar skill_progress_50" },
-    { id: 11, skill_name: "MYSQL - PHPMYADMIN", skill_icon: iconmysql, skill_progress: "progress-bar skill_progress_70" },
-    { id: 12, skill_name: "HARDWARE", skill_icon: iconhard, skill_progress: "progress-bar skill_progress_95" },
-    { id: 13, skill_name: "GIT - GITHUB", skill_icon: icongt, skill_progress: "progress-bar skill_progress_70" },
-    { id: 14, skill_name: "SEGURANÇA DIGITAL", skill_icon: iconsec, skill_progress: "progress-bar skill_progress_50" },
-    { id: 15, skill_name: "STYLED COMPONENTS", skill_icon: iconstyled, skill_progress: "progress-bar skill_progress_50" },
-    { id: 16, skill_name: "AZURE DEVOPS", skill_icon: iconazure, skill_progress: "progress-bar skill_progress_40" }
+    { id: 1, skill_name: "HTML", skill_icon: iconhtml, skill_progress: "95" },
+    { id: 2, skill_name: "CSS", skill_icon: iconcss, skill_progress: "85" },
+    { id: 3, skill_name: "JAVASCRIPT", skill_icon: iconjs, skill_progress: "55" },
+    { id: 4, skill_name: "BOOTSTRAP", skill_icon: iconbs, skill_progress: "90" },
+    { id: 5, skill_name: "REACT JS", skill_icon: iconreact, skill_progress: "55" },
+    { id: 6, skill_name: "ADOBE PHOTOSHOP", skill_icon: iconps, skill_progress: "65" },
+    { id: 7, skill_name: "FIGMA", skill_icon: iconfi, skill_progress: "50" },
+    { id: 8, skill_name: "CANVA", skill_icon: iconcv, skill_progress: "45" },
+    { id: 9, skill_name: "PHP", skill_icon: iconphp, skill_progress: "50" },
+    { id: 10, skill_name: "PYTHON", skill_icon: iconpy, skill_progress: "50" },
+    { id: 11, skill_name: "MYSQL - PHPMYADMIN", skill_icon: iconmysql, skill_progress: "70" },
+    { id: 12, skill_name: "HARDWARE", skill_icon: iconhard, skill_progress: "95" },
+    { id: 13, skill_name: "GIT - GITHUB", skill_icon: icongt, skill_progress: "70" },
+    { id: 14, skill_name: "SEGURANÇA DIGITAL", skill_icon: iconsec, skill_progress: "50" },
+    { id: 15, skill_name: "STYLED COMPONENTS", skill_icon: iconstyled, skill_progress: "72" },
+    { id: 16, skill_name: "AZURE DEVOPS", skill_icon: iconazure, skill_progress: "40" }
 ];
 
 export const works = [

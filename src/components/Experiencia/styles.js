@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { ContentBox } from '../../global.js'
+import { primaryColor, colorWhite, ContentBox, Title, secondaryColor } from '../../global.js'
 import experience from '../../assets/images/bg-image.jpg'
 
 export const Experience = styled.section`
@@ -20,24 +20,31 @@ export const ExperienceBox = styled(ContentBox)`
   align-items: center;
 `;
 
+export const experienceTitle = styled(Title)`
+  color: ${colorWhite} !important;
+`;
+
 export const BtnGroup = styled.div`
     max-width: 280px !important;
+    margin: auto;
+    display: flex;
+    border-radius: 0.5rem;
 
     @media (max-width:991px) {
         margin-bottom: 20px;
-    }
+    }    
 `;
 
 export const BtnCheck = styled.input`
     .&:checked+.btn,
     :not(.&)+.btn:active {
         color: white;
-        background-color: var(--royal-blue-500) !important;
-    }
+        background-color: ${primaryColor} !important;
+    }    
 `;
 
 export const BtnLabel = styled.label`
-    border: 1.5px solid var(--royal-blue-400) !important;
+    border: 1.5px solid ${primaryColor} !important;
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
     overflow: hidden;
@@ -48,14 +55,16 @@ export const BtnLabel = styled.label`
     
     @media (min-width: 768px) {
         &:hover, &:focus, &:active {
-            background-color: var(--royal-blue-500) !important;
+            background-color: ${primaryColor} !important;
             color: white !important;
         }
     }
 `;
 
 export const ExperienceCompany = styled.h5`
-    color: var(--royal-blue-400);
+    color: ${secondaryColor};
+    font-weight: 700 !important;
+    margin-bottom: 1.5rem !important;
 `;
 
 export const ExperienceDuration = styled.div`
