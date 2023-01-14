@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { primaryColor, secondaryColor, tertiaryColor, quaternaryColor } from '../../global.js'
 import { BsBraces, BsLaptop, BsCodeSquare } from "react-icons/bs"
 import { VscServerProcess } from "react-icons/vsc"
 
@@ -9,33 +10,50 @@ export const Skills = styled.section`
 
 export const SkillIcon = styled(BsBraces)`
     font-size: 48px;
-    color: var(--royal-blue-500);
+    color: ${primaryColor};
 `;
 
 export const SkillIcon2 = styled(BsLaptop)`
     font-size: 48px;
-    color: var(--royal-blue-500);
+    color: ${primaryColor};
 `;
 
 export const SkillIcon3 = styled(BsCodeSquare)`
     font-size: 48px;
-    color: var(--royal-blue-500);
+    color: ${primaryColor};
 `;
 
 export const SkillIcon4 = styled(VscServerProcess)`
     font-size: 48px;
-    color: var(--royal-blue-500);
+    color: ${primaryColor};
 `;
-
 
 export const Progress = styled.div`
     height: 12.5px;
-    background-color: var(--royal-blue-50) !important;    
+    background-color: #d9dcdf !important;    
+    height: 12.5px;
+    margin-top: .25rem !important;
+    margin-bottom: .25rem !important;
+    border-radius: 0.375rem !important;
+    display: flex;
+    overflow: hidden;
 `;
 
-export const ProgressBar = styled.div`
-    background-color: red !important;
+export const SkillProgress = styled.div`
+    background-color: ${tertiaryColor} !important;
+    width: ${props => `${props.skillWidth}`}%;
+
+    /*border-radius: 0.375rem !important;*/
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+
+    text-align: center;
+    white-space: nowrap;
 `;
+
 
 export const Icon = styled.img`
     max-width: 32px;

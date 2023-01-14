@@ -1,6 +1,5 @@
-import './Habilidades.css'
 import * as S from './styles'
-import { Line, TitleSection, Title } from '../../global.js'
+import { Line, TitleSection, Title, textLightTheme } from '../../global.js'
 import { skills } from '../../assets/data.js'
 import Fade from 'react-reveal/Fade'
 
@@ -14,7 +13,7 @@ function Habilidades() {
                         <Line />
                     </TitleSection>
                     <div className="accordion accordion-flush row" id="accordionHabilidades">
-                        <Fade left>
+                        <Fade>
                             <div className="col-12 col-lg-6 mb-5 px-4">
                                 <div className="accordion-item rounded">
                                     <h2 className="accordion-header d-flex" id="flush-headingOne">
@@ -32,9 +31,9 @@ function Habilidades() {
                                                         <div key={skill.id} className="mb-3">
                                                             <S.Icon className=" ms-2 me-2 mb-2" src={skill.skill_icon} alt="" />
                                                             <span className="fw-bold">{skill.skill_name}</span>
-                                                            <div className="progress my-1">
-                                                                <div className={skill.skill_progress} role="progressbar"></div>
-                                                            </div>
+                                                            <S.Progress>
+                                                                <S.SkillProgress skillWidth={skill.skill_progress} role="progressbar"></S.SkillProgress>
+                                                            </S.Progress>
                                                         </div>
                                                     )
                                                 }
@@ -45,7 +44,7 @@ function Habilidades() {
                                 </div>
                             </div>
                         </Fade>
-                        <Fade right>
+                        <Fade>
                             <div className="col-12 col-lg-6 mb-5 px-4">
                                 <div className="accordion-item rounded mx-auto">
                                     <h2 className="accordion-header d-flex" id="flush-headingTwo">
@@ -63,9 +62,9 @@ function Habilidades() {
                                                         <div key={skill.id} className="mb-3">
                                                             <S.Icon className=" ms-2 me-2 mb-2" src={skill.skill_icon} alt="" />
                                                             <span className="fw-bold text-dark">{skill.skill_name}</span>
-                                                            <div className="progress my-1">
-                                                                <div className={skill.skill_progress} role="progressbar"></div>
-                                                            </div>
+                                                            <S.Progress>
+                                                                <S.SkillProgress skillWidth={skill.skill_progress} role="progressbar"></S.SkillProgress>
+                                                            </S.Progress>
                                                         </div>
                                                     )
                                                 }
@@ -76,7 +75,7 @@ function Habilidades() {
                                 </div>
                             </div>
                         </Fade>
-                        <Fade left>
+                        <Fade>
                             <div className="col-12 col-lg-6 mb-5 px-4">
                                 <div className="accordion-item rounded">
                                     <h2 className="accordion-header d-flex" id="flush-headingThree">
@@ -94,9 +93,9 @@ function Habilidades() {
                                                         <div key={skill.id} className="mb-3">
                                                             <S.Icon className=" ms-2 me-2 mb-2" src={skill.skill_icon} alt="" />
                                                             <span className="fw-bold">{skill.skill_name}</span>
-                                                            <div className="progress my-1">
-                                                                <div className={skill.skill_progress} role="progressbar"></div>
-                                                            </div>
+                                                            <S.Progress>
+                                                                <S.SkillProgress skillWidth={skill.skill_progress} role="progressbar"></S.SkillProgress>
+                                                            </S.Progress>
                                                         </div>
                                                     )
                                                 }
@@ -107,7 +106,7 @@ function Habilidades() {
                                 </div>
                             </div>
                         </Fade>
-                        <Fade right>
+                        <Fade>
                             <div className="col-12 col-lg-6 mb-5 px-4">
                                 <div className="accordion-item rounded">
                                     <h2 className="accordion-header d-flex" id="flush-headingFour">
@@ -125,9 +124,9 @@ function Habilidades() {
                                                         <div key={skill.id} className="mb-3">
                                                             <S.Icon src={skill.skill_icon} alt="" />
                                                             <span className="fw-bold">{skill.skill_name}</span>
-                                                            <div className="progress my-1">
-                                                                <div className={skill.skill_progress} role="progressbar"></div>
-                                                            </div>
+                                                            <S.Progress>
+                                                                <S.SkillProgress skillWidth={skill.skill_progress} role="progressbar"></S.SkillProgress>
+                                                            </S.Progress>
                                                         </div>
                                                     )
                                                 }
