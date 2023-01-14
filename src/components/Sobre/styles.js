@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { secondaryColor, Button } from '../../global.js'
 import { FaUserGraduate } from "react-icons/fa"
 
 export const About = styled.section`
@@ -19,7 +20,7 @@ export const BtnsAbout = styled.div`
     }
 `;
 
-export const BtnAbout = styled.a`
+export const BtnAbout = styled(Button)`
     max-width: 200px !important;
 
     @media (max-width: 767px) {
@@ -35,6 +36,8 @@ export const BtnAbout = styled.a`
 export const AboutImage = styled.img`
     max-width: 328px;
     width: 100%;
+    border-radius: 0.5rem;
+    margin: auto;
 
     @media (max-width: 991px) {
         max-width: 310px;
@@ -64,6 +67,6 @@ export const AboutImage = styled.img`
 
 export const AboutIcon = styled(FaUserGraduate)`
     font-size: 24px;
-    color: var( --royal-blue-600);
+    color: ${secondaryColor};
     margin-right: 10px;
 `;
