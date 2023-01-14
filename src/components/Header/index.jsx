@@ -12,8 +12,8 @@ function Header() {
             <S.HeaderContent>
                 <Zoom>
                     <div className="container">
-                        <S.HeaderSub className="text-shadow">Olá, eu sou</S.HeaderSub>
-                        <S.HeaderTitle className="mb-4 text-shadow">
+                        <S.HeaderSub textShadow>Olá, eu sou</S.HeaderSub>
+                        <S.HeaderTitle textShadow>
                             <S.LetterFloat className="ms-3">
                                 <S.Slash className="me-2">{x}</S.Slash>
                                 <S.Letter>R</S.Letter>
@@ -35,12 +35,14 @@ function Header() {
                                 <S.Slash className="ms-2">{y}</S.Slash>
                             </S.LetterFloat>
                         </S.HeaderTitle>
-                        <S.HeaderSubtitle className="text-shadow"><Typed strings={['Web Developer',
-                            'System Analyst',
-                            'Information Technician',
-                            'Technology Lover ❤']}
-                            typeSpeed={50}
-                            backSpeed={60} loop /></S.HeaderSubtitle>
+                        <S.HeaderSubtitle textShadow>
+                            <Typed strings={['Web Developer',
+                                'System Analyst',
+                                'Information Technician',
+                                'Technology Lover ❤']}
+                                typeSpeed={50}
+                                backSpeed={60} loop />
+                        </S.HeaderSubtitle>
                         <S.HeaderIcons>
                             <S.Icon target="_blank" rel="noreferrer noopener" href="https://github.com/rafaelcarvalho-git"><BsGithub /></S.Icon>
                             <S.Icon target="_blank" rel="noreferrer noopener" href="https://api.whatsapp.com/send/?phone=5588988573004&text&app_absent=0"><BsWhatsapp /></S.Icon>

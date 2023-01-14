@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { textShadow, primaryColor } from '../../global.js'
 import header from '../../assets/images/bg-image.jpg'
 
 export const Header = styled.header`
@@ -27,7 +28,9 @@ export const HeaderTitle = styled.h1`
     max-width: 820px;
     display: flex;
     margin auto;
+    margin-bottom: 1.5rem;
     justify-content: center;
+    text-shadow: ${props => props.textShadow ? textShadow : 'none'};
 
     @media (max-width: 991px) {
         font-size: 3.8rem;
@@ -114,13 +117,13 @@ export const Letter = styled.div`
 `;
 
 export const Slash = styled.span`
-    color: var(--royal-blue-500);
+    color: ${primaryColor};
     cursor: pointer;
     margin: auto;
 `;
 
 export const HeaderIcons = styled.div`
-    color: var(--royal-blue-500);
+    color: ${primaryColor};
     cursor: pointer;
     margin: 48px auto 48px auto;
     display: flex;
@@ -161,7 +164,7 @@ export const Icon = styled.a`
     }
 
     &:hover, &:focus, &:active {
-        color: var(--royal-blue-500);
+        color: ${primaryColor};
         -webkit-transform: scale(1.120);
         transform: scale(1.120);
     }
