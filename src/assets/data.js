@@ -61,7 +61,7 @@ export const skills = [
     { id: 2, skill_name: "CSS", skill_icon: iconcss, skill_progress: "85" },
     { id: 3, skill_name: "JAVASCRIPT", skill_icon: iconjs, skill_progress: "55" },
     { id: 4, skill_name: "BOOTSTRAP", skill_icon: iconbs, skill_progress: "90" },
-    { id: 5, skill_name: "REACT JS", skill_icon: iconreact, skill_progress: "55" },
+    { id: 5, skill_name: "REACT JS", skill_icon: iconreact, skill_progress: "50" },
     { id: 6, skill_name: "ADOBE PHOTOSHOP", skill_icon: iconps, skill_progress: "65" },
     { id: 7, skill_name: "FIGMA", skill_icon: iconfi, skill_progress: "50" },
     { id: 8, skill_name: "CANVA", skill_icon: iconcv, skill_progress: "45" },

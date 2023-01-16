@@ -1,8 +1,7 @@
 import styled from 'styled-components'
-import { primaryColor, secondaryColor, ContentBox } from '../../global.js'
+import { primaryColor, ContentBox } from '../../global.js'
 import contact from '../../assets/images/bg-contato.jpg'
 import { BsEnvelope, BsGeoAlt, BsPhone } from 'react-icons/bs'
-import { Fade } from 'react-reveal'
 
 export const Contato = styled.section`
     background-repeat: no-repeat;
@@ -29,6 +28,10 @@ export const ContactItem = styled.div`
     transition-property: transform;
     margin: auto;
 
+    h5 {
+        color: ${primaryColor} !important;
+    }
+
     @media (min-width: 768px) {
         &:hover, &:focus, &:active {
           -webkit-transform: scale(1.07);
@@ -37,26 +40,22 @@ export const ContactItem = styled.div`
       }
 `;
 
-export const ContactInfo = styled.h5`
-    color: ${secondaryColor};
-`;
-
 export const ContactPhone = styled(BsPhone)`
     font-size: 48px !important;
     margin-bottom: 1rem !important;
-    color: ${( {theme} ) => theme.textPrimary } !important;
+    color: ${({ theme }) => theme.textPrimary} !important;
 `;
 
 export const ContactGeo = styled(BsGeoAlt)`
     font-size: 48px !important;
     margin-bottom: 1rem !important;
-    color: ${( {theme} ) => theme.textPrimary } !important;
+    color: ${({ theme }) => theme.textPrimary} !important;
 `;
 
 export const ContactMail = styled(BsEnvelope)`
     font-size: 48px !important;
     margin-bottom: 1rem !important;
-    color: ${( {theme} ) => theme.textPrimary } !important;
+    color: ${({ theme }) => theme.textPrimary} !important;
 `;
 
 export const Footer = styled.footer`

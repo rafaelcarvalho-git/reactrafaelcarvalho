@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { primaryColor, colorWhite, ContentBox, Title, secondaryColor } from '../../global.js'
+import { primaryColor, colorWhite, ContentBox, Title } from '../../global.js'
 import experience from '../../assets/images/bg-image.jpg'
 
 export const Experience = styled.section`
@@ -33,6 +33,12 @@ export const BtnGroup = styled.div`
     @media (max-width:991px) {
         margin-bottom: 20px;
     }    
+
+    .btn-check:checked+.btn {
+        color: white;
+        background-color: ${primaryColor} !important;
+        border-color: ${primaryColor} !important;
+    }
 `;
 
 export const BtnCheck = styled.input`
@@ -62,7 +68,7 @@ export const BtnLabel = styled.label`
 `;
 
 export const ExperienceCompany = styled.h5`
-    color: ${secondaryColor};
+    color: ${primaryColor};
     font-weight: 700 !important;
     margin-bottom: 1.5rem !important;
 `;

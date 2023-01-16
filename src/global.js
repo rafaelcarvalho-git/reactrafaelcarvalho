@@ -10,13 +10,13 @@ export const tertiaryColor = "#6789f3"
 export const quaternaryColor = "#f0f3fe"
 
 export const bgLight = "#F8F9FA"
-export const bgDark1 = "#171616"
+export const bgDark1 = "#212529"
 export const bgDark2 = "#060606"
 export const bgDark = "#1a1a1a"
 export const bgBlack = "#252525"
 
 export const borderLight = "#dee2e6"
-export const borderDark = "#171616"
+export const borderDark = "#212529"
 
 export const textLightTheme = "#252525"
 export const textDarkTheme = "#fff"
@@ -124,14 +124,13 @@ export const Button = styled.a`
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  color: ${props => `${props.textColor}`};
-  background-color: ${props => `${props.bgColor}`};
-  
+  background-color: ${props => props.bgPrimary ? primaryColor : 'transparent'};
+  color: ${props => props.bgPrimary ? 'white' : primaryColor};  
   border: 1px solid ${primaryColor};
 
   &:hover {
-    color: ${props => `${props.bgColor}`};;
-    background-color: ${props => `${props.textColor}`};;
+    color: ${props => props.bgPrimary ? primaryColor : 'white'};
+    background-color: ${props => props.bgPrimary ? 'transparent' : primaryColor};
   }
 
   &:focus {

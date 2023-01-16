@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { secondaryColor, Button } from '../../global.js'
+import { primaryColor, Button } from '../../global.js'
 import { FaUserGraduate } from "react-icons/fa"
 
 export const About = styled.section`
@@ -67,6 +67,6 @@ export const AboutImage = styled.img`
 
 export const AboutIcon = styled(FaUserGraduate)`
     font-size: 24px;
-    color: ${secondaryColor};
+    color: ${primaryColor};
     margin-right: 10px;
 `;

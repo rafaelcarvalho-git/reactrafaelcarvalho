@@ -45,8 +45,8 @@ function Projetos() {
                                             </div>
                                             <p className="pe-0 pe-lg-5 mb-4">{projeto.desc}</p>
                                             <div className="btn-group btn-group-md mt-4" role="group" aria-label="Basic example">
-                                                <Button bgColor={'white'} textColor={primaryColor} href={projeto.live} target="_blank" rel="noreferrer noopener" className="btn-pattern info-border px-3"><BsLink45Deg className="me-2" />Live</Button>
-                                                <Button bgColor={primaryColor} textColor={'white'} href={projeto.code} target="_blank" rel="noreferrer noopener" className="btn-pattern info px-3">Code<BsCodeSlash className="ms-2" /></Button>
+                                                <Button bgPrimary href={projeto.live} target="_blank" rel="noreferrer noopener" className="btn-pattern info-border px-3"><BsLink45Deg className="me-2" />Live</Button>
+                                                <Button href={projeto.code} target="_blank" rel="noreferrer noopener" className="btn-pattern info px-3">Code<BsCodeSlash className="ms-2" /></Button>
                                             </div>
                                         </div>
                                     </div>
