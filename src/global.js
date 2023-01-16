@@ -10,11 +10,13 @@ export const tertiaryColor = "#6789f3"
 export const quaternaryColor = "#f0f3fe"
 
 export const bgLight = "#F8F9FA"
-export const bgDark = "#1b1b1c"
+export const bgDark1 = "#171616"
+export const bgDark2 = "#060606"
+export const bgDark = "#1a1a1a"
 export const bgBlack = "#252525"
 
 export const borderLight = "#dee2e6"
-export const borderDark = "#ebebeb"
+export const borderDark = "#171616"
 
 export const textLightTheme = "#252525"
 export const textDarkTheme = "#fff"
@@ -31,7 +33,7 @@ export const lightTheme = {
 
 export const darkTheme = {
   body: bgDark,
-  contentBox: bgDark,
+  contentBox: bgDark1,
   contentBorder: borderDark,
   textPrimary: textDarkTheme,
   textSecondary: textLightTheme,
@@ -92,12 +94,7 @@ export const Title = styled.h3`
   text-transform: uppercase;
   text-align: center; 
   text-shadow: ${props => props.textShadow ? textShadow : 'none'};
-
-  /*color: ${props => props.textColor ? colorBlack : colorWhite};*/
-  
   color: ${({ theme }) => theme.textColor};
-
-  /*color: ${({ theme }) => theme.textPrimary ? 'red' : 'blue'};*/
 
   @media (max-width: 991px) {     
       font-size: 2.4rem;    
@@ -129,11 +126,12 @@ export const Button = styled.a`
   transition: all 0.3s ease 0s;
   color: ${props => `${props.textColor}`};
   background-color: ${props => `${props.bgColor}`};
+  
   border: 1px solid ${primaryColor};
 
   &:hover {
     color: ${props => `${props.bgColor}`};;
-    background: ${props => `${props.textColor}`};;
+    background-color: ${props => `${props.textColor}`};;
   }
 
   &:focus {

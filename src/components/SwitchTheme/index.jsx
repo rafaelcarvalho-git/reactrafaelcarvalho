@@ -1,4 +1,4 @@
-import './SwitchTheme.css'
+import * as S from './styles'
 import { useEffect, useState } from 'react'
 
 function SwitchTheme({ theme, setTheme }) {
@@ -15,16 +15,16 @@ function SwitchTheme({ theme, setTheme }) {
     }, []);
 
     const changeTheme = () => {
-        setTheme((theme) => !theme)
+        setTheme((theme) => !theme);
     }
 
     return (
         <>
             {showSwitch && (
-                <label class="switch">
+                <S.Swtich>
                     <input type="checkbox" onClick={changeTheme} />
-                    <span class="slider round"></span>
-                </label>
+                    <S.Icon></S.Icon>
+                </S.Swtich>
             )
             }
         </>
