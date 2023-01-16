@@ -93,6 +93,7 @@ export const HeaderSubtitle = styled.p`
 
 export const LetterFloat = styled.div`
     display: flex;
+    margin-left: 1rem !important;    
 `;
 
 export const Letter = styled.div`

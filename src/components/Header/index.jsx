@@ -14,7 +14,7 @@ function Header() {
                     <div className="container">
                         <S.HeaderSub textShadow>Olá, eu sou</S.HeaderSub>
                         <S.HeaderTitle textShadow>
-                            <S.LetterFloat className="ms-3">
+                            <S.LetterFloat>
                                 <S.Slash className="me-2">{x}</S.Slash>
                                 <S.Letter>R</S.Letter>
                                 <S.Letter>A</S.Letter>
@@ -23,7 +23,7 @@ function Header() {
                                 <S.Letter>E</S.Letter>
                                 <S.Letter>L</S.Letter>
                             </S.LetterFloat>
-                            <S.LetterFloat className="ms-3 me-3">
+                            <S.LetterFloat>
                                 <S.Letter>C</S.Letter>
                                 <S.Letter>A</S.Letter>
                                 <S.Letter>R</S.Letter>
