@@ -9,7 +9,7 @@
 </div>
 
 <div class="align-items-center">
-  <h5><img src="https://www.styled-components.com/atom.png" width="40px"/>Css</h5>
+  <h5><img src="https://www.styled-components.com/atom.png" width="40px"/>Styled Components</h5>
 </div>
 
 <div class="align-items-center">
