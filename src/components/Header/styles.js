@@ -131,11 +131,11 @@ export const HeaderIcons = styled.div`
     max-width: 275px;
 
     @media (max-width: 471px) {     
-        max-width: 250px !important;         
+        width: 250px !important;         
     }
 
     @media (max-width: 382px) {
-        max-width: 230px !important;
+        width: 230px !important;
     }
 `;
 
