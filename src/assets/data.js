@@ -4,6 +4,7 @@ import projeto3 from './projects-images/react-rick-and-morty.png'
 import projeto5 from './projects-images/react-personal-trainer.png'
 import projeto6 from './projects-images/portfolio-academia.png'
 import projeto7 from './projects-images/react-football-matches.png'
+import projeto8 from './projects-images/score.png'
 
 import iconhtml from './projects-images/projects-icons/html5-original.svg'
 import iconcss from './projects-images/projects-icons/css3-original.svg'
@@ -21,6 +22,8 @@ import iconpy from './projects-images/projects-icons/python-original.svg'
 import icongt from './projects-images/projects-icons/github-original.svg'
 import iconstyled from './projects-images/projects-icons/styled.svg'
 import iconazure from './projects-images/projects-icons/azure.svg'
+import iconjava from './projects-images/projects-icons/java.svg'
+import iconswing from './projects-images/projects-icons/swing.svg'
 
 export const devicons = [
     { id: 1, icon: iconhtml },
@@ -43,7 +46,9 @@ export const devicons = [
     { id: 6, icon: iconbs },
     { id: 7, icon: iconreact },
     { id: 7, icon: iconjs },
-    { id: 7, icon: iconbs }
+    { id: 7, icon: iconbs },
+    { id: 8, icon: iconjava },
+    { id: 8, icon: iconswing }
 ];
 
 export const projetos = [
@@ -53,7 +58,8 @@ export const projetos = [
     /*{ id: 4, title: "React Twitter Trends", desc: "Projeto com react para exibir os trend topics do Twitter em tempo real.", image: "https://rafaelcarvalho-dev.web.app/img/e2scert.png", code: "https://github.com/rafaelcarvalho-git/twittertrends", live: "https://reacttwittertrends.web.app/" },*/
     { id: 5, title: "Personal Trainer", desc: "Website Portfólio para Personal Trainer", image: projeto5, code: "", live: "https://templatepersonaltrainer.web.app/" },
     { id: 1, title: "Academia", desc: "Website Portfólio para Academias", image: projeto6, code: "https://github.com/rafaelcarvalho-git/academia", live: "https://portfolio-academia.web.app/" },
-    { id: 7, title: "React Football Matches", desc: "Projeto com react para exibir partidas de futebol do dia ou ano.", image: projeto7, code: "https://github.com/rafaelcarvalho-git/footballmatches", live: "https://reactfootballmatches.web.app/" }
+    { id: 7, title: "React Football Matches", desc: "Projeto com react para exibir partidas de futebol do dia ou ano.", image: projeto7, code: "https://github.com/rafaelcarvalho-git/footballmatches", live: "https://reactfootballmatches.web.app/" },
+    { id: 8, title: "Gerenciador de Partida", desc: "Projeto com Java / Swing para gerenciar uma partida de futebol.", image: projeto8, code: "https://github.com/rafaelcarvalho-git/score", live: "https://www.linkedin.com/posts/rafaelcarvalho-ti_java-software-activity-6895487288231497729-ToGv?utm_source=share&utm_medium=member_desktop" }
 ];
 
 export const skills = [
