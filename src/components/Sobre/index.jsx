@@ -1,23 +1,23 @@
 import * as S from './styles'
 import { ContentBox, Line } from '../../global.js'
-import cv from '../../assets/Curriculo Rafael Candido Lacerda Carvalho.pdf'
+import cv from '../../assets/Rafael Candido Lacerda Carvalho.pdf'
 import dev from '../../assets/images/sobre-img.png'
 import Fade from 'react-reveal/Fade'
 
 function Sobre() {
     return (
         <S.About className="sobre">
-            <Fade up>
+            <Fade>
                 <div className="container">
                     <ContentBox>
                         <div className="row">
                             <div className="col-12 col-lg-5 text-center">
-                                <Fade left>
+                                <Fade>
                                     <S.AboutImage src={dev} alt="about-image" loading="lazy" />
                                 </Fade>
                             </div>
                             <div className="col-12 col-lg-7">
-                                <Fade right>
+                                <Fade>
                                     <div className="pt-4 pt-md-0">
                                         <div className="mb-5">
                                             <h3>Sobre mim</h3>
