@@ -18,24 +18,26 @@ function App() {
   setTimeout(() => {
     setLoading(true);
   }, 1000);
-
-  if (loading === false) {
-    return <Loading type={"spin"} color={"#4361EE"} height={100} width={100} />
-  } else {
-    return (
-      <ThemeProvider theme={theme ? lightTheme : darkTheme}>
-        <GlobalStyle />
-        <Header />
-        <Sobre />
-        <Habilidades />
-        <Experiencia />
-        <Projetos />
-        <Contato />
-        <ScrollToTop />
-        <SwitchTheme theme={theme} setTheme={setTheme} />
-      </ThemeProvider>
-    );
-  }
+  return (
+    <>
+      {
+        loading === false
+          ? <Loading type={"spin"} color={"#4361EE"} height={100} width={100} />
+          :
+          <ThemeProvider theme={theme ? lightTheme : darkTheme}>
+            <GlobalStyle />
+            <Header />
+            <Sobre />
+            <Habilidades />
+            <Experiencia />
+            <Projetos />
+            <Contato />
+            <ScrollToTop />
+            <SwitchTheme theme={theme} setTheme={setTheme} />
+          </ThemeProvider>
+      }
+    </>
+  );
 }
 
 export default App;
