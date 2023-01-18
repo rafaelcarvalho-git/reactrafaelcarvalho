@@ -3,9 +3,6 @@ import { Line } from '../../global.js'
 import { BsGithub, BsWhatsapp, BsLinkedin, BsInstagram } from 'react-icons/bs'
 import { Fade } from 'react-reveal'
 
-const dataAtual = new Date();
-const anoAtual = dataAtual.getFullYear();
-
 function Contato() {
     return (
         <S.Contato id="contato">
@@ -55,7 +52,7 @@ function Contato() {
                             <S.Icon href="https://www.linkedin.com/in/rafaelcarvalho-ti" target="_blank" rel="noreferrer noopener"><BsLinkedin /></S.Icon>
                             <S.Icon href="https://www.instagram.com/rafaelcarvalho.py/" target="_blank" rel="noreferrer noopener"><BsInstagram /></S.Icon>
                         </S.FooterIcons>
-                        <p className="pb-0 mb-0 text-shadow">&copy; {anoAtual} - Rafael Carvalho</p>
+                        <p className="pb-0 mb-0 text-shadow">&copy; {new Date().getFullYear()} - Rafael Carvalho</p>
                     </div>
                 </S.Footer>
             </Fade>
