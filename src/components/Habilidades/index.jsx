@@ -88,7 +88,7 @@ function Habilidades() {
                                         data-bs-parent="#accordionHabilidades">
                                         <div className="accordion-body mt-4">
                                             {skills.map((skill) => {
-                                                if ([6, 7, 8].includes(skill.id)) {
+                                                if ([6, 7, 8, 17].includes(skill.id)) {
                                                     return (
                                                         <div key={skill.id} className="mb-3">
                                                             <S.Icon src={skill.skill_icon} alt="" />

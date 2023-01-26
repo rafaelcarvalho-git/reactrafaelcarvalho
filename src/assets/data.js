@@ -1,6 +1,7 @@
 import projeto1 from './projects-images/portfolio-e2s.png'
 import projeto2 from './projects-images/siscert.png'
 import projeto3 from './projects-images/react-rick-and-morty.png'
+import projeto4 from './projects-images/marvel-comics.png'
 import projeto5 from './projects-images/react-personal-trainer.png'
 import projeto6 from './projects-images/portfolio-academia.png'
 import projeto7 from './projects-images/react-football-matches.png'
@@ -24,6 +25,7 @@ import iconstyled from './projects-images/projects-icons/styled.svg'
 import iconazure from './projects-images/projects-icons/azure.svg'
 import iconjava from './projects-images/projects-icons/java.svg'
 import iconswing from './projects-images/projects-icons/swing.svg'
+import iconantd from './projects-images/projects-icons/antd.png'
 
 export const devicons = [
     { id: 1, icon: iconhtml },
@@ -39,7 +41,8 @@ export const devicons = [
     { id: 3, icon: iconbs },
     { id: 4, icon: iconreact },
     { id: 4, icon: iconjs },
-    { id: 4, icon: iconbs },
+    { id: 4, icon: iconstyled },
+    { id: 4, icon: iconantd },
     { id: 5, icon: iconreact },
     { id: 5, icon: iconbs },
     { id: 6, icon: iconreact },
@@ -55,7 +58,7 @@ export const projetos = [
     { id: 1, title: "Portfólio E2S", desc: "Portfólio para exibição dos seus produtos/serviços e informações para contato e localização.", image: projeto1, code: "https://github.com/rafaelcarvalho-git/e2sweb", live: "https://e2s-corretoradeseguros.web.app/" },
     { id: 2, title: "SisCert E2S", desc: "Sistema Web interno para os parceiros solicitarem certificados digitais e terem informações sobre essas solicitações.", image: projeto2, code: "https://github.com/rafaelcarvalho-git/e2sweb", live: "https://www.linkedin.com/posts/rafaelcarvalho-ti_desenvolvimentoweb-frontend-backend-ugcPost-6980171319011082240-CNQ5?utm_source=share&utm_medium=member_desktop" },
     { id: 3, title: "React Rick and Morty", desc: "Projeto com react para exibir os personagens da série Rick and Morty utilizando a API.", image: projeto3, code: "https://github.com/rafaelcarvalho-git/rickandmorty", live: "https://reactrickandmorty.web.app/" },
-    /*{ id: 4, title: "React Twitter Trends", desc: "Projeto com react para exibir os trend topics do Twitter em tempo real.", image: "https://rafaelcarvalho-dev.web.app/img/e2scert.png", code: "https://github.com/rafaelcarvalho-git/twittertrends", live: "https://reacttwittertrends.web.app/" },*/
+    { id: 4, title: "Marvel Comics", desc: "Projeto com react para exibir os quadrinhos da Marvel utilizando a Marvel API.", image: projeto4, code: "https://github.com/rafaelcarvalho-git/react-marvel-api", live: "https://react-marvel-api.web.app/" },
     { id: 5, title: "Personal Trainer", desc: "Website Portfólio para Personal Trainer", image: projeto5, code: "", live: "https://templatepersonaltrainer.web.app/" },
     { id: 1, title: "Academia", desc: "Website Portfólio para Academias", image: projeto6, code: "https://github.com/rafaelcarvalho-git/academia", live: "https://portfolio-academia.web.app/" },
     { id: 7, title: "React Football Matches", desc: "Projeto com react para exibir partidas de futebol do dia ou ano.", image: projeto7, code: "https://github.com/rafaelcarvalho-git/footballmatches", live: "https://reactfootballmatches.web.app/" },
@@ -78,7 +81,8 @@ export const skills = [
     { id: 13, skill_name: "GIT - GITHUB", skill_icon: icongt, skill_progress: "70" },
     { id: 14, skill_name: "SEGURANÇA DIGITAL", skill_icon: iconsec, skill_progress: "50" },
     { id: 15, skill_name: "STYLED COMPONENTS", skill_icon: iconstyled, skill_progress: "72" },
-    { id: 16, skill_name: "AZURE DEVOPS", skill_icon: iconazure, skill_progress: "40" }
+    { id: 16, skill_name: "AZURE DEVOPS", skill_icon: iconazure, skill_progress: "40" },
+    { id: 17, skill_name: "ANT DESIGN", skill_icon: iconantd, skill_progress: "45" }
 ];
 
 export const works = [

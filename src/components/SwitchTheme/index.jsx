@@ -21,10 +21,10 @@ function SwitchTheme({ theme, setTheme }) {
     return (
         <>
             {showSwitch && (
-                <S.Swtich>
+                <S.Switch>
                     <input type="checkbox" onClick={changeTheme} />
                     <S.Icon></S.Icon>
-                </S.Swtich>
+                </S.Switch>
             )
             }
         </>

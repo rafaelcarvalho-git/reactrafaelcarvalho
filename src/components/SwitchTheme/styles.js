@@ -3,7 +3,7 @@ import sun from '../../assets/projects-images/projects-icons/sun.svg'
 import moon from '../../assets/projects-images/projects-icons/moon-stars-fill.svg'
 import { primaryColor } from '../../global.js'
 
-export const Swtich = styled.label`
+export const Switch = styled.label`
     position: relative;
     display: inline-block;
     width: 64px;
