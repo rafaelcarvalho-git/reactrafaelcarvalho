@@ -1,5 +1,5 @@
 import * as S from './styles'
-import { Line, TitleSection, Title, textLightTheme } from '../../global.js'
+import { Line, TitleSection, Title, Container } from '../../global.js'
 import { skills } from '../../assets/data.js'
 import Fade from 'react-reveal/Fade'
 
@@ -7,7 +7,7 @@ function Habilidades() {
     return (
         <S.Skills className="habilidades">
             <Fade>
-                <div className="container">
+                <Container>
                     <TitleSection>
                         <Title>HABILIDADES</Title>
                         <Line />
@@ -138,7 +138,7 @@ function Habilidades() {
                             </div>
                         </Fade>
                     </div>
-                </div>
+                </Container>
             </Fade>
         </S.Skills>
     );

@@ -18,11 +18,11 @@ function App() {
   setTimeout(() => {
     setLoading(true);
   }, 1000);
-  
+
   return (
     <>
       {
-        loading === false
+        !loading
           ? <Loading type={"spin"} color={"#4361EE"} height={100} width={100} />
           :
           <ThemeProvider theme={theme ? lightTheme : darkTheme}>

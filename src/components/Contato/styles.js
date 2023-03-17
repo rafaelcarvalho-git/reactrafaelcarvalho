@@ -18,6 +18,29 @@ export const ContactBox = styled(ContentBox)`
   padding-bottom: 1.5rem !important;
 `;
 
+export const ContactItems = styled.div`
+    margin-top: .5rem !important;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * 0);
+    margin-right: calc(-.5 * 1.5rem);
+    margin-left: calc(-.5 * 1.5rem);
+
+    & >* {
+        flex-shrink: 0;
+        width: 100%;
+        max-width: 100%;
+        padding-right: calc(var(--bs-gutter-x) * .5);
+        padding-left: calc(var(--bs-gutter-x) * .5);
+        margin-top: var(--bs-gutter-y)
+    }
+
+    @media(max-width:739px) {
+        flex-direction: column;
+        align-items:center;
+    }
+`;
+
 export const ContactItem = styled.div`
     cursor: pointer;
     -webkit-transform: perspective(1px) translateZ(0);
@@ -32,12 +55,24 @@ export const ContactItem = styled.div`
         color: ${primaryColor} !important;
     }
 
+    & p {
+        color: #6c757d;
+    }
+
     @media (min-width: 768px) {
         &:hover, &:focus, &:active {
           -webkit-transform: scale(1.07);
           transform: scale(1.07);
         }
       }
+`;
+
+export const ContactLink = styled.a`
+   /* flex: 0 0 auto !important;
+    width: 33.33333333% !important;   */ 
+    margin-bottom: 1.5rem !important;
+    text-align: center;
+    text-decoration: none;
 `;
 
 export const ContactPhone = styled(BsPhone)`
@@ -61,6 +96,11 @@ export const ContactMail = styled(BsEnvelope)`
 export const Footer = styled.footer`
     text-align: center;
     color: #fff;
+
+    & p {
+        margin: 0;
+        padding: 0;
+    }
 `;
 
 export const FooterIcons = styled.div`

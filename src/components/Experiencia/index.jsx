@@ -1,5 +1,5 @@
 import * as S from './styles'
-import { Line, TitleSection } from '../../global.js'
+import { Container, Line, TitleSection } from '../../global.js'
 import { works } from '../../assets/data.js'
 import React, { useState } from 'react'
 import Zoom from 'react-reveal/Zoom'
@@ -7,14 +7,10 @@ import Zoom from 'react-reveal/Zoom'
 function Experiencia() {
     const [workList, setworkList] = useState([1]);
 
-    const switchWork = (w) => {
-        setworkList([w])
-    }
-
     return (
         <S.Experience>
             <Zoom>
-                <div className="container">
+                <Container>
                     <TitleSection>
                         <S.experienceTitle textShadow>EXPERIÊNCIA</S.experienceTitle>
                         <Line />
@@ -22,16 +18,16 @@ function Experiencia() {
                     <S.ExperienceBox className="row pt-5 pt-lg-4">
                         <div className="col-lg-3 col-12">
                             <S.BtnGroup className="btn-group-vertical" role="group" aria-label="Empregos">
-                                <S.BtnCheck type="radio" className="btn-check" name="job" id="job1" autocomplete="off" onClick={() => switchWork(1)} />
+                                <S.BtnCheck type="radio" className="btn-check" name="job" id="job1" autocomplete="off" onClick={() => setworkList(1)} />
                                 <S.BtnLabel className="btn btn-outline-primary py-2" for="job1">E2S CERTIFICADORA</S.BtnLabel>
 
-                                <S.BtnCheck type="radio" className="btn-check" name="job" id="job2" autocomplete="off" onClick={() => switchWork(2)} />
+                                <S.BtnCheck type="radio" className="btn-check" name="job" id="job2" autocomplete="off" onClick={() => setworkList(2)} />
                                 <S.BtnLabel className="btn btn-outline-primary py-2" for="job2">UFCA</S.BtnLabel>
 
-                                <S.BtnCheck type="radio" className="btn-check" name="job" id="job3" autocomplete="off" onClick={() => switchWork(3)} />
+                                <S.BtnCheck type="radio" className="btn-check" name="job" id="job3" autocomplete="off" onClick={() => setworkList(3)} />
                                 <S.BtnLabel className="btn btn-outline-primary py-2" for="job3">MARTINS ADVOGADOS</S.BtnLabel>
 
-                                <S.BtnCheck type="radio" className="btn-check" name="job" id="job4" autocomplete="off" onClick={() => switchWork(4)} />
+                                <S.BtnCheck type="radio" className="btn-check" name="job" id="job4" autocomplete="off" onClick={() => setworkList(4)} />
                                 <S.BtnLabel className="btn btn-outline-primary py-2" for="job4">FREELANCER</S.BtnLabel>
                             </S.BtnGroup>
                         </div>
@@ -53,7 +49,7 @@ function Experiencia() {
                             )}
                         </div>
                     </S.ExperienceBox>
-                </div>
+                </Container>
             </Zoom>
         </S.Experience>
     );

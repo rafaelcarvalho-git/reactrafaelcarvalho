@@ -70,3 +70,10 @@ export const AboutIcon = styled(FaUserGraduate)`
     color: ${primaryColor};
     margin-right: 10px;
 `;
+
+export const AboutGraduation = styled.div`
+    display: flex;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+`;
+

@@ -1,5 +1,5 @@
 import * as S from './styles'
-import { Button, primaryColor } from '../../global.js'
+import { Button, Container } from '../../global.js'
 import '../../assets/swiper/swiper-bundle.min.css'
 import { Line, TitleSection, Title } from '../../global.js'
 import { BsLink45Deg, BsCodeSlash } from "react-icons/bs"
@@ -12,7 +12,7 @@ function Projetos() {
     return (
         <S.Projects>
             <Fade>
-                <div className="container">
+                <Container>
                     <TitleSection>
                         <Title>PROJETOS</Title>
                         <Line />
@@ -55,7 +55,7 @@ function Projetos() {
                         }
                         )}
                     </Swiper>
-                </div>
+                </Container>
             </Fade>
         </S.Projects>
     );
