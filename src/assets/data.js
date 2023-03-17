@@ -26,6 +26,8 @@ import iconazure from './projects-images/projects-icons/azure.svg'
 import iconjava from './projects-images/projects-icons/java.svg'
 import iconswing from './projects-images/projects-icons/swing.svg'
 import iconantd from './projects-images/projects-icons/antd.png'
+import iconaxios from './projects-images/projects-icons/axios.png'
+import iconexpress from './projects-images/projects-icons/express.png'
 
 export const devicons = [
     { id: 1, icon: iconhtml },
@@ -51,7 +53,9 @@ export const devicons = [
     { id: 7, icon: iconjs },
     { id: 7, icon: iconbs },
     { id: 8, icon: iconjava },
-    { id: 8, icon: iconswing }
+    { id: 8, icon: iconswing },
+    { id: 9, icon: iconaxios },
+    { id: 10, icon: iconexpress }
 ];
 
 export const projetos = [
@@ -66,11 +70,11 @@ export const projetos = [
 ];
 
 export const skills = [
-    { id: 1, skill_name: "HTML", skill_icon: iconhtml, skill_progress: "95" },
-    { id: 2, skill_name: "CSS", skill_icon: iconcss, skill_progress: "85" },
-    { id: 3, skill_name: "JAVASCRIPT", skill_icon: iconjs, skill_progress: "55" },
+    { id: 1, skill_name: "HTML", skill_icon: iconhtml, skill_progress: "97" },
+    { id: 2, skill_name: "CSS", skill_icon: iconcss, skill_progress: "90" },
+    { id: 3, skill_name: "JAVASCRIPT", skill_icon: iconjs, skill_progress: "72" },
     { id: 4, skill_name: "BOOTSTRAP", skill_icon: iconbs, skill_progress: "90" },
-    { id: 5, skill_name: "REACT JS", skill_icon: iconreact, skill_progress: "50" },
+    { id: 5, skill_name: "REACT JS", skill_icon: iconreact, skill_progress: "75" },
     { id: 6, skill_name: "ADOBE PHOTOSHOP", skill_icon: iconps, skill_progress: "65" },
     { id: 7, skill_name: "FIGMA", skill_icon: iconfi, skill_progress: "50" },
     { id: 8, skill_name: "CANVA", skill_icon: iconcv, skill_progress: "45" },
@@ -80,9 +84,11 @@ export const skills = [
     { id: 12, skill_name: "HARDWARE", skill_icon: iconhard, skill_progress: "95" },
     { id: 13, skill_name: "GIT - GITHUB", skill_icon: icongt, skill_progress: "70" },
     { id: 14, skill_name: "SEGURANÇA DIGITAL", skill_icon: iconsec, skill_progress: "50" },
-    { id: 15, skill_name: "STYLED COMPONENTS", skill_icon: iconstyled, skill_progress: "72" },
+    { id: 15, skill_name: "STYLED COMPONENTS", skill_icon: iconstyled, skill_progress: "85" },
     { id: 16, skill_name: "AZURE DEVOPS", skill_icon: iconazure, skill_progress: "40" },
-    { id: 17, skill_name: "ANT DESIGN", skill_icon: iconantd, skill_progress: "45" }
+    { id: 17, skill_name: "ANT DESIGN", skill_icon: iconantd, skill_progress: "65" },
+    { id: 18, skill_name: "EXPRESS", skill_icon: iconexpress, skill_progress: "40" },
+    { id: 19, skill_name: "AXIOS", skill_icon: iconaxios, skill_progress: "45" }
 ];
 
 export const works = [

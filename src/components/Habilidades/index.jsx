@@ -26,10 +26,10 @@ function Habilidades() {
                                         data-bs-parent="#accordionHabilidades">
                                         <div className="accordion-body mt-4">
                                             {skills.map((skill) => {
-                                                if ([1, 2, 15, 4, 5].includes(skill.id)) {
+                                                if ([1, 2, 15, 4, 5, 3, 19, 17].includes(skill.id)) {
                                                     return (
-                                                        <div key={skill.id} className="mb-3">
-                                                            <S.Icon src={skill.skill_icon} alt="" />
+                                                        <div key={skill.id} style={{ marginBottom: '1rem' }}>
+                                                            <S.Icon src={skill.skill_icon} alt={skill.skill_name} />
                                                             <span className="fw-bold">{skill.skill_name}</span>
                                                             <S.Progress>
                                                                 <S.SkillProgress skillWidth={skill.skill_progress} role="progressbar"></S.SkillProgress>
@@ -57,10 +57,10 @@ function Habilidades() {
                                         data-bs-parent="#accordionHabilidades">
                                         <div className="accordion-body mt-4">
                                             {skills.map((skill) => {
-                                                if ([3, 9, 10, 11].includes(skill.id)) {
+                                                if ([18, 9, 10, 11].includes(skill.id)) {
                                                     return (
-                                                        <div key={skill.id} className="mb-3">
-                                                            <S.Icon src={skill.skill_icon} alt="" />
+                                                        <div key={skill.id} style={{ marginBottom: '1rem' }}>
+                                                            <S.Icon src={skill.skill_icon} alt={skill.skill_name} />
                                                             <span className="fw-bold">{skill.skill_name}</span>
                                                             <S.Progress>
                                                                 <S.SkillProgress skillWidth={skill.skill_progress} role="progressbar"></S.SkillProgress>
@@ -88,10 +88,10 @@ function Habilidades() {
                                         data-bs-parent="#accordionHabilidades">
                                         <div className="accordion-body mt-4">
                                             {skills.map((skill) => {
-                                                if ([6, 7, 8, 17].includes(skill.id)) {
+                                                if ([6, 7, 8].includes(skill.id)) {
                                                     return (
-                                                        <div key={skill.id} className="mb-3">
-                                                            <S.Icon src={skill.skill_icon} alt="" />
+                                                        <div key={skill.id} style={{ marginBottom: '1rem' }}>
+                                                            <S.Icon src={skill.skill_icon} alt={skill.skill_name} />
                                                             <span className="fw-bold">{skill.skill_name}</span>
                                                             <S.Progress>
                                                                 <S.SkillProgress skillWidth={skill.skill_progress} role="progressbar"></S.SkillProgress>
@@ -121,8 +121,8 @@ function Habilidades() {
                                             {skills.map((skill) => {
                                                 if ([12, 13, 14, 16].includes(skill.id)) {
                                                     return (
-                                                        <div key={skill.id} className="mb-3">
-                                                            <S.Icon src={skill.skill_icon} alt="" />
+                                                        <div key={skill.id} style={{ marginBottom: '1rem' }}>
+                                                            <S.Icon src={skill.skill_icon} alt={skill.skill_name} />
                                                             <span className="fw-bold">{skill.skill_name}</span>
                                                             <S.Progress>
                                                                 <S.SkillProgress skillWidth={skill.skill_progress} role="progressbar"></S.SkillProgress>
