@@ -1,21 +1,19 @@
 import * as S from './styles'
+import { Container } from '../../global'
 import { BsGithub, BsWhatsapp, BsLinkedin, BsEnvelope } from 'react-icons/bs'
 import Typed from 'react-typed'
 import Zoom from 'react-reveal/Zoom'
-
-const x = "< ";
-const y = " />";
 
 function Header() {
     return (
         <S.Header id="home">
             <S.HeaderContent>
                 <Zoom>
-                    <div className="container">
+                    <Container>
                         <S.HeaderSub textShadow>Olá, eu sou</S.HeaderSub>
                         <S.HeaderTitle textShadow>
                             <S.LetterFloat>
-                                <S.Slash className="me-2">{x}</S.Slash>
+                                <S.Slash style={{ marginRight: '.5rem' }}>{'<'}</S.Slash>
                                 <S.Letter>R</S.Letter>
                                 <S.Letter>A</S.Letter>
                                 <S.Letter>F</S.Letter>
@@ -32,7 +30,7 @@ function Header() {
                                 <S.Letter>L</S.Letter>
                                 <S.Letter>H</S.Letter>
                                 <S.Letter>O</S.Letter>
-                                <S.Slash className="ms-2">{y}</S.Slash>
+                                <S.Slash style={{ marginLeft: '.5rem' }}>{'/>'}</S.Slash>
                             </S.LetterFloat>
                         </S.HeaderTitle>
                         <S.HeaderSubtitle textShadow>
@@ -49,7 +47,7 @@ function Header() {
                             <S.Icon target="_blank" rel="noreferrer noopener" href="https://www.linkedin.com/in/rafaelcarvalho-ti/"><BsLinkedin /></S.Icon>
                             <S.Icon target="_blank" rel="noreferrer noopener" href="mailto:rafaskyplay@gmail.com"><BsEnvelope /></S.Icon>
                         </S.HeaderIcons>
-                    </div>
+                    </Container>
                 </Zoom>
             </S.HeaderContent>
         </S.Header >
