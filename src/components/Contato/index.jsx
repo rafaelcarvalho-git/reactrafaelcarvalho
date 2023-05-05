@@ -9,33 +9,33 @@ function Contato() {
             <Fade>
                 <Container>
                     <S.ContactBox>
-                        <div className="pt-0 pb-5 pt-md-0">
-                            <h3 style={{ textAlign: 'center' }}>Entre em contato</h3>
+                        <S.ContactTitle>
+                            <h3>Entre em contato</h3>
                             <Line />
-                        </div>
-                        <div className="row mt-2">
-                            <S.ContactLink href="tel:+5588988573004" className="col-lg-4">
+                        </S.ContactTitle>
+                        <S.ContactOptions>
+                            <S.ContactLink href="tel:+5588988573004">
                                 <S.ContactItem>
                                     <S.ContactPhone />
                                     <h5>(88) 98857-3004</h5>
                                     <p>Seg a sab 8h - 18h</p>
                                 </S.ContactItem>
                             </S.ContactLink>
-                            <S.ContactLink href="https://goo.gl/maps/H8iavTc2CnMzzvma7" target="_blank" rel="noreferrer noopener" className="col-lg-4">
+                            <S.ContactLink href="https://goo.gl/maps/H8iavTc2CnMzzvma7" target="_blank" rel="noreferrer noopener">
                                 <S.ContactItem>
                                     <S.ContactGeo />
                                     <h5>Juazeiro do Norte</h5>
                                     <p>Ceará, Brasil</p>
                                 </S.ContactItem>
                             </S.ContactLink>
-                            <S.ContactLink href="mailto:rafaskyplay@gmail.com" className="col-lg-4">
+                            <S.ContactLink href="mailto:rafaskyplay@gmail.com">
                                 <S.ContactItem>
                                     <S.ContactMail />
                                     <h5>rafaskyplay@gmail.com</h5>
                                     <p>Aguardo a sua mensagem</p>
                                 </S.ContactItem>
                             </S.ContactLink>
-                        </div>
+                        </S.ContactOptions>
                     </S.ContactBox>
                 </Container>
                 <S.Footer>

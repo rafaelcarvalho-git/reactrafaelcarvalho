@@ -13,32 +13,29 @@ export const Contato = styled.section`
     padding-bottom: 2.5rem !important;
 `;
 
+export const ContactTitle = styled.div`
+   padding-top: 0;
+   padding-bottom: 3rem;
+
+    & h3 {
+        text-align: center;
+    }
+`;
+
 export const ContactBox = styled(ContentBox)`
   padding-top: 1.5rem !important;
   padding-bottom: 1.5rem !important;
 `;
 
-export const ContactItems = styled.div`
-    margin-top: .5rem !important;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: calc(-1 * 0);
-    margin-right: calc(-.5 * 1.5rem);
-    margin-left: calc(-.5 * 1.5rem);
+export const ContactOptions = styled.div`
+   margin-top: .5rem;
+   display: flex;
+   flex-wrap: wrap;
 
-    & >* {
-        flex-shrink: 0;
-        width: 100%;
-        max-width: 100%;
-        padding-right: calc(var(--bs-gutter-x) * .5);
-        padding-left: calc(var(--bs-gutter-x) * .5);
-        margin-top: var(--bs-gutter-y)
-    }
-
-    @media(max-width:739px) {
+    @media(max-width: 991px) {
         flex-direction: column;
-        align-items:center;
     }
+}
 `;
 
 export const ContactItem = styled.div`
@@ -68,11 +65,16 @@ export const ContactItem = styled.div`
 `;
 
 export const ContactLink = styled.a`
-   /* flex: 0 0 auto !important;
-    width: 33.33333333% !important;   */ 
     margin-bottom: 1.5rem !important;
     text-align: center;
     text-decoration: none;
+    flex: 0 0 auto;
+    width: 33.33333333%;
+
+    @media(max-width: 991px) {
+        flex: 0 0 auto;
+        width: auto
+    }
 `;
 
 export const ContactPhone = styled(BsPhone)`
