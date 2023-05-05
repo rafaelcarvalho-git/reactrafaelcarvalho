@@ -45,7 +45,7 @@ export const AboutImage = styled.img`
     }
 
     @media (max-width: 767px) {
-        -width: 285px;
+        max-width: 285px;
     }
 
     @media (max-width: 534px) {

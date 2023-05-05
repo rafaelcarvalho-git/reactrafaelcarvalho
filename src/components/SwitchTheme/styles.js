@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import sun from '../../assets/projects-images/projects-icons/sun.svg'
-import moon from '../../assets/projects-images/projects-icons/moon-stars-fill.svg'
+import moon from '../../assets/projects-images/projects-icons/night.svg'
 import { primaryColor } from '../../global.js'
 
 export const Switch = styled.label`
