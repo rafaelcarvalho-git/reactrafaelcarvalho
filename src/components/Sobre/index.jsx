@@ -24,9 +24,9 @@ function Sobre() {
                                             <Line style={{ margin: 0 }} />
                                         </div>
                                         <h4>Rafael Carvalho</h4>
-                                        <p className="lead mt-3">
+                                        <S.AboutParagraph>
                                             Olá! Tenho 22 anos e sou Desenvolvedor Web React JS. Possuo conhecimento geral em tecnologia, programação, banco de dados, segurança, hardware, software e redes. No momento estou fazendo alguns projetos como freelancer, mas procuro uma oportunidade para ingressar por inteiro como desenvolvedor Front-end.
-                                        </p>
+                                        </S.AboutParagraph>
                                         <S.AboutGraduation>
                                             <S.AboutIcon /><p>Sistemas de Informação - 7° Semestre</p>
                                         </S.AboutGraduation>

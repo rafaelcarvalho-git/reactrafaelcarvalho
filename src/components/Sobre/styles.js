@@ -65,6 +65,12 @@ export const AboutImage = styled.img`
     }
 `;
 
+export const AboutParagraph = styled.p`
+    margin-top: 1rem;    
+    font-size: 1.25rem;
+    font-weight: 300;
+`;
+
 export const AboutIcon = styled(FaUserGraduate)`
     font-size: 24px;
     color: ${primaryColor};
