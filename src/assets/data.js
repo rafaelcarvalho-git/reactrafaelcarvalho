@@ -7,27 +7,26 @@ import projeto6 from './projects-images/portfolio-academia.png'
 import projeto7 from './projects-images/react-football-matches.png'
 import projeto8 from './projects-images/score.png'
 
-import iconhtml from './projects-images/projects-icons/html5-original.svg'
-import iconcss from './projects-images/projects-icons/css3-original.svg'
-import iconjs from './projects-images/projects-icons/javascript-original.svg'
-import iconbs from './projects-images/projects-icons/bootstrap-original.svg'
-import iconphp from './projects-images/projects-icons/php-original.svg'
-import iconmysql from './projects-images/projects-icons/mysql-original-wordmark.svg'
-import iconreact from './projects-images/projects-icons/react-original.svg'
-import iconhard from './projects-images/projects-icons/cpu-svgrepo-com.svg'
-import iconsec from './projects-images/projects-icons/locked-internet-security-padlock-svgrepo-com.svg'
-import iconps from './projects-images/projects-icons/photoshop-plain.svg'
-import iconcv from './projects-images/projects-icons/canva-original.svg'
-import iconfi from './projects-images/projects-icons/figma-original.svg'
-import iconpy from './projects-images/projects-icons/python-original.svg'
-import icongt from './projects-images/projects-icons/github-original.svg'
+import iconhtml from './projects-images/projects-icons/html5.svg'
+import iconcss from './projects-images/projects-icons/css.svg'
+import iconjs from './projects-images/projects-icons/javascript.svg'
+import iconbs from './projects-images/projects-icons/bootstrap.svg'
+import iconphp from './projects-images/projects-icons/php.svg'
+import iconmysql from './projects-images/projects-icons/mysql.svg'
+import iconsqlite from './projects-images/projects-icons/sqlite.svg'
+import iconreact from './projects-images/projects-icons/react.svg'
+import iconhard from './projects-images/projects-icons/hardware.svg'
+import iconsec from './projects-images/projects-icons/security.svg'
+import iconps from './projects-images/projects-icons/photoshop.svg'
+import iconcv from './projects-images/projects-icons/canva.svg'
+import iconfi from './projects-images/projects-icons/figma.svg'
+import icongt from './projects-images/projects-icons/github.svg'
 import iconstyled from './projects-images/projects-icons/styled.svg'
-import iconazure from './projects-images/projects-icons/azure.svg'
 import iconjava from './projects-images/projects-icons/java.svg'
 import iconswing from './projects-images/projects-icons/swing.svg'
-import iconantd from './projects-images/projects-icons/antd.png'
-import iconaxios from './projects-images/projects-icons/axios.png'
-import iconexpress from './projects-images/projects-icons/express.png'
+import iconantd from './projects-images/projects-icons/antd.svg'
+import iconaxios from './projects-images/projects-icons/axios.svg'
+import iconexpress from './projects-images/projects-icons/express.svg'
 
 export const devicons = [
     { id: 1, icon: iconhtml },
@@ -79,13 +78,12 @@ export const skills = [
     { id: 7, skill_name: "FIGMA", skill_icon: iconfi, skill_progress: "50" },
     { id: 8, skill_name: "CANVA", skill_icon: iconcv, skill_progress: "45" },
     { id: 9, skill_name: "PHP", skill_icon: iconphp, skill_progress: "50" },
-    { id: 10, skill_name: "PYTHON", skill_icon: iconpy, skill_progress: "50" },
+    { id: 10, skill_name: "SQLITE", skill_icon: iconsqlite, skill_progress: "70" },
     { id: 11, skill_name: "MYSQL - PHPMYADMIN", skill_icon: iconmysql, skill_progress: "70" },
     { id: 12, skill_name: "HARDWARE", skill_icon: iconhard, skill_progress: "95" },
     { id: 13, skill_name: "GIT - GITHUB", skill_icon: icongt, skill_progress: "70" },
     { id: 14, skill_name: "SEGURANÇA DIGITAL", skill_icon: iconsec, skill_progress: "50" },
     { id: 15, skill_name: "STYLED COMPONENTS", skill_icon: iconstyled, skill_progress: "85" },
-    { id: 16, skill_name: "AZURE DEVOPS", skill_icon: iconazure, skill_progress: "40" },
     { id: 17, skill_name: "ANT DESIGN", skill_icon: iconantd, skill_progress: "65" },
     { id: 18, skill_name: "EXPRESS", skill_icon: iconexpress, skill_progress: "40" },
     { id: 19, skill_name: "AXIOS", skill_icon: iconaxios, skill_progress: "45" }
