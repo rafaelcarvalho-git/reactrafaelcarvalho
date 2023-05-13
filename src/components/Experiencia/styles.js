@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 import { primaryColor, colorWhite, ContentBox, Title } from '../../global.js'
 import experience from '../../assets/images/bg-image.jpg'
+import { Radio } from 'antd'
 
 export const Experience = styled.section`
     background-repeat: no-repeat;
@@ -18,6 +19,21 @@ export const ExperienceBox = styled(ContentBox)`
   margin-left: auto;
   margin-right: auto;
   align-items: center;
+  
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * 0);
+  margin-right: calc(-.5 * 1.5rem);
+  margin-left: calc(-.5 * 1.5rem);
+
+  & >* {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(1.5rem * .5);
+    padding-left: calc(1.5rem * .5);
+    margin-top: 0;
+  }
 `;
 
 export const experienceTitle = styled(Title)`
@@ -76,8 +92,50 @@ export const ExperienceCompany = styled.h5`
 export const ExperienceDuration = styled.div`
     display: flex;
     align-items: center;
-
+    
     @media (max-width:991px) {
         flex-direction: column;
+    }
+
+    & h4 {
+        font-weight: 700;
+        margin-bottom: 1rem;
+    }
+
+    & p {
+        margin-left: auto;
+        margin-right: auto;
+        color: rgba(108, 117, 125, 1)
+    }
+    @media (min-width:992px) {
+        & p {          
+            margin-right: 0;            
+        }
+    }
+`;
+
+export const ExperienceWork = styled.div`
+    padding: 1.5rem .5rem 1.5rem .5rem;
+`;
+
+export const ExperienceDesc = styled.div`
+    text-align: center;    
+    flex: 0 0 auto;
+    width: 100%;
+    @media (min-width:992px) {
+        text-align: left;
+        flex: 0 0 auto;
+        width: 75%;
+    }
+`;
+
+export const RadioGroup = styled(Radio.Group)`
+    background: blue;
+    text-align: center;
+    flex: 0 0 auto;
+    width: 100%;
+    @media (min-width:992px) {
+        flex: 0 0 auto;
+        width: 25%;
     }
 `;
