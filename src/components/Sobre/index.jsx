@@ -1,5 +1,5 @@
 import * as S from './styles'
-import { Container, ContentBox, Line } from '../../global.js'
+import { Container, ContentBox, Line, Row } from '../../global.js'
 import cv from '../../assets/Rafael Candido Lacerda Carvalho.pdf'
 import dev from '../../assets/images/sobre-img.png'
 import Fade from 'react-reveal/Fade'
@@ -10,15 +10,15 @@ function Sobre() {
             <Fade>
                 <Container>
                     <ContentBox>
-                        <div className="row">
-                            <div className="col-12 col-lg-5 text-center">
+                        <Row>
+                            <S.AboutPhoto>
                                 <Fade>
                                     <S.AboutImage src={dev} alt="Rafael Carvalho" loading="lazy" />
                                 </Fade>
-                            </div>
-                            <div className="col-12 col-lg-7">
+                            </S.AboutPhoto>
+                            <S.AboutDesc>
                                 <Fade>
-                                    <div className="pt-4 pt-md-0">
+                                    <S.AboutInfo>
                                         <div style={{ marginBottom: '3rem' }}>
                                             <h3>Sobre mim</h3>
                                             <Line style={{ margin: 0 }} />
@@ -31,13 +31,13 @@ function Sobre() {
                                             <S.AboutIcon /><p>Sistemas de Informação - 7° Semestre</p>
                                         </S.AboutGraduation>
                                         <S.BtnsAbout>
-                                            <S.BtnAbout bgPrimary href="#contato" className="me-md-5">Entre em contato</S.BtnAbout>
+                                            <S.BtnAbout bgPrimary href="#contato">Entre em contato</S.BtnAbout>
                                             <S.BtnAbout href={cv} target="_blank" rel="noreferrer noopener">Baixar currículo</S.BtnAbout>
                                         </S.BtnsAbout>
-                                    </div>
+                                    </S.AboutInfo>
                                 </Fade>
-                            </div>
-                        </div>
+                            </S.AboutDesc>
+                        </Row>
                     </ContentBox>
                 </Container>
             </Fade>

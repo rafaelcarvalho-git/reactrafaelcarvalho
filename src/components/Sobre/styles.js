@@ -10,6 +10,7 @@ export const About = styled.section`
 export const BtnsAbout = styled.div`
     display: flex;
     flex-wrap: wrap;
+    gap: 24px;
     
     @media (max-width: 767px) {
         justify-content: space-around;  
@@ -83,3 +84,29 @@ export const AboutGraduation = styled.div`
     margin-bottom: 1.5rem;
 `;
 
+export const AboutPhoto = styled.div`
+    text-align: center;
+    flex: 0 0 auto;
+    width: 100%;
+    @media (min-width:992px) {
+        flex: 0 0 auto;
+        width: 41.66666667%;
+    }
+`;
+
+export const AboutDesc = styled.div`
+    flex: 0 0 auto;
+    width: 100%;
+    @media (min-width:992px) {
+        flex: 0 0 auto;
+        width: 58.33333333%;
+    }
+`;
+
+export const AboutInfo = styled.div`
+    padding-top: 1.5rem;
+
+    @media (min-width:768px) {
+        padding-top: 0;
+    }
+`;

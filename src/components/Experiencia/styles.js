@@ -40,23 +40,6 @@ export const experienceTitle = styled(Title)`
   color: ${colorWhite} !important;
 `;
 
-export const BtnGroup = styled.div`
-    max-width: 280px !important;
-    margin: auto;
-    display: flex;
-    border-radius: 0.5rem;
-
-    @media (max-width:991px) {
-        margin-bottom: 20px;
-    }    
-
-    .btn-check:checked+.btn {
-        color: white;
-        background-color: ${primaryColor} !important;
-        border-color: ${primaryColor} !important;
-    }
-`;
-
 export const BtnCheck = styled.input`
     .&:checked+.btn,
     :not(.&)+.btn:active {
@@ -130,12 +113,24 @@ export const ExperienceDesc = styled.div`
 `;
 
 export const RadioGroup = styled(Radio.Group)`
-    background: blue;
     text-align: center;
     flex: 0 0 auto;
     width: 100%;
     @media (min-width:992px) {
         flex: 0 0 auto;
         width: 25%;
+    }
+
+    max-width: 280px !important;
+    margin: auto;
+    display: flex;
+
+    @media (max-width:991px) {
+        margin-bottom: 20px;
+    }    
+
+    & * {
+        border-radius: 0.5rem;
+     
     }
 `;
