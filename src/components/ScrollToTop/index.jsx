@@ -2,9 +2,7 @@ import * as S from './styles'
 import { BsArrowUp } from 'react-icons/bs'
 import { useEffect, useState } from 'react'
 
-function ScrollToTop() {
-
-    // The back-to-top button is hidden at the beginning
+const ScrollToTop = () => {
     const [showButton, setShowButton] = useState(false);
 
     useEffect(() => {

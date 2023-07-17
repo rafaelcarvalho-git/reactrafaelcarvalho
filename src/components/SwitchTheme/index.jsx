@@ -1,12 +1,12 @@
 import * as S from './styles'
 import { useEffect, useState } from 'react'
 
-function SwitchTheme({ theme, setTheme }) {
+const SwitchTheme = ({ theme, setTheme }) => {
     const [showSwitch, setShowSwitch] = useState(false);
 
     useEffect(() => {
         window.addEventListener("scroll", () => {
-            if (window.pageYOffset > 300) {
+            if (window.scrollY > 300) {
                 setShowSwitch(true);
             } else {
                 setShowSwitch(false);
@@ -31,4 +31,4 @@ function SwitchTheme({ theme, setTheme }) {
     );
 }
 
-export default SwitchTheme;
+export default SwitchTheme
