@@ -1,6 +1,6 @@
 import * as S from './styles'
 import { Line, Container } from 'global.js'
-import { BsGithub, BsWhatsapp, BsLinkedin, BsInstagram } from 'react-icons/bs'
+import { BsGithub, BsWhatsapp, BsLinkedin, BsInstagram, BsPhone, BsGeoAlt, BsEnvelope } from 'react-icons/bs'
 import { Fade } from 'react-reveal'
 
 const Contact = () => {
@@ -10,28 +10,28 @@ const Contact = () => {
                 <Container>
                     <S.ContactBox>
                         <S.ContactTitle>
-                            <h3>Get in touch</h3>
+                            <h2>Get in touch</h2>
                             <Line />
                         </S.ContactTitle>
                         <S.ContactOptions>
                             <S.ContactLink href="tel:+5588988573004">
                                 <S.ContactItem>
-                                    <S.ContactPhone />
-                                    <h5>(88) 98857-3004</h5>
+                                    <S.ContactIcon><BsPhone /></S.ContactIcon>
+                                    <h3>(88) 98857-3004</h3>
                                     <p>Mon to Fri 8h - 18h</p>
                                 </S.ContactItem>
                             </S.ContactLink>
                             <S.ContactLink href="https://goo.gl/maps/H8iavTc2CnMzzvma7" target="_blank" rel="noreferrer noopener">
                                 <S.ContactItem>
-                                    <S.ContactGeo />
-                                    <h5>Juazeiro do Norte</h5>
+                                    <S.ContactIcon><BsGeoAlt /></S.ContactIcon>
+                                    <h3>Juazeiro do Norte</h3>
                                     <p>Ceará, Brazil</p>
                                 </S.ContactItem>
                             </S.ContactLink>
                             <S.ContactLink href="mailto:rafaskyplay@gmail.com">
                                 <S.ContactItem>
-                                    <S.ContactMail />
-                                    <h5>rafaskyplay@gmail.com</h5>
+                                    <S.ContactIcon><BsEnvelope /></S.ContactIcon>
+                                    <h3>rafaskyplay@gmail.com</h3>
                                     <p>Send a message</p>
                                 </S.ContactItem>
                             </S.ContactLink>

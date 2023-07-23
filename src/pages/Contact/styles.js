@@ -1,34 +1,31 @@
 import styled from 'styled-components'
 import { primaryColor, ContentBox } from 'global.js'
 import contact from 'assets/images/bg-contato.jpg'
-import { BsEnvelope, BsGeoAlt, BsPhone } from 'react-icons/bs'
 
 export const Contact = styled.section`
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center center;
-  background-image: url(${contact});
-  padding-top: 4.8rem !important;
-  padding-bottom: 2.5rem !important;
+  background: url(${contact}) center center / cover fixed no-repeat;
+  padding-top: 64px;
+  padding-bottom: 32px;
 `
 
 export const ContactTitle = styled.div`
   padding-top: 0;
-  padding-bottom: 3rem;
+  padding-bottom: 32px;
 
-  & h3 {
+  & h2 {
+    margin-top: 0;
+    margin-bottom: 8.5px;
     text-align: center;
   }
 `
 
 export const ContactBox = styled(ContentBox)`
-  padding-top: 1.5rem !important;
-  padding-bottom: 1.5rem !important;
+  padding-top: 16px;
+  padding-bottom: 16px;
 `
 
 export const ContactOptions = styled.div`
-   margin-top: .5rem;
+   margin-top: 12px;
    display: flex;
    flex-wrap: wrap;
 
@@ -48,11 +45,11 @@ export const ContactItem = styled.div`
   transition-property: transform;
   margin: auto;
 
-  h5 {
-    color: ${primaryColor} !important;
+  h3 {
+    color: ${primaryColor};
   }
 
-  & p {
+  p {
     color: #6c757d;
   }
 
@@ -67,39 +64,26 @@ export const ContactItem = styled.div`
 `
 
 export const ContactLink = styled.a`
-  margin-bottom: 1.5rem !important;
+  margin-bottom: 24px;
   text-align: center;
   text-decoration: none;
-  flex: 0 0 auto;
   width: 33.33333333%;
 
   @media (max-width: 991px) {
-    flex: 0 0 auto;
     width: auto;
   }
 `
 
-export const ContactPhone = styled(BsPhone)`
-  font-size: 48px !important;
-  margin-bottom: 1rem !important;
-  color: ${({ theme }) => theme.textPrimary} !important;
-`
-
-export const ContactGeo = styled(BsGeoAlt)`
-  font-size: 48px !important;
-  margin-bottom: 1rem !important;
-  color: ${({ theme }) => theme.textPrimary} !important;
-`
-
-export const ContactMail = styled(BsEnvelope)`
-  font-size: 48px !important;
-  margin-bottom: 1rem !important;
-  color: ${({ theme }) => theme.textPrimary} !important;
+export const ContactIcon = styled.div`
+  font-size: 48px;
+  margin-bottom: 18px;
+  color: ${({ theme }) => theme.textPrimary};
 `
 
 export const Footer = styled.footer`
   text-align: center;
   color: #fff;
+  padding-top: 10px;
 
   & p {
     margin: 0;
@@ -110,7 +94,7 @@ export const Footer = styled.footer`
 export const FooterIcons = styled.div`
   max-width: 262px;
   display: flex;
-  margin: auto auto 1rem auto;
+  margin: auto auto 18px auto;
 `
 
 export const Icon = styled.a`
@@ -124,7 +108,7 @@ export const Icon = styled.a`
   box-shadow: 0 0 0 3px ${primaryColor};
   transition: all 500ms ease;
   background-color: ${primaryColor};
-  color: white !important;
+  color: white;
   margin: auto;
 
   &:hover {
