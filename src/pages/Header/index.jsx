@@ -12,7 +12,7 @@ const Header = () => {
             <S.HeaderContent>
                 <Zoom>
                     <Container>
-                        <S.HeaderSub>Hello, i am</S.HeaderSub>
+                        <S.HeaderSub>Hello, i'm</S.HeaderSub>
                         <S.HeaderTitle>
                             <S.LetterFloat>
                                 <S.Slash style={{ marginRight: '.5rem' }}>{'<'}</S.Slash>

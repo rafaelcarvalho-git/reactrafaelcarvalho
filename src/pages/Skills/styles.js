@@ -3,7 +3,7 @@ import { BsHandIndex } from 'react-icons/bs'
 
 export const Skills = styled.section`
   padding-top: 64px;
-  padding-bottom: 72px;
+  padding-bottom: 64px;
 `
 
 export const SkillContent = styled.div`
