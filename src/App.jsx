@@ -1,23 +1,23 @@
-import { GlobalStyle, Loading, lightTheme, darkTheme } from './global'
+import { GlobalStyle, Loading, lightTheme, darkTheme, Container } from './global'
 import { ThemeProvider } from 'styled-components'
-import './assets/bootstrap/bootstrap.min.css'
-import React, { useState } from 'react'
-import Header from './components/Header/index'
-import Sobre from './components/Sobre/index'
-import Habilidades from './components/Habilidades/index'
-import Experiencia from './components/Experiencia/index'
-import Projetos from './components/Projetos/index'
-import Contato from './components/Contato/index'
-import ScrollToTop from './components/ScrollToTop/index'
-import SwitchTheme from './components/SwitchTheme/index'
+import { useState } from 'react'
+import Header from './pages/Header'
+import About from './pages/About'
+import Skills from './pages/Skills'
+import Experiences from './pages/Experiences'
+import Projects from './pages/Projects'
+import Contact from './pages/Contact/'
+import ScrollToTop from './components/ScrollToTop'
+import SwitchTheme from './components/SwitchTheme'
 
-function App() {
-  const [loading, setLoading] = useState(false);
-  const [theme, setTheme] = useState(true);
+
+const App = () => {
+  const [loading, setLoading] = useState(false)
+  const [theme, setTheme] = useState(true)
 
   setTimeout(() => {
-    setLoading(true);
-  }, 1000);
+    setLoading(true)
+  }, 900)
 
   return (
     <>
@@ -28,11 +28,13 @@ function App() {
           <ThemeProvider theme={theme ? lightTheme : darkTheme}>
             <GlobalStyle />
             <Header />
-            <Sobre />
-            <Habilidades />
-            <Experiencia />
-            <Projetos />
-            <Contato />
+            <Container >
+              <About />
+              <Skills />
+            </Container>
+            <Experiences />
+            <Projects />
+            <Contact />
             <ScrollToTop />
             <SwitchTheme theme={theme} setTheme={setTheme} />
           </ThemeProvider>
@@ -41,4 +43,4 @@ function App() {
   );
 }
 
-export default App;
+export default App
