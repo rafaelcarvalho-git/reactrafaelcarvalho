@@ -11,7 +11,7 @@ const About = () => {
         <S.About>
             <Fade>
                 <ContentBox>
-                    <Row gutter={24}>
+                    <Row gutter={24} align="middle">
                         <Col xs={24} sm={24} md={24} lg={9} xl={9}>
                             <S.AboutPhoto>
                                 <Fade>
@@ -22,11 +22,11 @@ const About = () => {
                         <Col xs={24} sm={24} md={24} lg={15} xl={15}>
                             <Fade>
                                 <S.AboutInfo>
-                                    <div style={{ marginBottom: '3rem' }}>
-                                        <h3>About me</h3>
+                                    <div style={{ marginBottom: '12px' }}>
+                                        <h2>About me</h2>
                                         <Line style={{ margin: 0 }} />
                                     </div>
-                                    <h4>Rafael Carvalho</h4>
+                                    <h2>Rafael Carvalho</h2>
                                     <S.AboutParagraph>
                                         Olá! Tenho 22 anos e sou Desenvolvedor Web React JS. Possuo conhecimento geral em tecnologia, programação, banco de dados, segurança, hardware, software e redes. No momento estou fazendo alguns projetos como freelancer, mas procuro uma oportunidade para ingressar por inteiro como desenvolvedor Front-end.
                                     </S.AboutParagraph>
@@ -34,8 +34,8 @@ const About = () => {
                                         <S.AboutIcon /><p>Information Systems - 8° Semester</p>
                                     </S.AboutGraduation>
                                     <S.BtnsAbout>
-                                        <S.BtnAbout bgPrimary href="#contact">Contact</S.BtnAbout>
-                                        <S.BtnAbout href={cv} target="_blank" rel="noreferrer noopener">Download CV</S.BtnAbout>
+                                        <S.BtnAbout href="#contact" type='primary' size='large'>Contact Me</S.BtnAbout>
+                                        <S.BtnAbout href={cv} target="_blank" rel="noreferrer noopener" type='primary' ghost={true} size='large'>Download CV</S.BtnAbout>
                                     </S.BtnsAbout>
                                 </S.AboutInfo>
                             </Fade>
