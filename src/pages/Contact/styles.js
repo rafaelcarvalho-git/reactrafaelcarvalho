@@ -47,6 +47,7 @@ export const ContactItem = styled.div`
 
   h3 {
     color: ${primaryColor};
+    margin-top: 0;
   }
 
   p {
@@ -76,7 +77,7 @@ export const ContactLink = styled.a`
 
 export const ContactIcon = styled.div`
   font-size: 48px;
-  margin-bottom: 18px;
+  margin-bottom: 12px;
   color: ${({ theme }) => theme.textPrimary};
 `
 
