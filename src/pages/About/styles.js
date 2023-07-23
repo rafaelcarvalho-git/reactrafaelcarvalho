@@ -7,6 +7,14 @@ export const About = styled.section`
   padding-top: 64px;
 `
 
+export const AboutTitle = styled.div`
+  margin-bottom: 12px;
+
+  *:not(h2) {
+    margin: 0;
+  }
+`
+
 export const BtnsAbout = styled.div`
   display: flex;
   flex-wrap: wrap;
