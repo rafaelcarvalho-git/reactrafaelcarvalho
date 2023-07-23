@@ -43,7 +43,7 @@ const Contact = () => {
                         <S.Icon href="https://github.com/rafaelcarvalho-git" target="_blank" rel="noreferrer noopener"><BsGithub /></S.Icon>
                         <S.Icon href="https://api.whatsapp.com/send/?phone=5588988573004&text&app_absent=0" target="_blank" rel="noreferrer noopener"><BsWhatsapp /></S.Icon>
                         <S.Icon href="https://www.linkedin.com/in/rafaelcarvalho-ti" target="_blank" rel="noreferrer noopener"><BsLinkedin /></S.Icon>
-                        <S.Icon href="https://www.instagram.com/rafaelcarvalho.py/" target="_blank" rel="noreferrer noopener"><BsInstagram /></S.Icon>
+                        <S.Icon href="https://www.instagram.com/rafaelcarvalho.js/" target="_blank" rel="noreferrer noopener"><BsInstagram /></S.Icon>
                     </S.FooterIcons>
                     <p>&copy; {new Date().getFullYear()} - Rafael Carvalho</p>
                 </S.Footer>
