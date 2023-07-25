@@ -3,6 +3,7 @@ import Fade from 'react-reveal/Fade'
 import PageTitle from 'components/PageTitle'
 import Skill from 'components/Skill'
 import { skills } from 'assets/data'
+import HoverInfo from 'components/HoverInfo'
 
 
 const Skills = () => {
@@ -15,10 +16,7 @@ const Skills = () => {
                         return <Skill key={skillName} skillName={skillName} skillIcon={skillIcon} skillInfo={skillInfo} />
                     })}
                 </S.SkillContent>
-                <S.SkillInfos>
-                    <S.SkillMouse />
-                    <p>Hover the skills to see additional information</p>
-                </S.SkillInfos>
+                <HoverInfo hoverText={'Hover or click the skills to see additional informations'} />
             </Fade>
         </S.Skills>
     );
