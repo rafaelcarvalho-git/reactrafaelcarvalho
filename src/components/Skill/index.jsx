@@ -4,7 +4,7 @@ import { Tooltip } from 'antd'
 
 const Skill = ({ skillName, skillIcon, skillInfo }) => {
     return (
-        <Tooltip title={skillInfo}>
+        <Tooltip title={skillInfo} trigger={['hover', 'click']}>
             <S.Skill>
                 <S.SkillIcon src={skillIcon} alt={skillName} />
                 <S.SkillName>{skillName}</S.SkillName>
