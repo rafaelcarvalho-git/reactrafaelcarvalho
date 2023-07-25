@@ -13,7 +13,7 @@ export const Title = styled.h3`
   color: ${theme => (theme.textColor ? 'white' : theme.textColor)};
 
   @media (max-width: 991px) {
-    font-size: 2.32px;
+    font-size: 2.32rem;
   }
 
   @media (max-width: 767px) {
