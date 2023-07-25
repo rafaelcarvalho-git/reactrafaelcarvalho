@@ -157,10 +157,10 @@ export const works = [
   {
     id: 1,
     company: 'MARTINS ADVOGADOS ASSOCIADOS',
-    role: 'Front-End Web Developer React JS',
+    role: 'Fullstack Web Developer',
     duration: '(Nov 2022 - May 2023)',
     activities:
-      'Desenvolvimento do sistema para controle de processos, clientes e advogados e geração dos contratos e minutas solicitado pelo escritório. Desenvolvimento com React JS, elaboração do layout e design do sistema e integração com o back-end.',
+      'Development of the system to control processes, clients and lawyers and generation of contracts and drafts requested by the firm. Development with React JS, elaboration of the layout and design of the system, development and integration with the back-end.',
   },
   {
     id: 2,
@@ -168,7 +168,7 @@ export const works = [
     role: 'Universidade Federal do Cariri',
     duration: '(Jun 2022 - Dec 2022)',
     activities:
-      'Suporte de T.I, acompanhamento e gerenciamento de planilhas de dados, criação de gráficos e indicadores de informações, criação de certificados para cursos e eventos, acompanhamento e participação na organização de eventos de extensão.',
+      'IT support, monitoring and management of data sheets, creation of graphics and information indicators, creation of certificates for courses and events, monitoring and participation in the organization of extension events.',
   },
   {
     id: 3,
@@ -176,7 +176,7 @@ export const works = [
     role: 'Analista de Suporte Computacional',
     duration: '(Set 2020 - Aug 2022)',
     activities:
-      'Suporte de T.I, atendimento aos clientes, emissor de Certificados Digitais (AGR- Agente de Registro), treinamento dos funcionários e análise de documentos. Desenvolvimento do site portflólio e do sistema web interno da empresa.',
+      'IT support, customer service, issuer of Digital Certificates (AGR-Registration Agent), employee training and document analysis. Development of the portfolio and internal web system.',
   },
   {
     id: 4,
@@ -184,6 +184,6 @@ export const works = [
     role: 'Desenvolvedor Web - Analista de TI',
     duration: '(Jan 2022 - moment)',
     activities:
-      'Desenvolvimento de  sistemas web e sites portfólio com React, Html, Css, Javascript, Bootstrap e Styled Components. Consultoria de TI para comércios e empresas. Montagem e manutenção de computadores, notebooks e redes.',
+      'Development of web systems and portfolio sites with React, Html, CSS, Javascript, Bootstrap and Styled Components. IT consulting for businesses and companies. Assembly and maintenance of computers, notebooks and networks. Provision of IT services to outsourced companies.',
   },
 ]
