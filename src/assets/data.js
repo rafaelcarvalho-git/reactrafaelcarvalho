@@ -26,6 +26,7 @@ import iconexpress from './projects-images/projects-icons/express.svg'
 import iconnode from './projects-images/projects-icons/node.svg'
 import iconmui from './projects-images/projects-icons/mui.svg'
 import iconsass from './projects-images/projects-icons/sass.svg'
+import iconangular from './projects-images/projects-icons/angular.svg'
 
 export const devicons = [
   { id: 1, icon: iconreact },
@@ -129,6 +130,7 @@ export const skills = [
     skillInfo:
       'Some simple libs i used: React Router Dom, React Icons, React Loading, React Countup, React Paginate, React Typed, React Reveal',
   },
+  { skillName: 'Angular', skillIcon: iconangular, skillInfo: '' },
   { skillName: 'Node JS', skillIcon: iconnode, skillInfo: '' },
   { skillName: 'Material UI', skillIcon: iconmui, skillInfo: '' },
   { skillName: 'Ant Design', skillIcon: iconantd, skillInfo: '' },
