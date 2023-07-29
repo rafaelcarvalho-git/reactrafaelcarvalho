@@ -25,7 +25,7 @@ const About = () => {
                                 </S.AboutTitle>
                                 <h2>Rafael Carvalho</h2>
                                 <S.AboutParagraph>
-                                    Olá! Tenho 22 anos e sou Desenvolvedor Web React JS. Possuo conhecimento geral em tecnologia, programação, banco de dados, segurança, hardware, software e redes. No momento estou fazendo alguns projetos como freelancer, mas procuro uma oportunidade para ingressar por inteiro como desenvolvedor Front-end.
+                                    Hello! I'm 22 years old and I'm a FullStack Developer. I have general knowledge in technology, programming, database, security, hardware, software and networks. I'm currently doing some projects as a freelancer, but I'm looking for an opportunity to join full-time as a developer and evolve in my career.
                                 </S.AboutParagraph>
                                 <S.AboutGraduation>
                                     <S.AboutIcon /><p>Information Systems - 8° Semester</p>
