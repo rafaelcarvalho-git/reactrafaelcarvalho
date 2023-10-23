@@ -158,6 +158,14 @@ export const skills = [
 export const works = [
   {
     id: 1,
+    company: 'CAST GROUP | BANCO DO BRASIL',
+    role: 'Fullstack Web Developer',
+    duration: '(Set 2023 - moment)',
+    activities:
+      'Outsourced collaborator - Development of portals and internal systems for the IT Architecture team. Participation in the development of UX design.',
+  },
+  {
+    id: 2,
     company: 'MARTINS ADVOGADOS ASSOCIADOS',
     role: 'Fullstack Web Developer',
     duration: '(Nov 2022 - May 2023)',
@@ -165,7 +173,7 @@ export const works = [
       'Development of the system to control processes, clients and lawyers and generation of contracts and drafts requested by the firm. Development with React JS, elaboration of the layout and design of the system, development and integration with the back-end.',
   },
   {
-    id: 2,
+    id: 3,
     company: 'NÚCLEO DE DADOS DA PRÓ-REITORIA DE EXTENSÃO (PROEX)',
     role: 'Universidade Federal do Cariri',
     duration: '(Jun 2022 - Dec 2022)',
@@ -173,7 +181,7 @@ export const works = [
       'IT support, monitoring and management of data sheets, creation of graphics and information indicators, creation of certificates for courses and events, monitoring and participation in the organization of extension events.',
   },
   {
-    id: 3,
+    id: 4,
     company: 'AR E2S CORRETORA DE SEGUROS LTDA-ME',
     role: 'Analista de Suporte Computacional',
     duration: '(Set 2020 - Aug 2022)',
@@ -181,7 +189,7 @@ export const works = [
       'IT support, customer service, issuer of Digital Certificates (AGR-Registration Agent), employee training and document analysis. Development of the portfolio and internal web system.',
   },
   {
-    id: 4,
+    id: 5,
     company: 'FREELANCER',
     role: 'Desenvolvedor Web - Analista de TI',
     duration: '(Jan 2022 - moment)',

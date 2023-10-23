@@ -33,11 +33,11 @@ const Experiences = () => {
                             })}
                         </S.ExperienceDesc>
                         <S.ExperienceOptions value={workList} defaultValue={workList} onChange={(e) => setworkList(e.target.value)}>
-                            {/*<Radio.Button type="primary" value={1}>COMPASS UOL</Radio.Button>*/}
-                            <Radio.Button type="primary" value={1}>MARTINS ADVOGADOS</Radio.Button>
-                            <Radio.Button type="primary" value={2}>UFCA</Radio.Button>
-                            <Radio.Button type="primary" value={3}>E2S CERTIFICADORA</Radio.Button>
-                            <Radio.Button type="primary" value={4}>FREELANCER</Radio.Button>
+                            <Radio.Button type="primary" value={1}>CAST GROUP | BANCO DO BRASIL</Radio.Button>
+                            <Radio.Button type="primary" value={2}>MARTINS ADVOGADOS</Radio.Button>
+                            <Radio.Button type="primary" value={3}>UFCA</Radio.Button>
+                            <Radio.Button type="primary" value={4}>E2S CERTIFICADORA</Radio.Button>
+                            <Radio.Button type="primary" value={5}>FREELANCER</Radio.Button>
                         </S.ExperienceOptions>
                     </S.ExperienceBox >
                 </Container >
