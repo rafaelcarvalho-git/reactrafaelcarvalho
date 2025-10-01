@@ -61,6 +61,27 @@ const ofertas = [
       'https://http2.mlstatic.com/D_NQ_NP_843565-MLA93502171519_092025-O.webp',
     link: 'https://mercadolivre.com/sec/2esccGp',
   },
+  {
+    id: 9,
+    nome: 'Lixeira 3 Litros Em Aço Inox Com Pedal e Cesto Removível – Design Moderno, Resistente e Higiênico Para Banheiro, Cozinha, Escritório e Espaços Compactos',
+    imagemUrl:
+      'https://http2.mlstatic.com/D_NQ_NP_646972-MLA92293648764_092025-O.webp',
+    link: 'https://mercadolivre.com/sec/28tyqua',
+  },
+  {
+    id: 10,
+    nome: 'Jogo Refratário 3 Assadeiras Marinex Retangulares Nadir Cor Vidro',
+    imagemUrl:
+      'https://http2.mlstatic.com/D_NQ_NP_921764-MLU73707508374_012024-O.webp',
+    link: 'https://mercadolivre.com/sec/2tQNju1',
+  },
+  {
+    id: 11,
+    nome: 'Aspirador De Pó Vertical E Portátil Wap High Speed Plus 1350w 1,2 Litros Filtro Hepa Tecnologia Cyclone 3 Em 1',
+    imagemUrl:
+      'https://http2.mlstatic.com/D_NQ_NP_642977-MLU73666654790_012024-O.webp',
+    link: 'https://mercadolivre.com/sec/2LUTkvp',
+  },
 ]
 
 const OfertasMercadoLivre = () => {
