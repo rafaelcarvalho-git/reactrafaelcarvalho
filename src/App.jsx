@@ -1,6 +1,13 @@
-import { GlobalStyle, Loading, lightTheme, darkTheme, Container } from './global'
+import {
+  GlobalStyle,
+  Loading,
+  lightTheme,
+  darkTheme,
+  Container,
+} from './global'
 import { ThemeProvider } from 'styled-components'
 import { useState } from 'react'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Header from './pages/Header'
 import About from './pages/About'
 import Skills from './pages/Skills'
@@ -9,7 +16,7 @@ import Projects from './pages/Projects'
 import Contact from './pages/Contact/'
 import ScrollToTop from './components/ScrollToTop'
 import SwitchTheme from './components/SwitchTheme'
-
+import OfertasMercadoLivre from './pages/OfertasMercadoLivre'
 
 const App = () => {
   const [loading, setLoading] = useState(false)
@@ -21,26 +28,40 @@ const App = () => {
 
   return (
     <>
-      {
-        !loading
-          ? <Loading type={"spin"} color={"#4361EE"} height={100} width={100} />
-          :
-          <ThemeProvider theme={theme ? lightTheme : darkTheme}>
-            <GlobalStyle />
-            <Header />
-            <Container >
-              <About />
-              <Skills />
-            </Container>
-            <Experiences />
-            <Projects />
-            <Contact />
+      {!loading ? (
+        <Loading type={'spin'} color={'#4361EE'} height={100} width={100} />
+      ) : (
+        <ThemeProvider theme={theme ? lightTheme : darkTheme}>
+          <GlobalStyle />
+          <Router>
+            <Routes>
+              <Route
+                path='/'
+                element={
+                  <>
+                    <Header />
+                    <Container>
+                      <About />
+                      <Skills />
+                    </Container>
+                    <Experiences />
+                    <Projects />
+                    <Contact />
+                  </>
+                }
+              />
+              <Route
+                path='/ofertas-mercado-livre'
+                element={<OfertasMercadoLivre />}
+              />
+            </Routes>
             <ScrollToTop />
             <SwitchTheme theme={theme} setTheme={setTheme} />
-          </ThemeProvider>
-      }
+          </Router>
+        </ThemeProvider>
+      )}
     </>
-  );
+  )
 }
 
 export default App
