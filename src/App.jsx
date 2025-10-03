@@ -17,6 +17,7 @@ import Contact from './pages/Contact/'
 import ScrollToTop from './components/ScrollToTop'
 import SwitchTheme from './components/SwitchTheme'
 import OfertasMercadoLivre from './pages/OfertasMercadoLivre'
+import OfertasMercadoLivreSuplementos from 'pages/OfertasMercadoLivreSuplementos'
 
 const App = () => {
   const [loading, setLoading] = useState(false)
@@ -53,6 +54,10 @@ const App = () => {
               <Route
                 path='/ofertas-mercado-livre'
                 element={<OfertasMercadoLivre />}
+              />
+              <Route
+                path='/ofertas-mercado-livre/suplementos'
+                element={<OfertasMercadoLivreSuplementos />}
               />
             </Routes>
             <ScrollToTop />

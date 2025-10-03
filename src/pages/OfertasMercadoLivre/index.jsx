@@ -27,13 +27,6 @@ const ofertas = [
     link: 'https://mercadolivre.com/sec/1sxvmxc',
   },
   {
-    id: 4,
-    nome: 'Porta Temperos Giratório Com 9 Potes De Vidro Cor Preto',
-    imagemUrl:
-      'https://http2.mlstatic.com/D_NQ_NP_883003-MLU74608205933_022024-O.webp',
-    link: 'https://mercadolivre.com/sec/21tEZRK',
-  },
-  {
     id: 5,
     nome: 'Jogo 6 Taças Diamante Vidro 340ml Copo Diamond Moderno Luxo Transparente',
     imagemUrl:
