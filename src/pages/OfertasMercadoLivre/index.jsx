@@ -6,6 +6,13 @@ import PageTitle from '../../components/PageTitle'
 // Array com os dados dos produtos
 const ofertas = [
   {
+    id: 0,
+    nome: 'Jogo 12 Copos Shot Dose Vidro Bebidas Cachaça Tequila Vodka Cor Transparente',
+    imagemUrl:
+      'https://http2.mlstatic.com/D_NQ_NP_839743-MLA82199338879_012025-O.webp',
+    link: 'https://mercadolivre.com/sec/2qx6KjX',
+  },
+  {
     id: 1,
     nome: 'Kit C/12 Utensílios De Cozinha Silicone Cabo Madeira',
     imagemUrl:
