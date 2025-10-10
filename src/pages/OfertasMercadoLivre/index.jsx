@@ -7,10 +7,10 @@ import PageTitle from '../../components/PageTitle'
 const ofertas = [
   {
     id: 1,
-    nome: 'Kit C/12 Utensílios De Cozinha Silicone Cabo Madeira',
+    nome: 'Ar Condicionado Split Hi Wall Inverter R-32 G-top Auto Gree 12.000 BTUs Só Frio Monofásico',
     imagemUrl:
-      'https://http2.mlstatic.com/D_NQ_NP_912654-MLB71781728024_092023-O-kit-c12-utensilios-de-cozinha-silicone-cabo-madeira.webp',
-    link: 'https://mercadolivre.com/sec/1y8zc3N',
+      'https://http2.mlstatic.com/D_NQ_NP_2X_898001-MLA91970616685_092025-F.webp',
+    link: 'https://mercadolivre.com/sec/1sovNu8',
   },
   {
     id: 2,
