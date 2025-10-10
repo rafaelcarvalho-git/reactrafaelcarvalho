@@ -13,55 +13,6 @@ const ofertas = [
     link: 'https://mercadolivre.com/sec/1sovNu8',
   },
   {
-    id: 2,
-    nome: 'Mop Spray Com reservatório esfregão vassoura mágica cor cinza',
-    imagemUrl:
-      'https://http2.mlstatic.com/D_NQ_NP_818343-MLA86522406776_062025-O.webp',
-    link: 'https://mercadolivre.com/sec/17oSrF3',
-  },
-  {
-    id: 3,
-    nome: 'Jogo 6 Copos Baixos Diamond 300ml Vidro Grosso Diamante Luxo',
-    imagemUrl:
-      'https://http2.mlstatic.com/D_NQ_NP_739793-MLB81210361701_122024-O-jogo-6-copos-baixos-diamond-300ml-vidro-grosso-diamante-luxo.webp',
-    link: 'https://mercadolivre.com/sec/1sxvmxc',
-  },
-  {
-    id: 5,
-    nome: 'Jogo 6 Taças Diamante Vidro 340ml Copo Diamond Moderno Luxo Transparente',
-    imagemUrl:
-      'https://http2.mlstatic.com/D_NQ_NP_793364-MLB82557023891_022025-O.webp',
-    link: 'https://mercadolivre.com/sec/1d3VY63',
-  },
-  {
-    id: 6,
-    nome: 'Faqueiro De Aço Inox Siena 20 Peças Brinox 5109/455 Cor Prateado',
-    imagemUrl:
-      'https://http2.mlstatic.com/D_NQ_NP_933645-MLA88232290362_072025-O.webp',
-    link: 'https://mercadolivre.com/sec/334j7PF',
-  },
-  {
-    id: 7,
-    nome: 'Kit 5 Utensílios Para Cozinha 100% Aço Inox 25cm',
-    imagemUrl:
-      'https://http2.mlstatic.com/D_NQ_NP_949557-MLB80824057552_122024-O-kit-5-utensilios-para-cozinha-100-aco-inox-25cm.webp',
-    link: 'https://mercadolivre.com/sec/2hQLL6g',
-  },
-  {
-    id: 8,
-    nome: 'Relógio Redondo 23cm Cor da estrutura Cromado Cor do fundo Preto',
-    imagemUrl:
-      'https://http2.mlstatic.com/D_NQ_NP_843565-MLA93502171519_092025-O.webp',
-    link: 'https://mercadolivre.com/sec/2esccGp',
-  },
-  {
-    id: 9,
-    nome: 'Lixeira 3 Litros Em Aço Inox Com Pedal e Cesto Removível – Design Moderno, Resistente e Higiênico Para Banheiro, Cozinha, Escritório e Espaços Compactos',
-    imagemUrl:
-      'https://http2.mlstatic.com/D_NQ_NP_646972-MLA92293648764_092025-O.webp',
-    link: 'https://mercadolivre.com/sec/28tyqua',
-  },
-  {
     id: 10,
     nome: 'Escrivaninha Steel Mobile Star 120cm X 74cm X 45cm Home',
     imagemUrl:
