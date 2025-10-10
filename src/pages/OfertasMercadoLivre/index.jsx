@@ -6,13 +6,6 @@ import PageTitle from '../../components/PageTitle'
 // Array com os dados dos produtos
 const ofertas = [
   {
-    id: 0,
-    nome: 'Jogo 12 Copos Shot Dose Vidro Bebidas Cachaça Tequila Vodka Cor Transparente',
-    imagemUrl:
-      'https://http2.mlstatic.com/D_NQ_NP_839743-MLA82199338879_012025-O.webp',
-    link: 'https://mercadolivre.com/sec/2qx6KjX',
-  },
-  {
     id: 1,
     nome: 'Kit C/12 Utensílios De Cozinha Silicone Cabo Madeira',
     imagemUrl:
@@ -70,17 +63,17 @@ const ofertas = [
   },
   {
     id: 10,
-    nome: 'Jogo Refratário 3 Assadeiras Marinex Retangulares Nadir Cor Vidro',
+    nome: 'Escrivaninha Steel Mobile Star 120cm X 74cm X 45cm Home',
     imagemUrl:
-      'https://http2.mlstatic.com/D_NQ_NP_921764-MLU73707508374_012024-O.webp',
-    link: 'https://mercadolivre.com/sec/2tQNju1',
+      'https://http2.mlstatic.com/D_NQ_NP_2X_810920-MLB93433526775_092025-F-escrivaninha-steel-mobile-star-120cm-x-74cm-x-45cm-home.webp',
+    link: 'https://mercadolivre.com/sec/1jXc7mG',
   },
   {
     id: 11,
-    nome: 'Aspirador De Pó Vertical E Portátil Wap High Speed Plus 1350w 1,2 Litros Filtro Hepa Tecnologia Cyclone 3 Em 1',
+    nome: 'Cadeira Escritório Presidente Giratória Ergonômica Tela Mesh',
     imagemUrl:
-      'https://http2.mlstatic.com/D_NQ_NP_642977-MLU73666654790_012024-O.webp',
-    link: 'https://mercadolivre.com/sec/2LUTkvp',
+      'https://http2.mlstatic.com/D_NQ_NP_2X_887308-MLB93451629285_092025-F-cadeira-escritorio-presidente-giratoria-ergonmica-tela-mesh.webp',
+    link: 'https://mercadolivre.com/sec/1XS81F5',
   },
 ]
 
